@@ -1,0 +1,662 @@
+[
+  {
+    "abbrev": "1Chr",
+    "name": "1 Chronicles",
+    "geez_name": "ቀዳማይ፡ዜና፡መዋዕል",
+    "section": "Historical",
+    "chapters": 29
+  },
+  {
+    "abbrev": "1Cor",
+    "name": "1 Corinthians",
+    "geez_name": "ቀዳሚት፡መልእክት፡ናብ፡ቆሮንቶስ",
+    "section": "New Testament",
+    "chapters": 16
+  },
+  {
+    "abbrev": "1En",
+    "name": "1 Enoch",
+    "geez_name": "ሄኖክ፡",
+    "section": "Unique to Ethiopia",
+    "chapters": 108,
+    "source_id": "LIT1340EnochE",
+    "short": "1 Enoch"
+  },
+  {
+    "abbrev": "1John",
+    "name": "1 John",
+    "geez_name": "ቀዳሚት፡መልእክት፡ዘዮሐንስ",
+    "section": "New Testament",
+    "chapters": 5
+  },
+  {
+    "abbrev": "1Meq",
+    "name": "1 Meqabyan",
+    "geez_name": "መቃብያን፡ቀዳማዊ",
+    "section": "Deuterocanonical",
+    "chapters": 36,
+    "source_id": "LIT1819Maccab",
+    "short": "1 Meqabyan"
+  },
+  {
+    "abbrev": "1Pet",
+    "name": "1 Peter",
+    "geez_name": "ቀዳሚት፡መልእክት፡ዘጴጥሮስ",
+    "section": "New Testament",
+    "chapters": 5
+  },
+  {
+    "abbrev": "1Sam",
+    "name": "1 Samuel",
+    "geez_name": "ቀዳማይ፡ሳሙኤል",
+    "section": "Historical",
+    "chapters": 31
+  },
+  {
+    "abbrev": "1Thess",
+    "name": "1 Thessalonians",
+    "geez_name": "ቀዳሚት፡መልእክት፡ናብ፡ተሰሎንቄ",
+    "section": "New Testament",
+    "chapters": 5
+  },
+  {
+    "abbrev": "1Tim",
+    "name": "1 Timothy",
+    "geez_name": "ቀዳሚት፡መልእክት፡ናብ፡ጢሞቴዎስ",
+    "section": "New Testament",
+    "chapters": 6
+  },
+  {
+    "abbrev": "2Chr",
+    "name": "2 Chronicles",
+    "geez_name": "ካልዕ፡ዜና፡መዋዕል",
+    "section": "Historical",
+    "chapters": 36
+  },
+  {
+    "abbrev": "2Cor",
+    "name": "2 Corinthians",
+    "geez_name": "ካልዕት፡መልእክት፡ናብ፡ቆሮንቶስ",
+    "section": "New Testament",
+    "chapters": 13
+  },
+  {
+    "abbrev": "2John",
+    "name": "2 John",
+    "geez_name": "ካልዕት፡መልእክት፡ዘዮሐንስ",
+    "section": "New Testament",
+    "chapters": 1
+  },
+  {
+    "abbrev": "2Meq",
+    "name": "2 Meqabyan",
+    "geez_name": "መቃብያን፡ካልዕ",
+    "section": "Deuterocanonical",
+    "chapters": 21
+  },
+  {
+    "abbrev": "2Pet",
+    "name": "2 Peter",
+    "geez_name": "ካልዕት፡መልእክት፡ዘጴጥሮስ",
+    "section": "New Testament",
+    "chapters": 3
+  },
+  {
+    "abbrev": "2Sam",
+    "name": "2 Samuel",
+    "geez_name": "ካልዕ፡ሳሙኤል",
+    "section": "Historical",
+    "chapters": 24
+  },
+  {
+    "abbrev": "2Thess",
+    "name": "2 Thessalonians",
+    "geez_name": "ካልዕት፡መልእክት፡ናብ፡ተሰሎንቄ",
+    "section": "New Testament",
+    "chapters": 3
+  },
+  {
+    "abbrev": "2Tim",
+    "name": "2 Timothy",
+    "geez_name": "ካልዕት፡መልእክት፡ናብ፡ጢሞቴዎስ",
+    "section": "New Testament",
+    "chapters": 4
+  },
+  {
+    "abbrev": "3John",
+    "name": "3 John",
+    "geez_name": "ሣልስት፡መልእክት፡ዘዮሐንስ",
+    "section": "New Testament",
+    "chapters": 1
+  },
+  {
+    "abbrev": "3Meq",
+    "name": "3 Meqabyan",
+    "geez_name": "መቃብያን",
+    "section": "Unique to Ethiopia",
+    "chapters": 21,
+    "source_id": "LIT5839ThirdEthioMaccabees",
+    "short": "3 Meqabyan"
+  },
+  {
+    "abbrev": "4Bar",
+    "name": "4 Baruch",
+    "geez_name": "ተረፈ ፡ ነገር ፡ ዘባሮክ ፡ ዘኢኮነ ፡ ኅቡአ ፡ ዘአመ ፡ ይፄወዉ ፡ ባቢሎን ።",
+    "section": "Unique to Ethiopia",
+    "chapters": 9,
+    "source_id": "LIT2167Parali",
+    "short": "4 Baruch"
+  },
+  {
+    "abbrev": "Acts",
+    "name": "Acts",
+    "geez_name": "ግብረ፡ሐዋርያት",
+    "section": "New Testament",
+    "chapters": 28
+  },
+  {
+    "abbrev": "Amos",
+    "name": "Amos",
+    "geez_name": "ትንቢተ፡ዓሞጽ",
+    "section": "Prophets",
+    "chapters": 9
+  },
+  {
+    "abbrev": "ApEz",
+    "name": "Apocalypse of Ezra",
+    "geez_name": "ራእየ፡ዕዝራ",
+    "section": "Unique to Ethiopia",
+    "chapters": 10,
+    "source_id": "LIT1376Apocal",
+    "short": "Apoc. Ezra"
+  },
+  {
+    "abbrev": "Clem",
+    "name": "Clement",
+    "geez_name": "ቀሌምንጦስ",
+    "section": "Unique to Ethiopia",
+    "chapters": 67,
+    "source_id": "LIT2680ClemPeter",
+    "short": "Clement"
+  },
+  {
+    "abbrev": "Col",
+    "name": "Colossians",
+    "geez_name": "መልእክት፡ናብ፡ቆላስይስ",
+    "section": "New Testament",
+    "chapters": 4
+  },
+  {
+    "abbrev": "Dan",
+    "name": "Daniel",
+    "geez_name": "ትንቢተ፡ዳንኤል",
+    "section": "Prophets",
+    "chapters": 14
+  },
+  {
+    "abbrev": "Deut",
+    "name": "Deuteronomy",
+    "geez_name": "ኦሪት፡ዘዳግም",
+    "section": "Torah (Orit)",
+    "chapters": 34,
+    "source_id": "LIT2637Deuteronomy",
+    "short": "Deuter."
+  },
+  {
+    "abbrev": "Eccl",
+    "name": "Ecclesiastes",
+    "geez_name": "መጹሐፈ፡ መክብብ፡",
+    "section": "Wisdom",
+    "chapters": 12,
+    "source_id": "LIT1320Eccles",
+    "short": "Eccles."
+  },
+  {
+    "abbrev": "Eph",
+    "name": "Ephesians",
+    "geez_name": "መልእክት፡ናብ፡ኤፌሶን",
+    "section": "New Testament",
+    "chapters": 6
+  },
+  {
+    "abbrev": "Esth",
+    "name": "Esther",
+    "geez_name": "መጽሐፈ፡አስቴር",
+    "section": "Historical",
+    "chapters": 13
+  },
+  {
+    "abbrev": "Exod",
+    "name": "Exodus",
+    "geez_name": "ኦሪት፡ዘፀአት",
+    "section": "Torah (Orit)",
+    "chapters": 40,
+    "source_id": "LIT1367Exodus",
+    "short": "Exodus"
+  },
+  {
+    "abbrev": "Ezek",
+    "name": "Ezekiel",
+    "geez_name": "ትንቢተ፡ሕዝቅኤል",
+    "section": "Prophets",
+    "chapters": 48
+  },
+  {
+    "abbrev": "Ezra",
+    "name": "Ezra",
+    "geez_name": "መጽሐፈ፡ዕዝራ",
+    "section": "Historical",
+    "chapters": 13,
+    "source_id": "LIT1374Bookof",
+    "short": "Ezra"
+  },
+  {
+    "abbrev": "Gal",
+    "name": "Galatians",
+    "geez_name": "መልእክት፡ናብ፡ገላትያ",
+    "section": "New Testament",
+    "chapters": 6
+  },
+  {
+    "abbrev": "Gen",
+    "name": "Genesis",
+    "geez_name": "ኦሪት",
+    "section": "Torah (Orit)",
+    "chapters": 50,
+    "source_id": "LIT1546Genesi",
+    "short": "Genesis"
+  },
+  {
+    "abbrev": "Hab",
+    "name": "Habakkuk",
+    "geez_name": "ትንቢተ፡ዕንባቆም",
+    "section": "Prophets",
+    "chapters": 3
+  },
+  {
+    "abbrev": "Hag",
+    "name": "Haggai",
+    "geez_name": "ትንቢተ፡ሐጌ",
+    "section": "Prophets",
+    "chapters": 2
+  },
+  {
+    "abbrev": "Heb",
+    "name": "Hebrews",
+    "geez_name": "መልእክት፡ናብ፡ዕብራውያን",
+    "section": "New Testament",
+    "chapters": 13
+  },
+  {
+    "abbrev": "Hos",
+    "name": "Hosea",
+    "geez_name": "ትንቢተ፡ሆሴዕ",
+    "section": "Prophets",
+    "chapters": 14
+  },
+  {
+    "abbrev": "Isa",
+    "name": "Isaiah",
+    "geez_name": "መጹሐፈ፡ ኢሳይያስ፡ ነቢይ:",
+    "section": "Prophets",
+    "chapters": 66,
+    "source_id": "LIT1672Isaiah",
+    "short": "Isaiah"
+  },
+  {
+    "abbrev": "Jas",
+    "name": "James",
+    "geez_name": "መልእክት፡ዘያዕቆብ",
+    "section": "New Testament",
+    "chapters": 5
+  },
+  {
+    "abbrev": "Jdt",
+    "name": "Judith",
+    "geez_name": "ዮዲት",
+    "section": "Deuterocanonical",
+    "chapters": 16,
+    "source_id": "LIT1701Judith",
+    "short": "Judith"
+  },
+  {
+    "abbrev": "Jer",
+    "name": "Jeremiah",
+    "geez_name": "ትንቢተ፡ኤርምያስ",
+    "section": "Prophets",
+    "chapters": 52
+  },
+  {
+    "abbrev": "Job",
+    "name": "Job",
+    "geez_name": "ኢዮብ፡",
+    "section": "Wisdom",
+    "chapters": 42,
+    "source_id": "LIT1688Job",
+    "short": "Job"
+  },
+  {
+    "abbrev": "Joel",
+    "name": "Joel",
+    "geez_name": "ትንቢተ፡ኢዮኤል",
+    "section": "Prophets",
+    "chapters": 3,
+    "source_id": "LIT1689Joel",
+    "short": "Joel"
+  },
+  {
+    "abbrev": "John",
+    "name": "John",
+    "geez_name": "ወንጌል፡ዘዮሐንስ",
+    "section": "New Testament",
+    "chapters": 21
+  },
+  {
+    "abbrev": "Jonah",
+    "name": "Jonah",
+    "geez_name": "ትንቢተ፡ዮናስ",
+    "section": "Prophets",
+    "chapters": 4,
+    "source_id": "LIT1694Jonah",
+    "short": "Jonah"
+  },
+  {
+    "abbrev": "Josh",
+    "name": "Joshua",
+    "geez_name": "መጽሐፈ፡ኢያሱ",
+    "section": "Historical",
+    "chapters": 24,
+    "source_id": "LIT1696Joshua",
+    "short": "Joshua"
+  },
+  {
+    "abbrev": "Jub",
+    "name": "Jubilees",
+    "geez_name": "መጽሐፈ፡ ኩፋሌ፡",
+    "section": "Unique to Ethiopia",
+    "chapters": 50,
+    "source_id": "LIT1697Jubilees",
+    "short": "Jubilees"
+  },
+  {
+    "abbrev": "Jude",
+    "name": "Jude",
+    "geez_name": "መልእክት፡ዘይሁዳ",
+    "section": "New Testament",
+    "chapters": 1
+  },
+  {
+    "abbrev": "Judg",
+    "name": "Judges",
+    "geez_name": "መጽሐፈ፡መሣፍንት",
+    "section": "Historical",
+    "chapters": 21,
+    "source_id": "LIT1700Judges",
+    "short": "Judges"
+  },
+  {
+    "abbrev": "KN",
+    "name": "Kebra Nagast",
+    "geez_name": "ክብረ፡ ነገሥት፡",
+    "section": "Unique to Ethiopia",
+    "chapters": 119,
+    "source_id": "LIT1709Kebran",
+    "short": "Kebra Nagast"
+  },
+  {
+    "abbrev": "Kings",
+    "name": "Kings (Ethiopian)",
+    "geez_name": "ነገሥት፡",
+    "section": "Historical",
+    "chapters": 25,
+    "source_id": "LIT2700Kings",
+    "short": "Kings"
+  },
+  {
+    "abbrev": "Lam",
+    "name": "Lamentations",
+    "geez_name": "ሰቆቃወ፡ ኤርምያስ፡ ነቢይ፡",
+    "section": "Prophets",
+    "chapters": 5,
+    "source_id": "LIT1753Lament",
+    "short": "Lament."
+  },
+  {
+    "abbrev": "Lef",
+    "name": "Lefafa Sedq",
+    "geez_name": "ልፋፈ፡ ጹድቅ፡",
+    "section": "Unique to Ethiopia",
+    "chapters": 7,
+    "source_id": "LIT1758Lefafa",
+    "short": "Lefafa Sedq"
+  },
+  {
+    "abbrev": "Lev",
+    "name": "Leviticus",
+    "geez_name": "ኦሪት፡ዘሌዋውያን",
+    "section": "Torah (Orit)",
+    "chapters": 27,
+    "source_id": "LIT1793Leviti",
+    "short": "Leviticus"
+  },
+  {
+    "abbrev": "Luke",
+    "name": "Luke",
+    "geez_name": "ወንጌል፡ዘሉቃስ",
+    "section": "New Testament",
+    "chapters": 24
+  },
+  {
+    "abbrev": "Mal",
+    "name": "Malachi",
+    "geez_name": "ትንቢተ፡ሚልክያ",
+    "section": "Prophets",
+    "chapters": 4
+  },
+  {
+    "abbrev": "Mark",
+    "name": "Mark",
+    "geez_name": "ወንጌል፡ዘማርቆስ",
+    "section": "New Testament",
+    "chapters": 16
+  },
+  {
+    "abbrev": "Matt",
+    "name": "Matthew",
+    "geez_name": "ወንጌል፡ዘማቴዎስ",
+    "section": "New Testament",
+    "chapters": 28
+  },
+  {
+    "abbrev": "Mic",
+    "name": "Micah",
+    "geez_name": "ትንቢተ፡ሚክያስ",
+    "section": "Prophets",
+    "chapters": 7
+  },
+  {
+    "abbrev": "MysHE",
+    "name": "Mysteries of Heaven & Earth",
+    "geez_name": "መጹሐፈ፡ ምሥጢረ፡ ሰማይ፡ ወምድር፡",
+    "section": "Unique to Ethiopia",
+    "chapters": 7,
+    "source_id": "LIT1954Mashaf",
+    "short": "Mysteries"
+  },
+  {
+    "abbrev": "Nah",
+    "name": "Nahum",
+    "geez_name": "ትንቢተ፡ናሆም",
+    "section": "Prophets",
+    "chapters": 3
+  },
+  {
+    "abbrev": "Neh",
+    "name": "Nehemiah",
+    "geez_name": "መጽሐፈ፡ነህምያ",
+    "section": "Historical",
+    "chapters": 4
+  },
+  {
+    "abbrev": "Num",
+    "name": "Numbers",
+    "geez_name": "ኦሪት፡ዘኍልቍ",
+    "section": "Torah (Orit)",
+    "chapters": 36,
+    "source_id": "LIT2075Number",
+    "short": "Numbers"
+  },
+  {
+    "abbrev": "Obad",
+    "name": "Obadiah",
+    "geez_name": "ትንቢተ፡አብድዩ",
+    "section": "Prophets",
+    "chapters": 1
+  },
+  {
+    "abbrev": "Phil",
+    "name": "Philippians",
+    "geez_name": "መልእክት፡ናብ፡ፊልጵስዩስ",
+    "section": "New Testament",
+    "chapters": 4
+  },
+  {
+    "abbrev": "Phlm",
+    "name": "Philemon",
+    "geez_name": "መልእክት፡ናብ፡ፊልሞና",
+    "section": "New Testament",
+    "chapters": 1
+  },
+  {
+    "abbrev": "Prov",
+    "name": "Proverbs",
+    "geez_name": "ምሳልያተ፡ ሰሎሞን፡",
+    "section": "Wisdom",
+    "chapters": 26,
+    "source_id": "LIT3927Messale",
+    "short": "Proverbs"
+  },
+  {
+    "abbrev": "Ps",
+    "name": "Psalms",
+    "geez_name": "መዝሙረ፡ዳዊት",
+    "section": "Wisdom",
+    "chapters": 151
+  },
+  {
+    "abbrev": "Rev",
+    "name": "Revelation",
+    "geez_name": "ራእይ፡ዘዮሐንስ",
+    "section": "New Testament",
+    "chapters": 22
+  },
+  {
+    "abbrev": "Rom",
+    "name": "Romans",
+    "geez_name": "መልእክት፡ዘጳውሎስ፡ናብ፡ሮሜ",
+    "section": "New Testament",
+    "chapters": 16
+  },
+  {
+    "abbrev": "Ruth",
+    "name": "Ruth",
+    "geez_name": "መጽሐፈ፡ሩት",
+    "section": "Historical",
+    "chapters": 4,
+    "source_id": "LIT2229RuthBo",
+    "short": "Ruth"
+  },
+  {
+    "abbrev": "Sinod",
+    "name": "Sinodos",
+    "geez_name": "ስንዶስ",
+    "section": "Unique to Ethiopia",
+    "chapters": 36,
+    "source_id": "LIT1047Aksumi",
+    "short": "Sinodos"
+  },
+  {
+    "abbrev": "Sir",
+    "name": "Sirach",
+    "geez_name": "መጹሐፈ፡ ሲራክ፡",
+    "section": "Deuterocanonical",
+    "chapters": 51,
+    "source_id": "LIT2358Sirach",
+    "short": "Sirach"
+  },
+  {
+    "abbrev": "Song",
+    "name": "Song of Songs",
+    "geez_name": "መሓልየ፡ መሓልይ፡",
+    "section": "Wisdom",
+    "chapters": 8,
+    "source_id": "LIT2362Songof",
+    "short": "Song"
+  },
+  {
+    "abbrev": "Synax",
+    "name": "Synaxarion",
+    "geez_name": "ስንክሳር፡",
+    "section": "Unique to Ethiopia",
+    "chapters": 1,
+    "source_id": "LIT4032SenkessarS",
+    "short": "Synaxarion"
+  },
+  {
+    "abbrev": "Teach",
+    "name": "Teaching of Mysteries",
+    "geez_name": "ትምህርተ፡ ዅቡኣት፡",
+    "section": "Unique to Ethiopia",
+    "chapters": 5,
+    "source_id": "LIT2444Temher",
+    "short": "Teaching"
+  },
+  {
+    "abbrev": "TestLd",
+    "name": "Testament of Our Lord",
+    "geez_name": "ኪዳን፡ ዘእግዚእነ፡ ኢየሱስ፡ ክርስቶስ፡",
+    "section": "Unique to Ethiopia",
+    "chapters": 60,
+    "source_id": "LIT2461Testam",
+    "short": "Test. Lord"
+  },
+  {
+    "abbrev": "Tit",
+    "name": "Titus",
+    "geez_name": "መልእክት፡ናብ፡ቲቶ",
+    "section": "New Testament",
+    "chapters": 3
+  },
+  {
+    "abbrev": "Tob",
+    "name": "Tobit",
+    "geez_name": "ጦቢት",
+    "section": "Deuterocanonical",
+    "chapters": 14,
+    "source_id": "LIT2473TobitB",
+    "short": "Tobit"
+  },
+  {
+    "abbrev": "Wis",
+    "name": "Wisdom of Solomon",
+    "geez_name": "ጥበበ፡ ሰሎሞን፡",
+    "section": "Deuterocanonical",
+    "chapters": 19,
+    "source_id": "LIT2516Wisdom",
+    "short": "Wisdom"
+  },
+  {
+    "abbrev": "Zech",
+    "name": "Zechariah",
+    "geez_name": "ትንቢተ፡ዘካርያስ",
+    "section": "Prophets",
+    "chapters": 14
+  },
+  {
+    "abbrev": "Zeph",
+    "name": "Zephaniah",
+    "geez_name": "ትንቢተ፡ሶፎንያስ",
+    "section": "Prophets",
+    "chapters": 3
+  }
+]

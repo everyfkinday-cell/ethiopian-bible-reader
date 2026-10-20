@@ -1,0 +1,1 @@
+window.__EB=window.__EB||{};window.__EB["Lef"]=[[1,[[1,"First Prayer"]]],[2,[[1,"Second Prayer"]]],[3,[[1,"Third Prayer"]]],[4,[[1,"Fourth Prayer"]]],[5,[[1,"Fifth Prayer"]]],[6,[[1,"Sixth Prayer"]]],[7,[[1,"Seventh Prayer"]]]];

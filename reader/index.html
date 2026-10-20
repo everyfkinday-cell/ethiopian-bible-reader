@@ -1,0 +1,894 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ethiopian Orthodox Tewahedo Bible — መጽሐፍ ቅዱስ (Ge’ez)</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Ethiopic:wght@400;600;700&family=Noto+Sans+Ethiopic:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#f6f2e9; --panel:#fffdf8; --panel2:#efe9db; --ink:#211e18;
+    --muted:#7b7362; --line:#e0d9c7; --accent:#8a1c1c; --gold:#b8860b;
+    --shadow:0 1px 3px rgba(0,0,0,.07),0 10px 30px rgba(0,0,0,.05);
+    --geez:1.7rem;
+  }
+  html[data-theme="dark"]{
+    --bg:#131210; --panel:#1c1a15; --panel2:#26231a; --ink:#ece6d8;
+    --muted:#a29881; --line:#332e23; --accent:#e0a94a; --gold:#e0a94a;
+    --shadow:0 1px 3px rgba(0,0,0,.45),0 10px 30px rgba(0,0,0,.4);
+  }
+  *{box-sizing:border-box}
+  html,body{margin:0;height:100%}
+  body{background:var(--bg);color:var(--ink);
+    font:1rem/1.6 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    -webkit-font-smoothing:antialiased}
+  .geez{font-family:"Noto Serif Ethiopic","Noto Sans Ethiopic","Kefa","Nyala",serif}
+  button,input{font:inherit;color:inherit}
+  button{cursor:pointer}
+  .ibtn{border:1px solid var(--line);background:var(--panel2);border-radius:9px;
+    padding:7px 11px;display:inline-flex;align-items:center;gap:7px;white-space:nowrap}
+  .ibtn:hover{border-color:var(--accent)}
+  .ibtn.ghost{background:transparent}
+
+  #app{display:grid;grid-template-columns:300px 1fr;grid-template-rows:56px 1fr;height:100vh}
+  header{grid-column:1/-1;display:flex;align-items:center;gap:10px;padding:0 14px;
+    background:var(--panel);border-bottom:1px solid var(--line);box-shadow:var(--shadow);z-index:30}
+  header .brand{display:flex;align-items:baseline;gap:10px;margin-right:auto;min-width:0}
+  header .brand b{font-size:1.02rem;white-space:nowrap}
+  header .brand .am{color:var(--accent);font-size:1.15rem;white-space:nowrap}
+  header .brand small{color:var(--muted);overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+
+  aside{background:var(--panel);border-right:1px solid var(--line);overflow:auto;padding:10px 8px 40px}
+  aside .filter{position:sticky;top:-10px;background:var(--panel);padding:10px 6px;z-index:5;
+    border-bottom:1px solid var(--line);margin:-10px -8px 6px}
+  aside .filter input{width:100%;padding:9px 11px;border:1px solid var(--line);border-radius:9px;background:var(--bg)}
+  .sect{margin:12px 4px 4px;font-size:.7rem;letter-spacing:.14em;text-transform:uppercase;
+    color:var(--muted);font-weight:700}
+  .bk{display:flex;justify-content:space-between;gap:8px;align-items:baseline;width:100%;
+    text-align:left;background:none;border:0;border-radius:8px;padding:7px 9px}
+  .bk:hover{background:var(--panel2)}
+  .bk.active{background:var(--accent);color:#fff}
+  .bk .nm{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+  .bk .n{font-size:.7rem;color:var(--muted);margin-left:auto}
+  .bk.active .n{color:#ffd9d9}
+
+  main{overflow:auto;scroll-behavior:smooth;position:relative}
+  .wrap{max-width:800px;margin:0 auto;padding:26px 26px 100px}
+  .bookhead{border-bottom:2px solid var(--line);margin-bottom:16px;padding-bottom:16px}
+  .bookhead h1{margin:0;font-size:1.85rem}
+  .bookhead .gz{color:var(--accent);font-size:1.05rem;margin-top:3px}
+  .bookhead .sub{color:var(--muted);font-size:.86rem;margin-top:8px}
+  .chapnav{display:flex;flex-wrap:wrap;gap:6px;margin:12px 0}
+  .cnum{min-width:34px;text-align:center;padding:5px 8px;border:1px solid var(--line);
+    background:var(--panel);border-radius:7px;font-size:.82rem}
+  .cnum.cur{background:var(--accent);color:#fff;border-color:var(--accent)}
+  .chead{font-size:1.1rem;color:var(--accent);font-weight:700;margin:24px 0 12px}
+  .v{display:grid;grid-template-columns:46px 1fr;gap:6px;padding:8px 0;
+    border-bottom:1px solid color-mix(in srgb,var(--line) 55%,transparent)}
+  .v .n{color:var(--gold);font-size:.76rem;font-weight:700;text-align:right;padding-top:11px}
+  .v .gz{font-size:var(--geez);line-height:1.9}
+  .v:target{background:color-mix(in srgb,var(--accent) 13%,transparent);border-radius:8px}
+  .v .tr{font-size:1.05rem;line-height:1.75}
+  .v .gz.orig{font-size:1.05rem;line-height:1.8;color:var(--muted);margin-top:6px;
+    padding-top:6px;border-top:1px dashed color-mix(in srgb,var(--line) 70%,transparent)}
+  .trnotice{margin:10px 0;padding:10px 12px;border:1px solid var(--gold);border-radius:9px;
+    background:color-mix(in srgb,var(--gold) 12%,transparent);font-size:.8rem;color:var(--ink)}
+  .pane{border:1px solid var(--line);border-radius:12px;padding:14px 16px;margin:16px 0;background:var(--panel)}
+  .pane.gzpane{background:var(--bg)}
+  .panehead{display:flex;align-items:center;gap:10px;flex-wrap:wrap;margin-bottom:6px}
+  .badge{font-size:.68rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase;
+    padding:3px 9px;border-radius:999px;background:var(--accent);color:#fff}
+  .badge.geez{background:var(--gold);color:#1a1a1a}
+  .pmeta{font-size:.72rem;color:var(--muted)}
+  .tchapnav{display:flex;flex-wrap:wrap;gap:5px;margin:8px 0 4px}
+  .cnum.t{min-width:30px;font-size:.76rem;padding:3px 6px}
+  .chapnav.canon{margin:14px 0 4px}
+  .pager{display:flex;justify-content:space-between;gap:10px;margin-top:32px}
+  .empty{color:var(--muted);padding:40px 0;text-align:center}
+  .transl{margin:10px 0 2px;font-size:.78rem;color:var(--muted)}
+  .transl .tlink{display:inline-block;margin:0 3px;padding:3px 10px;border:1px solid var(--line);
+    border-radius:999px;text-decoration:none;color:var(--fg);background:var(--panel)}
+  .transl .tlink.on{border-color:var(--accent);color:var(--accent);font-weight:700}
+  .transl .tlink:hover{border-color:var(--accent)}
+  .tnote{margin:18px 0 0;font-size:.72rem;color:var(--muted);font-style:italic}
+  .langsel{padding:6px 8px}
+  .audioplayer{position:sticky;top:0;margin:0 0 14px;padding:10px 14px;border:1px solid var(--line);
+    border-radius:12px;background:var(--panel);display:flex;align-items:center;gap:10px;flex-wrap:wrap;z-index:30}
+  .audioplayer .abtn{border:1px solid var(--line);background:var(--panel2);border-radius:9px;
+    padding:6px 12px;cursor:pointer;font:inherit;color:var(--fg);font-size:.85rem}
+  .audioplayer .abtn:hover{border-color:var(--accent)}
+  .audioplayer .abtn.main{background:var(--accent);color:#fff;border-color:var(--accent);font-weight:700}
+  .audioplayer .abtn:disabled{opacity:.4;cursor:default}
+  .audioplayer .aspeed{display:flex;align-items:center;gap:6px;font-size:.76rem;color:var(--muted)}
+  .audioplayer .avoice{display:flex;align-items:center;gap:6px;font-size:.76rem;color:var(--muted)}
+  .audioplayer .avoice select{max-width:220px;font:inherit;font-size:.78rem;padding:5px 8px;
+    border:1px solid var(--line);border-radius:9px;background:var(--panel2);color:var(--fg);cursor:pointer}
+  .audioplayer .astatus{font-size:.76rem;color:var(--muted);margin-left:auto}
+  .v.speaking{background:color-mix(in srgb,var(--accent) 16%,transparent);border-radius:8px}
+  .v.speaking .tr,.v.speaking .gz{font-weight:600}
+  .audionote{font-size:.72rem;color:var(--muted);margin:6px 0 0}
+
+  .overlay{position:fixed;inset:0;background:rgba(0,0,0,.5);display:none;z-index:50;
+    align-items:flex-start;justify-content:center;padding:56px 16px}
+  .overlay.open{display:flex}
+  .modal{background:var(--panel);border:1px solid var(--line);border-radius:14px;
+    box-shadow:var(--shadow);width:min(720px,96vw);max-height:82vh;overflow:auto;padding:18px}
+  .modal h2{margin:0 0 12px;font-size:1.1rem}
+  .modal .close{float:right}
+  .modal .row{display:flex;flex-wrap:wrap;gap:14px;align-items:center;margin:10px 0}
+  .modal label{display:flex;align-items:center;gap:8px;cursor:pointer}
+  .searchinput{width:100%;padding:12px 14px;border:1px solid var(--line);border-radius:10px;
+    background:var(--bg);font-size:1rem}
+  .prog{color:var(--muted);font-size:.85rem;margin:8px 0}
+  .hit{padding:10px;border:1px solid var(--line);border-radius:9px;margin-bottom:8px;
+    cursor:pointer;background:var(--bg)}
+  .hit:hover{border-color:var(--accent)}
+  .hit .m{font-size:.72rem;color:var(--gold);font-weight:700;margin-bottom:3px}
+  .hit .s.geez{font-size:1.15rem;line-height:1.7}
+  mark{background:color-mix(in srgb,var(--gold) 55%,transparent);border-radius:3px;padding:0 1px}
+  footer.src{max-width:800px;margin:0 auto;padding:20px 26px 60px;color:var(--muted);
+    font-size:.76rem;border-top:1px solid var(--line)}
+  .msgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:10px;margin-top:8px}
+  .mcard{background:var(--bg);border:1px solid var(--line);border-radius:10px;overflow:hidden;
+    cursor:pointer;display:flex;flex-direction:column}
+  .mcard:hover{border-color:var(--accent)}
+  .mcard img{width:100%;height:150px;object-fit:cover;display:block;background:#000}
+  .mcard .cap{padding:7px 9px;font-size:.72rem;line-height:1.35}
+  .mcard .cap .lic{display:block;color:var(--gold);font-weight:700;font-size:.62rem;margin-top:3px}
+  .imgmodal{text-align:center}
+  .imgmodal img{max-width:100%;max-height:72vh;border-radius:8px;margin-top:6px}
+  .imgmodal #bigMeta{color:var(--muted);font-size:.78rem;margin-top:10px;padding:0 6px}
+  .fullh{margin:16px 0 4px;font-size:.95rem}
+  .fulllist{display:flex;flex-direction:column;gap:7px;margin:8px 0 4px}
+  .fulllist a{display:block;background:var(--bg);border:1px solid var(--line);border-radius:9px;
+    padding:9px 12px;text-decoration:none;color:var(--fg);font-size:.82rem;transition:.15s}
+  .fulllist a:hover{border-color:var(--accent)}
+  .fulllist a b{color:var(--gold)}
+  .fulllist a span{display:block;color:var(--muted);font-size:.72rem;margin-top:2px}
+  .msfilter{display:flex;flex-wrap:wrap;gap:6px;margin:14px 0 10px}
+  .msfilter button{background:var(--bg);border:1px solid var(--line);color:var(--fg);
+    border-radius:999px;padding:4px 12px;font-size:.74rem;cursor:pointer}
+  .msfilter button.on{background:var(--accent);color:#fff;border-color:var(--accent)}
+  #menuBtn{display:none}
+  @media(max-width:820px){
+    #app{grid-template-columns:1fr}
+    aside{position:fixed;top:56px;bottom:0;left:0;width:290px;transform:translateX(-102%);
+      transition:transform .22s;z-index:40}
+    body.nav-open aside{transform:none}
+    #menuBtn{display:inline-flex}
+    .wrap,.bookhead h1{padding-left:0}
+    .wrap{padding:16px 15px 100px}
+    .bookhead h1{font-size:1.45rem}
+  }
+</style>
+</head>
+<body>
+<div id="app">
+  <header>
+    <button class="ibtn ghost" id="menuBtn" title="Books">☰</button>
+    <div class="brand">
+      <b data-i18n="brand">Ethiopian Bible</b>
+      <span class="am geez">መጽሐፍ&nbsp;ቅዱስ</span>
+      <small id="crumb"></small>
+    </div>
+    <button class="ibtn" id="msBtn" data-i18n="manuscripts">📜 Manuscripts</button>
+    <button class="ibtn" id="searchBtn" data-i18n="search">🔎 Search</button>
+    <select class="ibtn langsel" id="langSel" title="Language"></select>
+    <button class="ibtn" id="setBtn">⚙</button>
+  </header>
+
+  <aside id="sidebar">
+    <div class="filter"><input id="filter" placeholder="Filter the 81 books…" autocomplete="off"></div>
+    <div id="booklist"></div>
+  </aside>
+
+  <main id="main">
+    <div class="wrap" id="content"><div class="empty">Loading…</div></div>
+    <footer class="src" id="srcFooter" data-i18n="footer">
+      Ge’ez text corpus: <b>cpradmin/ethiopian-bible</b> (Beta Masaheft, University of Hamburg).
+      Transliteration layer included. 81-book Ethiopian Orthodox Tewahedo canon.
+    </footer>
+  </main>
+</div>
+
+<div class="overlay" id="setOv">
+  <div class="modal" role="dialog" aria-modal="true">
+    <button class="ibtn close" data-close data-i18n="close">Close</button>
+    <h2 data-i18n="settingsTitle">Settings</h2>
+    <div class="row"><label><input type="checkbox" id="s-dark"> <span data-i18n="dark">Dark theme</span></label></div>
+    <div class="row"><label><input type="checkbox" id="s-orig"> <span data-i18n="showOriginal">Show Ge’ez original alongside</span></label></div>
+    <div class="row"><label><span data-i18n="geezSize">Ge’ez size</span> <input type="range" id="s-size" min="1.1" max="3" step="0.05"></label></div>
+    <div class="row"><label><span data-i18n="language">Language</span> <select id="langSel2" class="ibtn langsel"></select></label></div>
+  </div>
+</div>
+
+<div class="overlay" id="srOv">
+  <div class="modal" role="dialog" aria-modal="true">
+    <button class="ibtn close" data-close data-i18n="close">Close</button>
+    <h2 data-i18n="searchTitle">Search all 81 books (Ge’ez)</h2>
+    <input class="searchinput" id="q" placeholder="Type Ge’ez or transliteration…" autocomplete="off">
+    <div class="prog" id="sprog"></div>
+    <div id="sres"></div>
+  </div>
+</div>
+
+<div class="overlay" id="msOv">
+  <div class="modal" role="dialog" aria-modal="true">
+    <button class="ibtn close" data-close data-i18n="close">Close</button>
+    <h2 data-i18n="msTitle">Ancient manuscript gallery</h2>
+    <p class="prog" data-i18n="msIntro">Photographs and page scans of historic Ethiopian Gospel books and biblical
+      manuscripts — including the <b>Abba Garima Gospels</b> (c. 6th century), among the oldest
+      illuminated Gospel books in the world. Click an image to enlarge.</p>
+
+    <h3 class="fullh" data-i18n="msFullH">Read complete manuscripts (Archive.org)</h3>
+    <p class="prog" data-i18n="msFullIntro">Full page-by-page digitizations, open to the public. These open at Archive.org’s reader.</p>
+    <div class="fulllist" id="msFull"></div>
+
+    <div class="msfilter" id="msFilter"></div>
+    <div id="msGrid" class="msgrid"></div>
+  </div>
+</div>
+
+<div class="overlay" id="imgOv">
+  <div class="modal imgmodal" role="dialog" aria-modal="true">
+    <button class="ibtn close" data-close-img data-i18n="close">Close</button>
+    <img id="bigImg" alt="">
+    <div id="bigMeta"></div>
+  </div>
+</div>
+
+<script src="data/meta.js"></script>
+<script src="data/manuscripts.js"></script>
+<script src="data/lang.js"></script>
+<script>
+"use strict";
+const $ = s => document.querySelector(s);
+const META = window.__EBM || [];
+const loaded = {};
+const state = { abbr:null, ch:null };
+const LS = "eotc.geez.v1";
+const prefs = Object.assign({ dark:false, size:1.7, last:null, lang:"en", original:false },
+  JSON.parse(localStorage.getItem(LS) || "{}"));
+const savePrefs = () => localStorage.setItem(LS, JSON.stringify(prefs));
+const esc = s => (s==null?"":String(s)).replace(/[&<>"']/g, c =>
+  ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const metaOf = a => META.find(m => m.abbr===a);
+
+/* i18n */
+const I18N = window.__EBi18n || { LANGS:[{code:"en",label:"English"}], UI:{en:{}}, BOOKS:{}, SECTION_KEY:{} };
+let lang = "en";
+const t = (k, ...a) => {
+  const v = (I18N.UI[lang]||I18N.UI.en||{})[k];
+  if (typeof v === "function") return v(...a);
+  return v != null ? v : ((I18N.UI.en||{})[k] != null ? I18N.UI.en[k] : k);
+};
+const bookName = m => {
+  if (!m) return "";
+  const e = I18N.BOOKS[m.abbr];
+  return (e && e[lang]) || m.name;
+};
+const sectionName = s => { const k = I18N.SECTION_KEY[s]; return k ? t(k) : s; };
+
+/* ---- text-to-speech (audio book) ---- */
+const speechOK = (typeof window!=="undefined") && "speechSynthesis" in window &&
+  typeof SpeechSynthesisUtterance !== "undefined";
+const audio = { rate: 1.0, playing: false, idx: 0, verses: [], abbr: null, ch: null, voice: null, voices: [], piperVoice: null };
+const LANG_BCP = { en:"en-US", de:"de-DE", ro:"ro-RO" };
+/* preferred accent per language (first match wins) */
+const LANG_PREF = { en:["en-US","en-GB"], de:["de-DE","de-AT","de-CH"], ro:["ro-RO"] };
+
+/* ---- local Piper TTS server (extra Romanian voices) ---- */
+const PIPER_URL = (()=>{
+  try{
+    const qp = new URLSearchParams(location.search).get("piper");
+    if(qp) return qp.replace(/\/+$/,"");
+  }catch(e){}
+  if(location.protocol==="http:"||location.protocol==="https:")
+    return location.protocol+"//"+location.hostname+":8124";
+  return "http://127.0.0.1:8124";
+})();
+let PIPER_VOICES = [];         /* [{id,label,gender,lang}] */
+let piperReady = false;
+const piperAudio = (typeof Audio!=="undefined") ? new Audio() : null;
+let piperSrvOK = false;
+function fetchPiperVoices(){
+  if(typeof fetch!=="function") return;
+  const ctl = (typeof AbortController!=="undefined") ? new AbortController() : null;
+  const to = setTimeout(()=>ctl&&ctl.abort(), 3000);
+  fetch(PIPER_URL+"/piper/voices", {signal: ctl?ctl.signal:undefined})
+    .then(r=>r.ok?r.json():[])
+    .then(list=>{ clearTimeout(to); PIPER_VOICES = Array.isArray(list)?list:[]; piperSrvOK = PIPER_VOICES.length>0; piperReady = true; refreshVoiceSelect(); })
+    .catch(()=>{ clearTimeout(to); piperSrvOK=false; piperReady=true; refreshVoiceSelect(); });
+}
+const VOICE_KEY = "eb.voice."; /* + lang -> voice name */
+function savedVoice(l){
+  try { return JSON.parse(localStorage.getItem(LS)||"{}")["voice_"+l] || null; } catch(e){ return null; }
+}
+function saveVoice(l, name){
+  prefs["voice_"+l] = name || "";
+  savePrefs();
+}
+function voicesForLang(l){
+  if(!speechOK) return [];
+  const base = l.toLowerCase();
+  return audio.voices.filter(v=>v.lang && v.lang.toLowerCase().replace("_","-").split("-")[0]===base);
+}
+function langNativeLabel(l){ return { en:"English", de:"Deutsch", ro:"Română" }[l] || l; }
+function voiceLabel(v){
+  const native = langNativeLabel((v.lang||"").split("-")[0].toLowerCase());
+  return v.name + " · " + (v.lang||"") + " (" + native + ")";
+}
+function pickVoice(){
+  /* saved choice may be a piper voice (piper:<id>) or a system voice (sys:<name>) */
+  const saved = savedVoice(lang);
+  if(saved){
+    if(saved.startsWith("piper:")){
+      const id = saved.slice(6);
+      if(PIPER_VOICES.some(v=>v.id===id)){ audio.piperVoice=id; audio.voice=null; return; }
+    } else {
+      const name = saved.startsWith("sys:") ? saved.slice(4) : saved;
+      const sv = audio.voices.find(v=>v.name===name);
+      if(sv){ audio.voice = sv; audio.piperVoice=null; return; }
+    }
+  }
+  /* default: Romanian with no system voice but Piper available -> use Piper */
+  if(lang==="ro" && PIPER_VOICES.length && !voicesForLang("ro").length){
+    audio.piperVoice = PIPER_VOICES[0].id; audio.voice = null; return;
+  }
+  audio.piperVoice = null;
+  const want = (LANG_BCP[lang]||lang).toLowerCase();
+  const prefs2 = (LANG_PREF[lang]||[want]).map(s=>s.toLowerCase());
+  const list = voicesForLang(lang);
+  let v = null;
+  for(const pref of prefs2){ v = list.find(x=>(x.lang||"").toLowerCase().replace("_","-")===pref); if(v) break; }
+  if(!v) v = list[0] || audio.voices.find(x=>x.lang && x.lang.toLowerCase().startsWith(lang.toLowerCase())) || null;
+  audio.voice = v || null;
+}
+function loadVoices(){
+  if(!speechOK) return;
+  const v = window.speechSynthesis.getVoices() || [];
+  audio.voices = v;
+  pickVoice();
+  refreshVoiceSelect();
+}
+function refreshVoiceSelect(){
+  const sel = document.getElementById("a-voice");
+  if(!sel) return;
+  const opts = [`<option value="">${t("audioDefault")}</option>`];
+  /* Piper neural voices (Romanian extras) */
+  if(lang==="ro" && PIPER_VOICES.length){
+    opts.push(`<optgroup label="${esc(t("audioPiperGroup"))}">`);
+    for(const v of PIPER_VOICES){
+      const cur = (audio.piperVoice===v.id) ? " selected" : "";
+      const g = v.gender==="M" ? "♂" : (v.gender==="F" ? "♀" : "");
+      opts.push(`<option value="piper:${esc(v.id)}"${cur}>${esc(v.label)} ${g} · ${esc("ro-RO")}</option>`);
+    }
+    opts.push("</optgroup>");
+  }
+  /* system voices */
+  const list = voicesForLang(lang);
+  if(list.length){
+    opts.push(`<optgroup label="${esc(t("audioSystemGroup"))}">`);
+    for(const v of list){
+      const sel2 = (audio.voice && !audio.piperVoice && v.name===audio.voice.name) ? " selected" : "";
+      opts.push(`<option value="sys:${esc(v.name)}"${sel2}>${esc(voiceLabel(v))}</option>`);
+    }
+    opts.push("</optgroup>");
+  }
+  sel.innerHTML = opts.join("");
+}
+if(speechOK){
+  loadVoices();
+  window.speechSynthesis.onvoiceschanged = loadVoices;
+}
+fetchPiperVoices();
+function localizeStatic(){
+  document.documentElement.lang = lang;
+  document.title = t("title");
+  document.querySelectorAll("[data-i18n]").forEach(el=>{
+    const k = el.dataset.i18n;
+    if (k === "footer" || k === "msIntro") el.innerHTML = t(k);
+    else el.textContent = t(k);
+  });
+  const f=$("#filter"); if(f) f.placeholder=t("filterPlaceholder");
+  const q=$("#q"); if(q) q.placeholder=t("searchPlaceholder");
+  const menu=$("#menuBtn"); if(menu) menu.title=t("menu");
+}
+function setLang(code){
+  if(!I18N.UI[code]) code = "en";
+  lang = code; prefs.lang = code; savePrefs();
+  if(typeof state!=="undefined" && state.abbr) renderChapter(state.abbr, state.ch);
+  else if(typeof buildSidebar==="function") buildSidebar();
+  localizeStatic();
+  if(typeof wireManuscripts==="function") wireManuscripts();
+}
+function buildLangSelects(){
+  const opts = I18N.LANGS.map(l=>`<option value="${l.code}"${l.code===lang?" selected":""}>${esc(l.label)}</option>`).join("");
+  ["#langSel","#langSel2"].forEach(sel=>{
+    const el=$(sel); if(!el) return;
+    el.innerHTML = opts; el.value = lang;
+    el.onchange = e=>setLang(e.target.value);
+  });
+}
+
+function loadScript(src){
+  return new Promise((res,rej)=>{
+    const s=document.createElement("script");
+    s.src=src; s.onload=res; s.onerror=()=>rej(new Error("script "+src));
+    document.head.appendChild(s);
+  });
+}
+async function ensureBook(abbr){
+  if(loaded[abbr]) return loaded[abbr];
+  const src = "data/books/"+abbr+".js";
+  try { await loadScript(src); }
+  catch(e){
+    // fallback for file:// where scripts referenced by relative src may be blocked
+    const txt = await new Promise((res,rej)=>{
+      const x=new XMLHttpRequest(); x.open("GET",src);
+      x.onload=()=>res(x.responseText); x.onerror=rej; x.send();
+    });
+    new Function(txt)();
+  }
+  loaded[abbr] = (window.__EB||{})[abbr] || [];
+  return loaded[abbr];
+}
+/* translation (non-Ge'ez) scripture data */
+const tloaded = {};
+async function ensureTrans(lg, abbr){
+  const key = lg+"/"+abbr;
+  if(tloaded[key] !== undefined) return tloaded[key];
+  const src = "data/books/"+lg+"/"+abbr+".js";
+  try { await loadScript(src); }
+  catch(e){
+    try {
+      const txt = await new Promise((res,rej)=>{
+        const x=new XMLHttpRequest(); x.open("GET",src);
+        x.onload=()=>res(x.responseText); x.onerror=rej; x.send();
+      });
+      new Function(txt)();
+    } catch(e2){ tloaded[key] = null; return null; }
+  }
+  tloaded[key] = (((window.__EBT||{})[lg]||{})[abbr]) || null;
+  return tloaded[key];
+}
+const hasTranslation = lg => lg==="en" || lg==="de" || lg==="ro";
+
+/* sidebar */
+function buildSidebar(){
+  const list = $("#booklist");
+  let html="", last="";
+  for(const m of META){
+    if(m.section!==last){ html += `<div class="sect">${esc(sectionName(m.section))}</div>`; last=m.section; }
+    html += `<button class="bk" data-abbr="${m.abbr}">
+      <span class="nm">${esc(bookName(m))}</span><span class="n">${m.chapters}</span></button>`;
+  }
+  list.innerHTML = html;
+  list.addEventListener("click", e=>{
+    const b=e.target.closest(".bk"); if(!b) return;
+    renderChapter(b.dataset.abbr, 1);
+    document.body.classList.remove("nav-open");
+  });
+  $("#filter").addEventListener("input", e=>{
+    const q=e.target.value.toLowerCase(), val=e.target.value;
+    list.querySelectorAll(".bk").forEach(b=>{
+      const m=metaOf(b.dataset.abbr);
+      b.style.display = (!q || bookName(m).toLowerCase().includes(q) || m.abbr.toLowerCase().includes(q)) ? "" : "none";
+    });
+    list.querySelectorAll(".sect").forEach(s=>s.style.display=q?"none":"");
+  });
+}
+function markActive(a){ document.querySelectorAll(".bk").forEach(b=>b.classList.toggle("active", b.dataset.abbr===a)); }
+
+/* translation links for the current book/chapter (scripture stays Ge'ez) */
+const TR_BOOK = {
+  Gen:"Genesis",Exod:"Exodus",Lev:"Leviticus",Num:"Numbers",Deut:"Deuteronomy",Josh:"Joshua",
+  Judg:"Judges",Ruth:"Ruth","1Sam":"1 Samuel","2Sam":"2 Samuel","1Chr":"1 Chronicles",
+  "2Chr":"2 Chronicles",Ezra:"Ezra",Neh:"Nehemiah",Esth:"Esther",Job:"Job",Ps:"Psalms",
+  Prov:"Proverbs",Eccl:"Ecclesiastes",Song:"Song of Songs",Isa:"Isaiah",Jer:"Jeremiah",
+  Lam:"Lamentations",Ezek:"Ezekiel",Dan:"Daniel",Hos:"Hosea",Joel:"Joel",Amos:"Amos",
+  Obad:"Obadiah",Jonah:"Jonah",Mic:"Micah",Nah:"Nahum",Hab:"Habakkuk",Zeph:"Zephaniah",
+  Hag:"Haggai",Zech:"Zechariah",Mal:"Malachi",Tob:"Tobit",Jdt:"Judith",Sir:"Sirach",
+  Wis:"Wisdom",Rev:"Revelation",Jude:"Jude",Matt:"Matthew",Mark:"Mark",Luke:"Luke",
+  John:"John",Acts:"Acts",Rom:"Romans","1Cor":"1 Corinthians","2Cor":"2 Corinthians",
+  Gal:"Galatians",Eph:"Ephesians",Phil:"Philippians",Col:"Colossians","1Thess":"1 Thessalonians",
+  "2Thess":"2 Thessalonians","1Tim":"1 Timothy","2Tim":"2 Timothy",Tit:"Titus",Phlm:"Philemon",
+  Heb:"Hebrews",Jas:"James","1Pet":"1 Peter","2Pet":"2 Peter","1John":"1 John","2John":"2 John",
+  "3John":"3 John"
+};
+const LANG_SITES = {
+  en:{ label:"English", url:(b,c)=>`https://www.biblegateway.com/passage/?search=${encodeURIComponent(b+" "+c)}&version=KJV` },
+  de:{ label:"Deutsch", url:(b,c)=>`https://www.biblegateway.com/passage/?search=${encodeURIComponent(b+" "+c)}&version=LUT` },
+  ro:{ label:"Română",  url:(b,c)=>`https://www.biblegateway.com/passage/?search=${encodeURIComponent(b+" "+c)}&version=VDC` }
+};
+function translationLinks(abbr, ch){
+  const b = TR_BOOK[abbr];
+  if(!b) return `<span class="tnonote">—</span>`;
+  return Object.keys(LANG_SITES).map(code=>{
+    const s=LANG_SITES[code], on=code===lang?" on":"";
+    return `<a class="tlink${on}" href="${s.url(b,ch)}" target="_blank" rel="noopener">${s.label}</a>`;
+  }).join("");
+}
+
+/* render */
+async function renderChapter(abbr, ch){
+  const m = metaOf(abbr); if(!m) return;
+  let book;
+  try { book = await ensureBook(abbr); }
+  catch(e){ $("#content").innerHTML = dataError(); return; }
+  if(!book.length){ $("#content").innerHTML = dataError(); return; }
+  if(!ch || !book.some(c=>c[0]===ch)) ch = book[0][0];
+  state.abbr=abbr; state.ch=ch; prefs.last={abbr,ch}; savePrefs();
+
+  /* translation is rendered as its own independent unit (its own chapter + numbering) */
+  let trans = null, transMissing = false;
+  trans = await ensureTrans(lang, abbr);
+  transMissing = !trans;
+  const tchap = trans ? (trans.find(c=>c[0]===ch) || null) : null;
+
+  const idx = book.findIndex(c=>c[0]===ch);
+  const entry = book[idx];
+  const chips = book.map(c=>`<button class="cnum ${c[0]===ch?'cur':''}" data-ch="${c[0]}" title="${c[1].length} v">${c[0]}</button>`).join("");
+  const prev = idx>0 ? book[idx-1][0] : null;
+  const next = idx<book.length-1 ? book[idx+1][0] : null;
+
+  /* --- translation block (own numbering) --- */
+  let transBlock = "";
+  if(trans && tchap){
+    const tvHtml = tchap[1].map(v=>
+      `<div class="v" id="tv${v[0]}" data-vnum="${v[0]}"><div class="n">${v[0]}</div><div class="tr">${esc(v[1])}</div></div>`).join("");
+    const transChCount = trans.length;
+    const tChips = trans.map(c=>{
+      const same = c[0]===ch;
+      return `<button class="cnum t ${same?'cur':''}" data-tch="${c[0]}" title="${c[1].length} v">${c[0]}</button>`;
+    }).join("");
+    transBlock = `
+      <section class="pane trpane">
+        <div class="panehead">
+          <span class="badge">${t("translationLabel")}</span>
+          <span class="pmeta">${tchap[1].length} ${t("verses")} · ${t("transChapterOf")} ${ch}/${transChCount}</span>
+        </div>
+        <div class="tchapnav">${tChips}</div>
+        <div class="chead">${t("chapterWord")} ${ch}</div>
+        <div>${tvHtml}</div>
+      </section>`;
+  }
+
+  /* --- Ge'ez block (own numbering) --- */
+  const gzHtml = entry[1].map(v=>
+    `<div class="v" id="v${v[0]}"><div class="n">${v[0]}</div><div class="gz geez">${esc(v[1])}</div></div>`).join("");
+  const showGz = transMissing || !tchap || prefs.original || true; /* Ge'ez always present as its own unit */
+
+  let notice = "";
+  if(transMissing) notice = `<div class="trnotice">${t("transUnavailable")}</div>`;
+  else if(!tchap) notice = `<div class="trnotice">${t("transChapterMissing")}</div>`;
+  else {
+    const gv = entry[1].length, tv = tchap[1].length;
+    const differs = gv !== tv;
+    if(differs) notice = `<div class="trnotice">${t("numberingDiffers")} (Ge’ez ${gv} ${t("verses")}, ${t("translationLabel")} ${tv} ${t("verses")})</div>`;
+  }
+
+  const geBlock = `
+      <section class="pane gzpane">
+        <div class="panehead">
+          <span class="badge geez">${t("geezLabel")}</span>
+          <span class="pmeta">${entry[1].length} ${t("verses")} · ${t("canonChapter")} ${ch}/${book.length}</span>
+        </div>
+        <div class="chead geez">${t("chapterGeez")} ${ch}</div>
+        <div>${gzHtml}</div>
+      </section>`;
+
+  /* --- audio player (text-to-speech of the translation pane) --- */
+  let audioBar = "";
+  if(trans && tchap){
+    if(!speechOK && !piperSrvOK){
+      audioBar = `<div class="audioplayer"><span class="astatus">${t("audioUnsupported")}</span></div>`;
+    } else {
+      audioBar = `
+      <div class="audioplayer" id="audioplayer">
+        <button class="abtn main" id="a-play" title="${t("audioPlay")}">▶ ${t("audioPlay")}</button>
+        <button class="abtn" id="a-stop" title="${t("audioStop")}">■</button>
+        <button class="abtn" id="a-prev" title="${t("audioPrev")}">⏮</button>
+        <button class="abtn" id="a-next" title="${t("audioNext")}">⏭</button>
+        <label class="aspeed">${t("audioSpeed")}
+          <input type="range" id="a-rate" min="0.6" max="1.6" step="0.1" value="${audio.rate}">
+          <span id="a-ratev">${audio.rate.toFixed(1)}×</span>
+        </label>
+        <label class="avoice">${t("audioVoice")}
+          <select id="a-voice"></select>
+        </label>
+        <span class="astatus" id="a-status"></span>
+      </div>`;
+    }
+  }
+
+  $("#content").innerHTML = `
+    <div class="bookhead">
+      <h1>${esc(bookName(m))}</h1>
+      <div class="sub">${esc(sectionName(m.section))} · ${t("book")} ${m.canon} ${t("of81")} · ${t("chapter")} ${ch}/${m.chapters}</div>
+    </div>
+    ${audioBar}
+    <div class="chapnav canon">${chips}</div>
+    <div class="transl">${t("readIn")} ${translationLinks(m.abbr, ch)}</div>
+    ${notice}
+    ${transBlock}
+    ${geBlock}
+    <div class="tnote">${trans && tchap ? t("translationCredit") : t("translatorNote")}</div>
+    <div class="pager">
+      <button class="ibtn" id="prevCh" ${prev==null?"disabled":""}>‹ ${prev==null?"—":t("chapterWord")+" "+prev}</button>
+      <button class="ibtn" id="nextCh" ${next==null?"disabled":""}>${next==null?"—":t("chapterWord")+" "+next} ›</button>
+    </div>`;
+  $("#crumb").textContent = `${bookName(m)} ${ch}`;
+  markActive(abbr);
+  document.querySelector(".chapnav").addEventListener("click", e=>{
+    const b=e.target.closest(".cnum"); if(b) renderChapter(abbr, +b.dataset.ch);
+  });
+  document.querySelector(".tchapnav")?.addEventListener("click", e=>{
+    const b=e.target.closest(".cnum"); if(b) renderChapter(abbr, +b.dataset.tch);
+  });
+  $("#prevCh")?.addEventListener("click", ()=>renderChapter(abbr, prev));
+  $("#nextCh")?.addEventListener("click", ()=>renderChapter(abbr, next));
+
+  /* stop any ongoing speech when the chapter changes/rerenders */
+  if(speechOK && audio.playing){ hardStop(); }
+
+  /* wire audio player */
+  if(trans && tchap && (speechOK || piperSrvOK)){
+    audio.verses = tchap[1].map(v=>[v[0], v[1]]);
+    audio.abbr = abbr; audio.ch = ch; audio.idx = 0;
+    pickVoice();
+    const play = $("#a-play");
+    play && play.addEventListener("click", ()=> audio.playing ? pauseSpeech() : startSpeech());
+    $("#a-stop") && $("#a-stop").addEventListener("click", ()=>hardStop());
+    $("#a-prev") && $("#a-prev").addEventListener("click", ()=>{ hardStop(); audio.idx=Math.max(0,audio.idx-1); startSpeech(); });
+    $("#a-next") && $("#a-next").addEventListener("click", ()=>{ hardStop(); audio.idx=Math.min(audio.verses.length-1,audio.idx+1); startSpeech(); });
+    const rate=$("#a-rate");
+    rate && rate.addEventListener("input", e=>{ audio.rate=+e.target.value; $("#a-ratev").textContent=audio.rate.toFixed(1)+"×"; if(audio.playing){ hardStop(); startSpeech(); } });
+    const vsel=$("#a-voice");
+    if(vsel){
+      refreshVoiceSelect();
+      vsel.addEventListener("change", e=>{
+        const val=e.target.value;
+        if(val.startsWith("piper:")){
+          audio.piperVoice = val.slice(6); audio.voice = null; saveVoice(lang, val);
+        } else if(val.startsWith("sys:")){
+          const v=audio.voices.find(x=>x.name===val.slice(4)); if(v){ audio.voice=v; audio.piperVoice=null; saveVoice(lang, val); }
+        } else {
+          saveVoice(lang,""); audio.piperVoice=null; pickVoice();
+        }
+        if(audio.playing){ hardStop(); startSpeech(); }
+        refreshVoiceSelect();
+      });
+    }
+  }
+  $("#main").scrollTop = 0;
+  const h = `#/${abbr}/${ch}`;
+  if(location.hash !== h){ try{ history.replaceState(null,"",h); }catch(e){ location.hash=h; } }
+}
+
+/* ---------- text-to-speech engine ---------- */
+function updatePlayBtn(){
+  const b=$("#a-play"); if(!b) return;
+  b.textContent = audio.playing ? "⏸ "+t("audioPause") : "▶ "+t("audioPlay");
+}
+function setStatus(txt){ const s=$("#a-status"); if(s) s.textContent = txt||""; }
+function clearHighlight(){ document.querySelectorAll(".v.speaking").forEach(e=>e.classList.remove("speaking")); }
+function highlight(n){
+  clearHighlight();
+  const el = document.getElementById("tv"+n);
+  if(el){ el.classList.add("speaking"); el.scrollIntoView({block:"center",behavior:"smooth"}); }
+}
+function speakIndex(i){
+  if(i>=audio.verses.length){ return endChapter(); }
+  audio.idx = i;
+  const [n, text] = audio.verses[i];
+  highlight(n);
+  setStatus(`${i+1}/${audio.verses.length}`);
+  if(audio.piperVoice){ speakPiper(n, text, i); return; }
+  const u = new SpeechSynthesisUtterance(text);
+  if(audio.voice) u.voice = audio.voice;
+  u.lang = LANG_BCP[lang] || lang;
+  u.rate = audio.rate;
+  u.onend = ()=>{ if(audio.playing) speakIndex(i+1); };
+  u.onerror = ()=>{ if(audio.playing) speakIndex(i+1); };
+  window.speechSynthesis.speak(u);
+}
+function speakPiper(n, text, i){
+  if(!piperAudio) return;
+  const ls = (1/audio.rate).toFixed(2);
+  const url = PIPER_URL+"/piper/tts?voice="+encodeURIComponent(audio.piperVoice)+
+              "&length_scale="+ls+"&text="+encodeURIComponent(text);
+  piperAudio.onended = ()=>{ if(audio.playing) speakIndex(i+1); };
+  piperAudio.onerror = ()=>{ if(audio.playing) speakIndex(i+1); };
+  piperAudio.src = url;
+  const p = piperAudio.play();
+  if(p && p.catch) p.catch(()=>{ setStatus(t("audioPiperFail")); });
+}
+function startSpeech(){
+  if(audio.piperVoice){
+    if(!piperSrvOK){ setStatus(t("audioPiperFail")); return; }
+    audio.playing = true; updatePlayBtn(); speakIndex(audio.idx); return;
+  }
+  if(!speechOK) return;
+  pickVoice();
+  if(!audio.voice && !audio.piperVoice){ setStatus(t("audioNoVoice")); return; }
+  window.speechSynthesis.cancel();
+  audio.playing = true;
+  updatePlayBtn();
+  speakIndex(audio.idx);
+}
+function pauseSpeech(){
+  audio.playing = false;
+  if(audio.piperVoice){ if(piperAudio) piperAudio.pause(); }
+  else if(speechOK){ window.speechSynthesis.cancel(); }
+  updatePlayBtn();
+  setStatus("");
+}
+function hardStop(){
+  audio.playing = false;
+  if(piperAudio){ try{ piperAudio.pause(); }catch(e){} piperAudio.removeAttribute("src"); piperAudio.load(); }
+  if(speechOK){ window.speechSynthesis.cancel(); }
+  clearHighlight();
+  updatePlayBtn();
+  setStatus("");
+}
+function endChapter(){
+  audio.playing = false;
+  updatePlayBtn();
+  setStatus("");
+  clearHighlight();
+  /* auto-advance to next chapter if available */
+  const m = metaOf(audio.abbr); if(!m) return;
+  if(audio.ch < m.chapters && audio.autoNext !== false){
+    renderChapter(audio.abbr, audio.ch+1).then(()=>{ setTimeout(startSpeech, 250); });
+  }
+}
+function dataError(){
+  return `<div class="empty">${t("dataError")}
+   <pre style="text-align:left;max-width:420px;margin:14px auto;background:var(--panel);padding:12px;border-radius:8px;border:1px solid var(--line)">cd "${'`pwd`'}"
+python3 -m http.server 8000</pre>
+   ${t("thenOpen")} <b>http://localhost:8000</b>.</div>`;
+}
+
+/* search */
+let token=0;
+async function runSearch(q){
+  const t=++token, res=$("#sres"), prog=$("#sprog");
+  q=q.trim();
+  if(q.length<2){ res.innerHTML=""; prog.textContent=t("searchHint"); return; }
+  const needle=q.toLowerCase(); let hits=0; res.innerHTML=""; prog.textContent=t("searching");
+  for(let i=0;i<META.length;i++){
+    if(t!==token) return;
+    const m=META[i];
+    prog.textContent=t("searchingN", i+1, META.length, hits);
+    await new Promise(r=>setTimeout(r,0));
+    let book; try{ book=await ensureBook(m.abbr); }catch(e){ continue; }
+    if(t!==token) return;
+    for(const [ch,verses] of book){
+      for(const v of verses){
+        const at=v[1].toLowerCase().indexOf(needle);
+        if(at>=0){
+          hits++;
+          const el=document.createElement("div");
+          el.className="hit";
+          const s=Math.max(0,at-24);
+          const snip=(s>0?"…":"")+v[1].slice(s,s+120)+(v[1].length>s+120?"…":"");
+          el.innerHTML=`<div class="m">${esc(bookName(m))} ${ch}:${v[0]}</div>
+            <div class="s geez">${hl(snip,needle)}</div>`;
+          el.onclick=()=>{ closeAll(); renderChapter(m.abbr,ch);
+            setTimeout(()=>{ const e=document.getElementById("v"+v[0]); if(e){e.scrollIntoView({block:"center"});} },120); };
+          res.appendChild(el);
+          if(hits>=400){ prog.textContent=t("firstHits"); return; }
+        }
+      }
+    }
+  }
+  prog.textContent = hits ? t("results", hits, q) : t("noResults", q);
+}
+function hl(text,needle){
+  const i=text.toLowerCase().indexOf(needle);
+  if(i<0) return esc(text);
+  return esc(text.slice(0,i))+"<mark>"+esc(text.slice(i,i+needle.length))+"</mark>"+esc(text.slice(i+needle.length));
+}
+const closeAll=()=>document.querySelectorAll(".overlay").forEach(o=>o.classList.remove("open"));
+
+/* manuscripts gallery */
+const FULL_MSS = [
+  {t:{en:"Four Gospels in Ge’ez & Amharic (Arba’atu Wangel)",de:"Vier Evangelien in Ge’ez & Amharisch (Arba’atu Wangel)",ro:"Cele patru Evanghelii în ge’ez și amharică (Arba’atu Wangel)"},
+   s:{en:"Haile Selassie I’s illuminated parchment manuscript, 1954 · 299 leaves · McGill University Library",de:"Illuminierte Pergamenthandschrift Haile Selassies I., 1954 · 299 Blätter · McGill University Library",ro:"Manuscris pe pergament iluminat al lui Haile Selassie I, 1954 · 299 file · McGill University Library"},
+   u:"https://archive.org/details/McGillLibrary-rbsc_arba-tu-wangel-MS-Ethiopian-3-item1-20001"},
+  {t:{en:"Book of Psalms in Ge’ez",de:"Psalmenbuch in Ge’ez",ro:"Cartea Psalmilor în ge’ez"},
+   s:{en:"c. 19th century parchment manuscript · 272 pages · Princeton Theological Seminary · public domain",de:"Pergamenthandschrift, ca. 19. Jh. · 272 Seiten · Princeton Theological Seminary · gemeinfrei",ro:"Manuscris pe pergament, cca sec. XIX · 272 pagini · Princeton Theological Seminary · domeniu public"},
+   u:"https://archive.org/details/ptsem_ethiopian_mss_1-1B"},
+  {t:{en:"New Testament, Ethiopic & Amharic (1874)",de:"Neues Testament, Äthiopisch & Amharisch (1874)",ro:"Noul Testament, etiopiană și amharică (1874)"},
+   s:{en:"Six-volume printed edition, Ge’ez with Amharic · Archive.org",de:"Gedruckte Ausgabe in sechs Bänden, Ge’ez mit Amharisch · Archive.org",ro:"Ediție tipărită în șase volume, ge’ez cu amharică · Archive.org"},
+   u:"https://archive.org/details/NewTestamentEthiopicAmharic1874Book1"},
+  {t:{en:"Abba Garima Gospels (c. 6th c.) — full digitization",de:"Abba-Garima-Evangelien (ca. 6. Jh.) — vollständige Digitalisierung",ro:"Evangheliile Abba Garima (cca sec. VI) — digitalizare completă"},
+   s:{en:"HMML vHMML Reading Room · free account/login required",de:"HMML vHMML Reading Room · kostenloses Konto/Anmeldung erforderlich",ro:"HMML vHMML Reading Room · cont/autentificare gratuită necesară"},
+   u:"https://www.vhmml.org/readingRoom/view/132896"}
+];
+const pick = o => (o && (o[lang] || o.en)) || "";
+function wireManuscripts(){
+  const MAN = window.__EBMAN || [];
+  $("#msFull").innerHTML = FULL_MSS.map(m=>
+    `<a href="${m.u}" target="_blank" rel="noopener"><b>${esc(pick(m.t))}</b><span>${esc(pick(m.s))}</span></a>`).join("");
+  const grid = $("#msGrid"), filter = $("#msFilter");
+  const rank = m => m.title.toLowerCase().includes("garima") ? 0
+    : (m.collection||"").startsWith("mcgill") ? 1
+    : (m.collection||"").startsWith("ptsem") ? 2
+    : /gospel|bibl|matthew|mark|luke|john|apostle|christ/i.test(m.title) ? 3 : 4;
+  const all = MAN.slice().sort((a,b)=>rank(a)-rank(b)||a.title.localeCompare(b.title));
+  const cats = [
+    {k:"all", l:t("msAll")},
+    {k:"garima", l:t("msGarima")},
+    {k:"mcgill-geez-gospels", l:t("msMcGill")},
+    {k:"ptsem-geez-psalms", l:t("msPsalms")}
+  ];
+  filter.innerHTML = cats.map(c=>`<button data-k="${c.k}">${c.l}</button>`).join("");
+  let cur="all";
+  const render=()=>{
+    const items = all.filter(m=> cur==="all" ? true
+      : cur==="garima" ? m.title.toLowerCase().includes("garima")
+      : (m.collection||"")===cur);
+    grid.innerHTML = items.map((m,i)=>`
+      <div class="mcard" data-i="${i}">
+        <img loading="lazy" src="${m.local}" alt="${esc(m.title)}">
+        <div class="cap">${esc(m.title)}<span class="lic">${esc(m.license||"")}</span></div>
+      </div>`).join("");
+    grid._items = items;
+    [...filter.children].forEach(b=>b.classList.toggle("on", b.dataset.k===cur));
+  };
+  filter.addEventListener("click", e=>{ const b=e.target.closest("button"); if(!b) return; cur=b.dataset.k; render(); });
+  grid.addEventListener("click", e=>{
+    const c=e.target.closest(".mcard"); if(!c) return;
+    showImage(grid._items[+c.dataset.i]);
+  });
+  render();
+  $("#msBtn").onclick = ()=>$("#msOv").classList.add("open");
+  $("[data-close-img]").onclick = ()=>$("#imgOv").classList.remove("open");
+}
+function showImage(m){
+  $("#bigImg").src = m.local;
+  $("#bigImg").alt = m.title;
+  const credit = [m.artist, m.license].filter(Boolean).join(" · ");
+  $("#bigMeta").innerHTML = `<b>${esc(m.title)}</b><br>${esc(credit)}
+    ${m.page?` · <a href="${esc(m.page)}" target="_blank" rel="noopener">source</a>`:""}`;
+  $("#imgOv").classList.add("open");
+}
+
+function applyPrefs(){
+  document.documentElement.dataset.theme = prefs.dark?"dark":"light";
+  document.documentElement.style.setProperty("--geez", prefs.size+"rem");
+  $("#s-dark").checked=prefs.dark; $("#s-size").value=prefs.size;
+  const so=$("#s-orig"); if(so) so.checked=!!prefs.original;
+}
+function wire(){
+  $("#menuBtn").onclick=()=>document.body.classList.toggle("nav-open");
+  $("#setBtn").onclick=()=>$("#setOv").classList.add("open");
+  $("#searchBtn").onclick=()=>{ $("#srOv").classList.add("open"); $("#q").focus(); };
+  $("#s-dark").onchange=e=>{prefs.dark=e.target.checked; applyPrefs(); savePrefs();};
+  $("#s-size").oninput=e=>{prefs.size=+e.target.value; applyPrefs(); savePrefs();};
+  $("#s-orig") && ($("#s-orig").onchange=e=>{prefs.original=e.target.checked; savePrefs(); renderChapter(state.abbr, state.ch);});
+  document.querySelectorAll("[data-close]").forEach(b=>b.onclick=closeAll);
+  document.querySelectorAll(".overlay").forEach(o=>o.addEventListener("click",e=>{ if(e.target===o) closeAll(); }));
+  let d; $("#q").addEventListener("input",e=>{ clearTimeout(d); const v=e.target.value; d=setTimeout(()=>runSearch(v),250); });
+  window.addEventListener("hashchange",()=>{
+    const mm=location.hash.match(/^#\/([^/]+)\/(\d+)/);
+    if(mm && (mm[1]!==state.abbr || +mm[2]!==state.ch)) renderChapter(mm[1], +mm[2]);
+  });
+}
+function boot(){
+  if(!META.length){ $("#content").innerHTML = dataError(); return; }
+  lang = (I18N.UI[prefs.lang] ? prefs.lang : (navigator.language||"en").slice(0,2));
+  if(!I18N.UI[lang]) lang = "en";
+  applyPrefs(); buildLangSelects(); localizeStatic(); buildSidebar(); wire(); wireManuscripts();
+  const mm=location.hash.match(/^#\/([^/]+)\/(\d+)/);
+  const start = mm ? {abbr:mm[1], ch:+mm[2]} : (prefs.last || {abbr:"Gen", ch:1});
+  renderChapter(start.abbr, start.ch);
+}
+boot();
+</script>
+</body>
+</html>

@@ -1,0 +1,657 @@
+{
+  "version": 1,
+  "tradition": "Ethiopian Orthodox Tewahedo Church",
+  "total_books": 81,
+  "translation_policy": "Ethiopian Orthodox Tewahedo 81-book canon. Text layers: IAM Ge\u02bbez manuscript corpus with transliteration and word glosses only. Excluded: any English from post-Constantinian imperial Western church lines (KJV, WEB/WMB, Brenton Anglican LXX overlay, Vulgate descendants, council-shaped publishing). Books without IAM chapters are marked pending until Ge\u02bbez ingestion completes.",
+  "books": [
+    {
+      "n": 1,
+      "slug": "genesis",
+      "title": "Genesis",
+      "section": "Torah (Orit)",
+      "source": "iam",
+      "iam": "Gen"
+    },
+    {
+      "n": 2,
+      "slug": "exodus",
+      "title": "Exodus",
+      "section": "Torah (Orit)",
+      "source": "iam",
+      "iam": "Exod"
+    },
+    {
+      "n": 3,
+      "slug": "leviticus",
+      "title": "Leviticus",
+      "section": "Torah (Orit)",
+      "source": "iam",
+      "iam": "Lev"
+    },
+    {
+      "n": 4,
+      "slug": "numbers",
+      "title": "Numbers",
+      "section": "Torah (Orit)",
+      "source": "iam",
+      "iam": "Num"
+    },
+    {
+      "n": 5,
+      "slug": "deuteronomy",
+      "title": "Deuteronomy",
+      "section": "Torah (Orit)",
+      "source": "iam",
+      "iam": "Deut"
+    },
+    {
+      "n": 6,
+      "slug": "joshua",
+      "title": "Joshua",
+      "section": "Historical",
+      "source": "iam",
+      "iam": "Josh"
+    },
+    {
+      "n": 7,
+      "slug": "judges",
+      "title": "Judges",
+      "section": "Historical",
+      "source": "iam",
+      "iam": "Judg"
+    },
+    {
+      "n": 8,
+      "slug": "ruth",
+      "title": "Ruth",
+      "section": "Historical",
+      "source": "iam",
+      "iam": "Ruth"
+    },
+    {
+      "n": 9,
+      "slug": "1-samuel",
+      "title": "1 Samuel",
+      "section": "Historical",
+      "source": "iam",
+      "iam": "1Sam"
+    },
+    {
+      "n": 10,
+      "slug": "2-samuel",
+      "title": "2 Samuel",
+      "section": "Historical",
+      "source": "iam",
+      "iam": "2Sam"
+    },
+    {
+      "n": 11,
+      "slug": "kings-ethiopian",
+      "title": "Kings (Ethiopian)",
+      "section": "Historical",
+      "source": "iam",
+      "iam": "Kings"
+    },
+    {
+      "n": 12,
+      "slug": "1-chronicles",
+      "title": "1 Chronicles",
+      "section": "Historical",
+      "source": "iam",
+      "iam": "1Chr"
+    },
+    {
+      "n": 13,
+      "slug": "2-chronicles",
+      "title": "2 Chronicles",
+      "section": "Historical",
+      "source": "iam",
+      "iam": "2Chr"
+    },
+    {
+      "n": 14,
+      "slug": "ezra",
+      "title": "Ezra",
+      "section": "Historical",
+      "source": "iam",
+      "iam": "Ezra"
+    },
+    {
+      "n": 15,
+      "slug": "nehemiah",
+      "title": "Nehemiah",
+      "section": "Historical",
+      "source": "iam",
+      "iam": "Neh",
+      "note": "IAM from LIT1374Bookof ch.10\u201313 (Ethiopian Ezra-Nehemiah combined edition); renumbered Neh 1\u20134."
+    },
+    {
+      "n": 16,
+      "slug": "esther",
+      "title": "Esther",
+      "section": "Historical",
+      "source": "iam",
+      "iam": "Esth"
+    },
+    {
+      "n": 17,
+      "slug": "jubilees",
+      "title": "Jubilees",
+      "section": "Unique to Ethiopia",
+      "source": "iam",
+      "iam": "Jub"
+    },
+    {
+      "n": 18,
+      "slug": "1-enoch",
+      "title": "1 Enoch",
+      "section": "Unique to Ethiopia",
+      "source": "iam",
+      "iam": "1En"
+    },
+    {
+      "n": 19,
+      "slug": "job",
+      "title": "Job",
+      "section": "Wisdom",
+      "source": "iam",
+      "iam": "Job"
+    },
+    {
+      "n": 20,
+      "slug": "psalms",
+      "title": "Psalms",
+      "section": "Wisdom",
+      "source": "iam",
+      "iam": "Ps"
+    },
+    {
+      "n": 21,
+      "slug": "proverbs",
+      "title": "Proverbs",
+      "section": "Wisdom",
+      "source": "iam",
+      "iam": "Prov"
+    },
+    {
+      "n": 22,
+      "slug": "ecclesiastes",
+      "title": "Ecclesiastes",
+      "section": "Wisdom",
+      "source": "iam",
+      "iam": "Eccl"
+    },
+    {
+      "n": 23,
+      "slug": "song-of-songs",
+      "title": "Song of Songs",
+      "section": "Wisdom",
+      "source": "iam",
+      "iam": "Song"
+    },
+    {
+      "n": 24,
+      "slug": "isaiah",
+      "title": "Isaiah",
+      "section": "Prophets",
+      "source": "iam",
+      "iam": "Isa"
+    },
+    {
+      "n": 25,
+      "slug": "jeremiah",
+      "title": "Jeremiah",
+      "section": "Prophets",
+      "source": "iam",
+      "iam": "Jer"
+    },
+    {
+      "n": 26,
+      "slug": "lamentations",
+      "title": "Lamentations",
+      "section": "Prophets",
+      "source": "iam",
+      "iam": "Lam"
+    },
+    {
+      "n": 27,
+      "slug": "ezekiel",
+      "title": "Ezekiel",
+      "section": "Prophets",
+      "source": "iam",
+      "iam": "Ezek"
+    },
+    {
+      "n": 28,
+      "slug": "daniel",
+      "title": "Daniel",
+      "section": "Prophets",
+      "source": "iam",
+      "iam": "Dan"
+    },
+    {
+      "n": 29,
+      "slug": "hosea",
+      "title": "Hosea",
+      "section": "Prophets",
+      "source": "iam",
+      "iam": "Hos"
+    },
+    {
+      "n": 30,
+      "slug": "joel",
+      "title": "Joel",
+      "section": "Prophets",
+      "source": "iam",
+      "iam": "Joel"
+    },
+    {
+      "n": 31,
+      "slug": "amos",
+      "title": "Amos",
+      "section": "Prophets",
+      "source": "iam",
+      "iam": "Amos"
+    },
+    {
+      "n": 32,
+      "slug": "obadiah",
+      "title": "Obadiah",
+      "section": "Prophets",
+      "source": "iam",
+      "iam": "Obad"
+    },
+    {
+      "n": 33,
+      "slug": "jonah",
+      "title": "Jonah",
+      "section": "Prophets",
+      "source": "iam",
+      "iam": "Jonah"
+    },
+    {
+      "n": 34,
+      "slug": "micah",
+      "title": "Micah",
+      "section": "Prophets",
+      "source": "iam",
+      "iam": "Mic"
+    },
+    {
+      "n": 35,
+      "slug": "nahum",
+      "title": "Nahum",
+      "section": "Prophets",
+      "source": "iam",
+      "iam": "Nah"
+    },
+    {
+      "n": 36,
+      "slug": "habakkuk",
+      "title": "Habakkuk",
+      "section": "Prophets",
+      "source": "iam",
+      "iam": "Hab"
+    },
+    {
+      "n": 37,
+      "slug": "zephaniah",
+      "title": "Zephaniah",
+      "section": "Prophets",
+      "source": "iam",
+      "iam": "Zeph"
+    },
+    {
+      "n": 38,
+      "slug": "haggai",
+      "title": "Haggai",
+      "section": "Prophets",
+      "source": "iam",
+      "iam": "Hag"
+    },
+    {
+      "n": 39,
+      "slug": "zechariah",
+      "title": "Zechariah",
+      "section": "Prophets",
+      "source": "iam",
+      "iam": "Zech"
+    },
+    {
+      "n": 40,
+      "slug": "malachi",
+      "title": "Malachi",
+      "section": "Prophets",
+      "source": "iam",
+      "iam": "Mal"
+    },
+    {
+      "n": 41,
+      "slug": "tobit",
+      "title": "Tobit",
+      "section": "Deuterocanonical",
+      "source": "iam",
+      "iam": "Tob"
+    },
+    {
+      "n": 42,
+      "slug": "judith",
+      "title": "Judith",
+      "section": "Deuterocanonical",
+      "source": "iam",
+      "iam": "Jdt"
+    },
+    {
+      "n": 43,
+      "slug": "sirach",
+      "title": "Sirach (Ecclesiasticus)",
+      "section": "Deuterocanonical",
+      "source": "iam",
+      "iam": "Sir"
+    },
+    {
+      "n": 44,
+      "slug": "wisdom-of-solomon",
+      "title": "Wisdom of Solomon",
+      "section": "Deuterocanonical",
+      "source": "iam",
+      "iam": "Wis"
+    },
+    {
+      "n": 45,
+      "slug": "1-meqabyan",
+      "title": "1 Meqabyan",
+      "section": "Unique to Ethiopia",
+      "source": "iam",
+      "iam": "1Meq"
+    },
+    {
+      "n": 46,
+      "slug": "2-meqabyan",
+      "title": "2 Meqabyan",
+      "section": "Unique to Ethiopia",
+      "source": "iam",
+      "iam": "2Meq"
+    },
+    {
+      "n": 47,
+      "slug": "3-meqabyan",
+      "title": "3 Meqabyan",
+      "section": "Unique to Ethiopia",
+      "source": "iam",
+      "iam": "3Meq"
+    },
+    {
+      "n": 48,
+      "slug": "4-baruch",
+      "title": "4 Baruch",
+      "section": "Unique to Ethiopia",
+      "source": "iam",
+      "iam": "4Bar"
+    },
+    {
+      "n": 49,
+      "slug": "kebra-nagast",
+      "title": "Kebra Nagast",
+      "section": "Unique to Ethiopia",
+      "source": "iam",
+      "iam": "KN"
+    },
+    {
+      "n": 50,
+      "slug": "lefafa-sedq",
+      "title": "Lefafa Sedq",
+      "section": "Unique to Ethiopia",
+      "source": "iam",
+      "iam": "Lef"
+    },
+    {
+      "n": 51,
+      "slug": "revelation",
+      "title": "Revelation",
+      "section": "New Testament",
+      "source": "iam",
+      "iam": "Rev"
+    },
+    {
+      "n": 52,
+      "slug": "testament-of-our-lord",
+      "title": "Testament of Our Lord",
+      "section": "Unique to Ethiopia",
+      "source": "iam",
+      "iam": "TestLd"
+    },
+    {
+      "n": 53,
+      "slug": "jude",
+      "title": "Jude",
+      "section": "New Testament",
+      "source": "iam",
+      "iam": "Jude"
+    },
+    {
+      "n": 54,
+      "slug": "sinodos",
+      "title": "Sinodos",
+      "section": "Unique to Ethiopia",
+      "source": "iam",
+      "iam": "Sinod"
+    },
+    {
+      "n": 55,
+      "slug": "apocalypse-of-ezra",
+      "title": "Apocalypse of Ezra",
+      "section": "Unique to Ethiopia",
+      "source": "iam",
+      "iam": "ApEz"
+    },
+    {
+      "n": 56,
+      "slug": "matthew",
+      "title": "Matthew",
+      "section": "New Testament",
+      "source": "iam",
+      "iam": "Matt"
+    },
+    {
+      "n": 57,
+      "slug": "mark",
+      "title": "Mark",
+      "section": "New Testament",
+      "source": "iam",
+      "iam": "Mark"
+    },
+    {
+      "n": 58,
+      "slug": "luke",
+      "title": "Luke",
+      "section": "New Testament",
+      "source": "iam",
+      "iam": "Luke"
+    },
+    {
+      "n": 59,
+      "slug": "john",
+      "title": "John",
+      "section": "New Testament",
+      "source": "iam",
+      "iam": "John"
+    },
+    {
+      "n": 60,
+      "slug": "acts",
+      "title": "Acts",
+      "section": "New Testament",
+      "source": "iam",
+      "iam": "Acts"
+    },
+    {
+      "n": 61,
+      "slug": "romans",
+      "title": "Romans",
+      "section": "New Testament",
+      "source": "iam",
+      "iam": "Rom"
+    },
+    {
+      "n": 62,
+      "slug": "1-corinthians",
+      "title": "1 Corinthians",
+      "section": "New Testament",
+      "source": "iam",
+      "iam": "1Cor"
+    },
+    {
+      "n": 63,
+      "slug": "2-corinthians",
+      "title": "2 Corinthians",
+      "section": "New Testament",
+      "source": "iam",
+      "iam": "2Cor"
+    },
+    {
+      "n": 64,
+      "slug": "galatians",
+      "title": "Galatians",
+      "section": "New Testament",
+      "source": "iam",
+      "iam": "Gal"
+    },
+    {
+      "n": 65,
+      "slug": "ephesians",
+      "title": "Ephesians",
+      "section": "New Testament",
+      "source": "iam",
+      "iam": "Eph"
+    },
+    {
+      "n": 66,
+      "slug": "philippians",
+      "title": "Philippians",
+      "section": "New Testament",
+      "source": "iam",
+      "iam": "Phil"
+    },
+    {
+      "n": 67,
+      "slug": "colossians",
+      "title": "Colossians",
+      "section": "New Testament",
+      "source": "iam",
+      "iam": "Col"
+    },
+    {
+      "n": 68,
+      "slug": "1-thessalonians",
+      "title": "1 Thessalonians",
+      "section": "New Testament",
+      "source": "iam",
+      "iam": "1Thess"
+    },
+    {
+      "n": 69,
+      "slug": "2-thessalonians",
+      "title": "2 Thessalonians",
+      "section": "New Testament",
+      "source": "iam",
+      "iam": "2Thess"
+    },
+    {
+      "n": 70,
+      "slug": "1-timothy",
+      "title": "1 Timothy",
+      "section": "New Testament",
+      "source": "iam",
+      "iam": "1Tim"
+    },
+    {
+      "n": 71,
+      "slug": "2-timothy",
+      "title": "2 Timothy",
+      "section": "New Testament",
+      "source": "iam",
+      "iam": "2Tim"
+    },
+    {
+      "n": 72,
+      "slug": "titus",
+      "title": "Titus",
+      "section": "New Testament",
+      "source": "iam",
+      "iam": "Tit"
+    },
+    {
+      "n": 73,
+      "slug": "philemon",
+      "title": "Philemon",
+      "section": "New Testament",
+      "source": "iam",
+      "iam": "Phlm"
+    },
+    {
+      "n": 74,
+      "slug": "hebrews",
+      "title": "Hebrews",
+      "section": "New Testament",
+      "source": "iam",
+      "iam": "Heb"
+    },
+    {
+      "n": 75,
+      "slug": "james",
+      "title": "James",
+      "section": "New Testament",
+      "source": "iam",
+      "iam": "Jas"
+    },
+    {
+      "n": 76,
+      "slug": "1-peter",
+      "title": "1 Peter",
+      "section": "New Testament",
+      "source": "iam",
+      "iam": "1Pet"
+    },
+    {
+      "n": 77,
+      "slug": "2-peter",
+      "title": "2 Peter",
+      "section": "New Testament",
+      "source": "iam",
+      "iam": "2Pet"
+    },
+    {
+      "n": 78,
+      "slug": "1-john",
+      "title": "1 John",
+      "section": "New Testament",
+      "source": "iam",
+      "iam": "1John"
+    },
+    {
+      "n": 79,
+      "slug": "2-john",
+      "title": "2 John",
+      "section": "New Testament",
+      "source": "iam",
+      "iam": "2John"
+    },
+    {
+      "n": 80,
+      "slug": "3-john",
+      "title": "3 John",
+      "section": "New Testament",
+      "source": "iam",
+      "iam": "3John"
+    },
+    {
+      "n": 81,
+      "slug": "1-clement",
+      "title": "1 Clement",
+      "section": "New Testament (Ethiopian)",
+      "source": "iam",
+      "iam": "Clem"
+    }
+  ]
+}

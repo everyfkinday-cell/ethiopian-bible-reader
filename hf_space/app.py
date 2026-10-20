@@ -1,0 +1,168 @@
+#!/usr/bin/env python3
+"""Unified server for the Ethiopian Bible reader on Hugging Face Spaces.
+
+Serves:
+  /                 -> the reader (static files from ./public)
+  /piper/voices     -> JSON list of Romanian neural voices
+  /piper/tts?voice=NAME&text=...  -> audio/wav
+
+Port: 7860 (Hugging Face Spaces default, overridable via $PORT)
+"""
+import os
+import sys
+import io
+import json
+import wave
+import warnings
+import urllib.parse
+import posixpath
+from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
+
+warnings.filterwarnings("ignore")
+
+HERE = os.path.dirname(os.path.abspath(__file__))
+PUBLIC_DIR = os.path.join(HERE, "public")
+VOICE_DIR = os.path.join(HERE, "tts_voices")
+
+VOICES = {
+    "mihai":  ("mihai.onnx",  "Mihai", "M"),
+    "lili":   ("lili.onnx",   "Lili",  "F"),
+    "sanda":  ("sanda.onnx",  "Sanda", "F"),
+}
+
+_PIPER = {"voice": None, "name": None}
+_cache = {}
+
+
+def get_voice(name):
+    if name in _cache:
+        return _cache[name]
+    if name not in VOICES:
+        return None
+    from piper import PiperVoice
+    from piper.config import SynthesisConfig  # noqa
+    path = os.path.join(VOICE_DIR, VOICES[name][0])
+    v = PiperVoice.load(path)
+    _cache[name] = v
+    return v
+
+
+def synth_wav(voice, text, length_scale=1.0):
+    from piper.config import SynthesisConfig
+    cfg = SynthesisConfig(length_scale=length_scale)
+    buf = io.BytesIO()
+    with wave.open(buf, "wb") as wf:
+        wf.setnchannels(1)
+        wf.setsampwidth(2)
+        wf.setframerate(voice.config.sample_rate)
+        for chunk in voice.synthesize(text, syn_config=cfg):
+            wf.writeframes(chunk.audio_int16_bytes)
+    return buf.getvalue()
+
+
+MIME = {
+    ".html": "text/html; charset=utf-8", ".js": "application/javascript; charset=utf-8",
+    ".css": "text/css; charset=utf-8", ".json": "application/json; charset=utf-8",
+    ".png": "image/png", ".jpg": "image/jpeg", ".jpeg": "image/jpeg",
+    ".gif": "image/gif", ".svg": "image/svg+xml", ".ico": "image/x-icon",
+    ".webp": "image/webp", ".txt": "text/plain; charset=utf-8",
+}
+
+
+class Handler(BaseHTTPRequestHandler):
+    def _cors(self):
+        self.send_header("Access-Control-Allow-Origin", "*")
+        self.send_header("Access-Control-Allow-Methods", "GET, OPTIONS")
+        self.send_header("Access-Control-Allow-Headers", "*")
+
+    def do_OPTIONS(self):
+        self.send_response(204)
+        self._cors()
+        self.end_headers()
+
+    def _serve_file(self, path):
+        if not os.path.isfile(path):
+            self.send_error(404, "not found")
+            return
+        ext = os.path.splitext(path)[1].lower()
+        ctype = MIME.get(ext, "application/octet-stream")
+        try:
+            with open(path, "rb") as f:
+                body = f.read()
+        except OSError:
+            self.send_error(500, "read error")
+            return
+        self.send_response(200)
+        self._cors()
+        self.send_header("Content-Type", ctype)
+        self.send_header("Content-Length", str(len(body)))
+        self.send_header("Cache-Control", "public, max-age=3600")
+        self.end_headers()
+        self.wfile.write(body)
+
+    def do_GET(self):
+        u = urllib.parse.urlparse(self.path)
+        qs = urllib.parse.parse_qs(u.query)
+        path = urllib.parse.unquote(u.path)
+
+        if path == "/piper/voices":
+            data = [{"id": k, "label": v[1], "gender": v[2], "lang": "ro-RO"}
+                    for k, v in VOICES.items()]
+            body = json.dumps(data).encode("utf-8")
+            self.send_response(200)
+            self._cors()
+            self.send_header("Content-Type", "application/json; charset=utf-8")
+            self.send_header("Content-Length", str(len(body)))
+            self.end_headers()
+            self.wfile.write(body)
+            return
+
+        if path == "/piper/tts":
+            name = (qs.get("voice", ["mihai"])[0] or "mihai").strip()
+            text = (qs.get("text", [""])[0] or "").strip()
+            try:
+                length_scale = float(qs.get("length_scale", ["1.0"])[0])
+            except ValueError:
+                length_scale = 1.0
+            if not text:
+                self.send_error(400, "empty text")
+                return
+            v = get_voice(name)
+            if v is None:
+                self.send_error(404, "unknown voice: " + name)
+                return
+            try:
+                wav = synth_wav(v, text[:4000], length_scale)
+            except Exception as e:
+                self.send_error(500, "synth error: " + str(e))
+                return
+            self.send_response(200)
+            self._cors()
+            self.send_header("Content-Type", "audio/wav")
+            self.send_header("Content-Length", str(len(wav)))
+            self.send_header("Cache-Control", "no-store")
+            self.end_headers()
+            self.wfile.write(wav)
+            return
+
+        # static files
+        if path == "/" or path == "":
+            path = "/index.html"
+        safe = posixpath.normpath(path).lstrip("/")
+        if safe.startswith(".."):
+            self.send_error(403, "forbidden")
+            return
+        full = os.path.join(PUBLIC_DIR, safe)
+        if os.path.isdir(full):
+            full = os.path.join(full, "index.html")
+        self._serve_file(full)
+
+    def log_message(self, *a):
+        pass
+
+
+if __name__ == "__main__":
+    port = int(os.environ.get("PORT", "7860"))
+    srv = ThreadingHTTPServer(("0.0.0.0", port), Handler)
+    print("serving on 0.0.0.0:%d" % port, flush=True)
+    srv.serve_forever()
