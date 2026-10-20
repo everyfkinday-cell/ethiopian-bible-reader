@@ -199,7 +199,6 @@
       <small id="crumb"></small>
     </div>
     <button class="ibtn" id="msBtn" data-i18n="manuscripts">📜 Manuscripts</button>
-    <button class="ibtn" id="searchBtn" data-i18n="search">🔎 Search</button>
     <select class="ibtn langsel" id="langSel" title="Language"></select>
     <button class="ibtn" id="setBtn">⚙</button>
   </header>
@@ -954,7 +953,6 @@ function applyPrefs(){
 function wire(){
   $("#menuBtn").onclick=()=>document.body.classList.toggle("nav-open");
   $("#setBtn").onclick=()=>$("#setOv").classList.add("open");
-  $("#searchBtn").onclick=()=>{ $("#srOv").classList.add("open"); $("#q").focus(); };
   $("#s-dark").onchange=e=>{prefs.dark=e.target.checked; applyPrefs(); savePrefs();};
   $("#s-size").oninput=e=>{prefs.size=+e.target.value; applyPrefs(); savePrefs();};
   $("#s-orig") && ($("#s-orig").onchange=e=>{prefs.original=e.target.checked; savePrefs(); renderChapter(state.abbr, state.ch);});
