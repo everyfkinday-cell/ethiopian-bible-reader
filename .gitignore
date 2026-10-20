@@ -3,7 +3,7 @@
 reader/.logs/
 reader/.public_link.txt
 *.wav
-**/tts_voices/liana.onnx
+**/tts_voices/sanda.onnx
 **/tts_voices/raluca.onnx
 **/tts_voices/lili-high.onnx
 **/tts_voices/sanda-high.onnx
