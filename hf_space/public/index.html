@@ -563,7 +563,7 @@ async function renderChapter(abbr, ch){
         <div class="panehead">
           <span class="pmeta">${tchap[1].length} ${t("verses")} · ${t("transChapterOf")} ${ch}/${transChCount}</span>
         </div>
-        <div class="chead">${t("verseWord")} ${ch}</div>
+        <div class="chead" id="vhead">${t("verseWord")} 1</div>
         <div class="vnav">${vChips}</div>
         <div>${tvHtml}</div>
       </section>`;
@@ -725,6 +725,7 @@ function setStatus(txt){ const s=$("#a-status"); if(s) s.textContent = txt||""; 
 function clearHighlight(){ document.querySelectorAll(".v.speaking").forEach(e=>e.classList.remove("speaking")); }
 function syncVnav(n){
   document.querySelectorAll(".vnav .vnum").forEach(b=>b.classList.toggle("cur", +b.dataset.vchip===n));
+  const vh=document.getElementById("vhead"); if(vh) vh.textContent = t("verseWord")+" "+n;
 }
 function highlight(n){
   clearHighlight();
