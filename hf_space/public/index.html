@@ -321,6 +321,7 @@ const PIPER_URL = (()=>{
 let PIPER_VOICES = [];         /* [{id,label,gender,lang}] */
 let piperReady = false;
 const piperAudio = (typeof Audio!=="undefined") ? new Audio() : null;
+let piperGen = 0;                         /* generation token: invalidates stale Piper callbacks */
 let piperSrvOK = false;
 function fetchPiperVoices(){
   if(typeof fetch!=="function") return;
@@ -782,15 +783,24 @@ function speakIndex(i){
 }
 function speakPiper(n, text, i){
   if(!piperAudio) return;
+  const gen = ++piperGen;                 /* invalidate stale callbacks of previous verse */
   const ls = (1/audio.rate).toFixed(2);
   const url = PIPER_URL+"/piper/tts?voice="+encodeURIComponent(audio.piperVoice)+
               "&length_scale="+ls+"&text="+encodeURIComponent(text);
-  piperAudio.onended = ()=>{ if(audio.playing) speakIndex(i+1); };
-  piperAudio.onerror = ()=>{ if(audio.playing) speakIndex(i+1); };
+  piperAudio.onended = ()=>{ if(gen===piperGen && audio.playing) speakIndex(i+1); };
+  /* On a real network/decoder error, STOP instead of skipping ahead (was racing through verses). */
+  piperAudio.onerror = ()=>{ if(gen!==piperGen) return;
+    if(audio.playing){ audio.playing=false; updatePlayBtn(); setStatus(t("audioPiperFail")); } };
   try{ piperAudio.volume = audio.volume; }catch(e){}
   piperAudio.src = url;
   const p = piperAudio.play();
-  if(p && p.catch) p.catch(()=>{ setStatus(t("audioPiperFail")); });
+  if(p && p.catch) p.catch(err=>{
+    if(gen!==piperGen) return;
+    /* AbortError happens on rapid pause/stop - ignore those. */
+    if(err && err.name==="AbortError") return;
+    if(audio.playing){ audio.playing=false; updatePlayBtn(); }
+    setStatus(t("audioPiperFail"));
+  });
 }
 function startSpeech(){
   if(audio.piperVoice){
@@ -807,6 +817,7 @@ function startSpeech(){
 }
 function pauseSpeech(){
   audio.playing = false;
+  piperGen++;                              /* cancel any pending Piper callback */
   if(audio.piperVoice){ if(piperAudio) piperAudio.pause(); }
   else if(speechOK){ window.speechSynthesis.cancel(); }
   updatePlayBtn();
@@ -814,6 +825,7 @@ function pauseSpeech(){
 }
 function hardStop(){
   audio.playing = false;
+  piperGen++;                              /* cancel any pending Piper callback */
   if(piperAudio){ try{ piperAudio.pause(); }catch(e){} piperAudio.removeAttribute("src"); piperAudio.load(); }
   if(speechOK){ window.speechSynthesis.cancel(); }
   clearHighlight();
