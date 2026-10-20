@@ -248,6 +248,7 @@ const $ = s => document.querySelector(s);
 const META = window.__EBM || [];
 const loaded = {};
 const state = { abbr:null, ch:null };
+let renderGen = 0;
 const LS = "eotc.geez.v1";
 const prefs = Object.assign({ dark:false, size:1.7, last:null, lang:"en", original:false },
   JSON.parse(localStorage.getItem(LS) || "{}"));
@@ -515,9 +516,11 @@ function translationLinks(abbr, ch){
 /* render */
 async function renderChapter(abbr, ch){
   const m = metaOf(abbr); if(!m) return;
+  const gen = ++renderGen;
   let book;
   try { book = await ensureBook(abbr); }
-  catch(e){ $("#content").innerHTML = dataError(); return; }
+  catch(e){ if(gen===renderGen) $("#content").innerHTML = dataError(); return; }
+  if(gen!==renderGen) return;
   if(!book.length){ $("#content").innerHTML = dataError(); return; }
   if(!ch || !book.some(c=>c[0]===ch)) ch = book[0][0];
   state.abbr=abbr; state.ch=ch; prefs.last={abbr,ch}; savePrefs();
@@ -525,6 +528,7 @@ async function renderChapter(abbr, ch){
   /* translation is rendered as its own independent unit (its own chapter + numbering) */
   let trans = null, transMissing = false;
   trans = await ensureTrans(lang, abbr);
+  if(gen!==renderGen) return;
   transMissing = !trans;
   const tchap = trans ? (trans.find(c=>c[0]===ch) || null) : null;
 
@@ -650,11 +654,12 @@ async function renderChapter(abbr, ch){
   /* wire audio player */
   if(trans && tchap && (speechOK || piperSrvOK)){
     const prevVerse = audio.verses[audio.idx] ? audio.verses[audio.idx][0] : null;
+    const sameChapter = (audio.abbr===abbr && audio.ch===ch);
     audio.verses = tchap[1].map(v=>[v[0], v[1]]);
     audio.abbr = abbr; audio.ch = ch;
     /* a new chapter always starts the player at verse 1; only an in-chapter
        re-render keeps the previously selected verse */
-    if(!chapterChanged && prevVerse!=null){
+    if(sameChapter && prevVerse!=null){
       const j = audio.verses.findIndex(x=>x[0]===prevVerse);
       audio.idx = j>=0 ? j : 0;
     } else {
