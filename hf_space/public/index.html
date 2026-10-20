@@ -437,6 +437,17 @@ if(speechOK){
   window.speechSynthesis.onvoiceschanged = loadVoices;
 }
 fetchPiperVoices();
+/* Keep-alive: while any visitor has the page open, the host stays awake (free tier friendly). */
+function keepAlive(){
+  const ping = ()=>{
+    if(document.hidden) return;
+    try{ fetch(PIPER_URL+"/piper/health", {method:"GET", cache:"no-store"}).catch(()=>{}); }catch(e){}
+  };
+  ping();
+  setInterval(ping, 4*60*1000);   /* every 4 min -> under the 15 min idle sleep */
+  document.addEventListener("visibilitychange", ()=>{ if(!document.hidden) ping(); });
+}
+keepAlive();
 function localizeStatic(){
   document.documentElement.lang = lang;
   document.title = t("title");
