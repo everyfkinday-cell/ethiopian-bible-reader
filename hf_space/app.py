@@ -46,7 +46,10 @@ PUBLIC_DIR = os.path.join(HERE, "public")
 VOICE_DIR = os.path.join(HERE, "tts_voices")
 
 VOICES = {
-    "liana":  ("liana.onnx", "Liana", "F"),
+    # id: (file, label, gender, lang, speaker_id)
+    "liana":    ("liana.onnx",    "Liana",    "F", "ro-RO", None),
+    "anke":     ("mls.onnx",      "Anke",     "F", "de-DE", 12),
+    "thorsten": ("thorsten.onnx", "Thorsten", "M", "de-DE", None),
 }
 
 _PIPER = {"name": None, "voice": None}
@@ -75,9 +78,9 @@ def get_voice(name):
     return v
 
 
-def synth_wav(voice, text, length_scale=1.0):
+def synth_wav(voice, text, length_scale=1.0, speaker_id=None):
     from piper.config import SynthesisConfig
-    cfg = SynthesisConfig(length_scale=length_scale)
+    cfg = SynthesisConfig(length_scale=length_scale, speaker_id=speaker_id)
     buf = io.BytesIO()
     with wave.open(buf, "wb") as wf:
         wf.setnchannels(1)
@@ -143,7 +146,7 @@ class Handler(BaseHTTPRequestHandler):
         path = urllib.parse.unquote(u.path)
 
         if path == "/piper/voices":
-            data = [{"id": k, "label": v[1], "gender": v[2], "lang": "ro-RO"}
+            data = [{"id": k, "label": v[1], "gender": v[2], "lang": v[3]}
                     for k, v in VOICES.items()]
             body = json.dumps(data).encode("utf-8")
             self.send_response(200)
@@ -175,9 +178,19 @@ class Handler(BaseHTTPRequestHandler):
             if v is None:
                 self._json(404, {"error": "unknown voice: " + name})
                 return
+            speaker_id = VOICES[name][4]
+            try:
+                sp = qs.get("speaker", [None])[0]
+                if sp is not None and sp != "":
+                    speaker_id = int(sp)
+            except Exception:
+                pass
+            if speaker_id is not None and getattr(v.config, "num_speakers", 1) <= speaker_id:
+                speaker_id = VOICES[name][4]
             try:
                 with _SYNTH_LOCK:
-                    wav = synth_wav(v, text[:4000], length_scale)
+                    wav = synth_wav(v, text[:4000], length_scale, speaker_id)
+                print("[tts] voice=%s speaker=%s bytes=%d" % (name, speaker_id, len(wav)), flush=True)
             except Exception as e:
                 import traceback
                 self._json(500, {"error": "synth failed: " + str(e),

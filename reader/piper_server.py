@@ -25,9 +25,11 @@ from piper.config import SynthesisConfig
 HERE = os.path.dirname(os.path.abspath(__file__))
 VOICE_DIR = os.path.join(HERE, "tts_voices")
 
-# voice name -> (file, label, gender)
+# voice name -> (file, label, gender, lang, speaker_id)
 VOICES = {
-    "liana": ("liana.onnx", "Liana", "F"),
+    "liana":    ("liana.onnx",    "Liana",    "F", "ro-RO", None),
+    "anke":     ("mls.onnx",      "Anke",     "F", "de-DE", 12),
+    "thorsten": ("thorsten.onnx", "Thorsten", "M", "de-DE", None),
 }
 
 _PIPER = {"name": None, "voice": None}
@@ -54,8 +56,8 @@ def get_voice(name):
     return v
 
 
-def synth_wav(voice, text, length_scale=1.0):
-    cfg = SynthesisConfig(length_scale=length_scale)
+def synth_wav(voice, text, length_scale=1.0, speaker_id=None):
+    cfg = SynthesisConfig(length_scale=length_scale, speaker_id=speaker_id)
     buf = io.BytesIO()
     with wave.open(buf, "wb") as wf:
         wf.setnchannels(1)
@@ -82,7 +84,7 @@ class Handler(BaseHTTPRequestHandler):
         qs = urllib.parse.parse_qs(u.query)
 
         if u.path == "/piper/voices":
-            data = [{"id": k, "label": v[1], "gender": v[2], "lang": "ro-RO"}
+            data = [{"id": k, "label": v[1], "gender": v[2], "lang": v[3]}
                     for k, v in VOICES.items()]
             body = json.dumps(data).encode("utf-8")
             self.send_response(200)
@@ -104,13 +106,23 @@ class Handler(BaseHTTPRequestHandler):
                 self.send_error(400, "empty text")
                 return
             text = text[:4000]
+            speaker_id = VOICES.get(name, (None, None, None, None, None))[4]
+            try:
+                sp = qs.get("speaker", [None])[0]
+                if sp not in (None, ""):
+                    speaker_id = int(sp)
+            except Exception:
+                pass
             with _SYNTH_LOCK:
                 v = get_voice(name)
                 if v is None:
                     self.send_error(404, "unknown voice: " + name)
                     return
+                if speaker_id is not None and getattr(v.config, "num_speakers", 1) <= speaker_id:
+                    speaker_id = VOICES[name][4]
                 try:
-                    wav = synth_wav(v, text, length_scale)
+                    wav = synth_wav(v, text, length_scale, speaker_id)
+                    print("[tts] voice=%s speaker=%s bytes=%d text=%r" % (name, speaker_id, len(wav), text[:40]), flush=True)
                 except Exception as e:
                     self.send_error(500, "synth error: " + str(e))
                     return
