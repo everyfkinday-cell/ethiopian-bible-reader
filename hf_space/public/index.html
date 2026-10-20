@@ -88,6 +88,8 @@
   .vnum:hover{border-color:var(--accent);color:var(--fg)}
   .vnum.cur{background:var(--accent);color:#fff;border-color:var(--accent)}
   .chapnav.canon{margin:14px 0 4px}
+  .trlabel{font-size:.85rem;font-weight:600;color:var(--accent);margin:14px 0 4px;text-transform:uppercase;letter-spacing:.03em}
+  .canonchead{font-family:'Noto Serif Ethiopic',serif;font-size:1.15rem;font-weight:700;margin:18px 0 2px}
   .pager{display:flex;justify-content:space-between;gap:10px;margin-top:32px}
   .empty{color:var(--muted);padding:40px 0;text-align:center}
   .transl{margin:10px 0 2px;font-size:.78rem;color:var(--muted)}
@@ -562,7 +564,7 @@ async function renderChapter(abbr, ch){
           <span class="badge">${t("translationLabel")}</span>
           <span class="pmeta">${tchap[1].length} ${t("verses")} · ${t("transChapterOf")} ${ch}/${transChCount}</span>
         </div>
-        <div class="chead">${t("chapterWord")} ${ch}</div>
+        <div class="chead">${t("verseWord")} ${ch}</div>
         <div class="vnav">${vChips}</div>
         <div>${tvHtml}</div>
       </section>`;
@@ -621,7 +623,9 @@ async function renderChapter(abbr, ch){
       <h1>${esc(bookName(m))}</h1>
       <div class="sub">${esc(sectionName(m.section))} · ${t("book")} ${m.canon} ${t("of81")} · ${t("chapter")} ${ch}/${m.chapters}</div>
     </div>
+    ${trans && tchap ? `<div class="trlabel">${t("translationLabel")}</div>` : ""}
     ${audioBar}
+    <div class="chead canonchead">${t("chapterWord")} ${ch}</div>
     <div class="chapnav canon">${chips}</div>
     <div class="transl">${t("readIn")} ${translationLinks(m.abbr, ch)}</div>
     ${notice}
