@@ -200,7 +200,7 @@
     </div>
     <button class="ibtn" id="msBtn" data-i18n="manuscripts">📜 Manuscripts</button>
     <select class="ibtn langsel" id="langSel" title="Language"></select>
-    <button class="ibtn" id="setBtn">⚙</button>
+    <button class="ibtn" id="themeBtn" title="Dark / Light">🌙</button>
   </header>
 
   <aside id="sidebar">
@@ -944,15 +944,23 @@ function showImage(m){
   $("#imgOv").classList.add("open");
 }
 
+function updateThemeBtn(){
+  const tb=$("#themeBtn"); if(!tb) return;
+  tb.textContent = prefs.dark ? "\u2600\uFE0F" : "\uD83C\uDF19";
+  tb.title = prefs.dark ? t("lightTheme") : t("dark");
+}
 function applyPrefs(){
   document.documentElement.dataset.theme = prefs.dark?"dark":"light";
   document.documentElement.style.setProperty("--geez", prefs.size+"rem");
-  $("#s-dark").checked=prefs.dark; $("#s-size").value=prefs.size;
+  const sd=$("#s-dark"); if(sd) sd.checked=prefs.dark;
+  const ss=$("#s-size"); if(ss) ss.value=prefs.size;
   const so=$("#s-orig"); if(so) so.checked=!!prefs.original;
+  updateThemeBtn();
 }
 function wire(){
   $("#menuBtn").onclick=()=>document.body.classList.toggle("nav-open");
-  $("#setBtn").onclick=()=>$("#setOv").classList.add("open");
+  const tb=$("#themeBtn");
+  tb && (tb.onclick=()=>{ prefs.dark=!prefs.dark; applyPrefs(); savePrefs(); });
   $("#s-dark").onchange=e=>{prefs.dark=e.target.checked; applyPrefs(); savePrefs();};
   $("#s-size").oninput=e=>{prefs.size=+e.target.value; applyPrefs(); savePrefs();};
   $("#s-orig") && ($("#s-orig").onchange=e=>{prefs.original=e.target.checked; savePrefs(); renderChapter(state.abbr, state.ch);});
