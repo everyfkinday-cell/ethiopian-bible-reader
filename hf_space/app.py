@@ -46,6 +46,7 @@ PUBLIC_DIR = os.path.join(HERE, "public")
 VOICE_DIR = os.path.join(HERE, "tts_voices")
 
 VOICES = {
+    "liana":  ("liana.onnx", "Liana", "F"),
     "sanda":  ("sanda.onnx", "Sanda", "F"),
 }
 

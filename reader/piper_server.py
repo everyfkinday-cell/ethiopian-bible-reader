@@ -27,6 +27,7 @@ VOICE_DIR = os.path.join(HERE, "tts_voices")
 
 # voice name -> (file, label, gender)
 VOICES = {
+    "liana": ("liana.onnx", "Liana", "F"),
     "sanda": ("sanda.onnx", "Sanda", "F"),
 }
 
