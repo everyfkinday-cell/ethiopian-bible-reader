@@ -8,3 +8,6 @@ reader/.public_link.txt
 **/tts_voices/lili-high.onnx
 **/tts_voices/sanda-high.onnx
 **/tts_voices/*-high.onnx
+
+# GitHub Actions managed from the web UI (needs workflow scope to push)
+.github/workflows/
