@@ -279,15 +279,14 @@ const LANG_BCP = { en:"en-US", de:"de-DE", ro:"ro-RO" };
 /* preferred accent per language (first match wins) */
 const LANG_PREF = { en:["en-US","en-GB"], de:["de-DE","de-AT","de-CH"], ro:["ro-RO"] };
 
-/* ---- Piper TTS server (extra Romanian neural voices) ---- */
+/* ---- local Piper TTS server (extra Romanian voices) ---- */
 const PIPER_URL = (()=>{
   try{
     const qp = new URLSearchParams(location.search).get("piper");
     if(qp) return qp.replace(/\/+$/,"");
   }catch(e){}
-  /* default: same origin (works when reader + Piper are served together,
-     e.g. Hugging Face Spaces or start.sh on one port) */
-  if(location.protocol==="http:"||location.protocol==="https:") return "";
+  if(location.protocol==="http:"||location.protocol==="https:")
+    return location.protocol+"//"+location.hostname+":8124";
   return "http://127.0.0.1:8124";
 })();
 let PIPER_VOICES = [];         /* [{id,label,gender,lang}] */
@@ -629,6 +628,19 @@ async function renderChapter(abbr, ch){
   document.querySelector(".tchapnav")?.addEventListener("click", e=>{
     const b=e.target.closest(".cnum"); if(b) renderChapter(abbr, +b.dataset.tch);
   });
+  /* click a translation verse -> make the player start from that verse */
+  document.querySelector(".trpane")?.addEventListener("click", e=>{
+    const v=e.target.closest(".v"); if(!v) return;
+    const n=+v.dataset.vnum; if(!n) return;
+    const i=audio.verses.findIndex(x=>x[0]===n);
+    if(i<0) return;
+    const wasPlaying=audio.playing;
+    hardStop();
+    audio.idx=i;
+    highlight(n);
+    setStatus(`${i+1}/${audio.verses.length}`);
+    if(wasPlaying) startSpeech();
+  });
   $("#prevCh")?.addEventListener("click", ()=>renderChapter(abbr, prev));
   $("#nextCh")?.addEventListener("click", ()=>renderChapter(abbr, next));
 
@@ -637,8 +649,17 @@ async function renderChapter(abbr, ch){
 
   /* wire audio player */
   if(trans && tchap && (speechOK || piperSrvOK)){
+    const prevVerse = audio.verses[audio.idx] ? audio.verses[audio.idx][0] : null;
     audio.verses = tchap[1].map(v=>[v[0], v[1]]);
-    audio.abbr = abbr; audio.ch = ch; audio.idx = 0;
+    audio.abbr = abbr; audio.ch = ch;
+    /* a new chapter always starts the player at verse 1; only an in-chapter
+       re-render keeps the previously selected verse */
+    if(!chapterChanged && prevVerse!=null){
+      const j = audio.verses.findIndex(x=>x[0]===prevVerse);
+      audio.idx = j>=0 ? j : 0;
+    } else {
+      audio.idx = 0;
+    }
     pickVoice();
     const play = $("#a-play");
     play && play.addEventListener("click", ()=> audio.playing ? pauseSpeech() : startSpeech());

@@ -650,11 +650,11 @@ async function renderChapter(abbr, ch){
   /* wire audio player */
   if(trans && tchap && (speechOK || piperSrvOK)){
     const prevVerse = audio.verses[audio.idx] ? audio.verses[audio.idx][0] : null;
-    const sameChapter = (audio.abbr===abbr && audio.ch===ch);
     audio.verses = tchap[1].map(v=>[v[0], v[1]]);
     audio.abbr = abbr; audio.ch = ch;
-    /* keep the selected verse if the chapter is unchanged; otherwise start at 1 */
-    if(sameChapter && prevVerse!=null){
+    /* a new chapter always starts the player at verse 1; only an in-chapter
+       re-render keeps the previously selected verse */
+    if(!chapterChanged && prevVerse!=null){
       const j = audio.verses.findIndex(x=>x[0]===prevVerse);
       audio.idx = j>=0 ? j : 0;
     } else {
