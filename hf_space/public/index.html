@@ -289,8 +289,12 @@ const PIPER_URL = (()=>{
     const qp = new URLSearchParams(location.search).get("piper");
     if(qp) return qp.replace(/\/+$/,"");
   }catch(e){}
-  if(location.protocol==="http:"||location.protocol==="https:")
-    return location.protocol+"//"+location.hostname+":8124";
+  if(location.protocol==="http:"||location.protocol==="https:"){
+    const h = location.hostname;
+    const local = h==="localhost" || h==="127.0.0.1" || h==="::1" || h.endsWith(".local");
+    if(local) return location.protocol+"//"+h+":8124";
+    return location.protocol+"//"+location.host; /* remote: same origin (Render) */
+  }
   return "http://127.0.0.1:8124";
 })();
 let PIPER_VOICES = [];         /* [{id,label,gender,lang}] */
@@ -300,7 +304,7 @@ let piperSrvOK = false;
 function fetchPiperVoices(){
   if(typeof fetch!=="function") return;
   const ctl = (typeof AbortController!=="undefined") ? new AbortController() : null;
-  const to = setTimeout(()=>ctl&&ctl.abort(), 3000);
+  const to = setTimeout(()=>ctl&&ctl.abort(), 30000);
   fetch(PIPER_URL+"/piper/voices", {signal: ctl?ctl.signal:undefined})
     .then(r=>r.ok?r.json():[])
     .then(list=>{ clearTimeout(to); PIPER_VOICES = Array.isArray(list)?list:[]; piperSrvOK = PIPER_VOICES.length>0; piperReady = true; refreshVoiceSelect(); })
