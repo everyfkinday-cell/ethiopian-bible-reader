@@ -9,9 +9,9 @@
 <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Ethiopic:wght@400;600;700&family=Noto+Sans+Ethiopic:wght@400;500&display=swap" rel="stylesheet">
 <style>
   :root{
-    --bg:#f6f2e9; --panel:#fffdf8; --panel2:#efe9db; --ink:#211e18;
-    --muted:#7b7362; --line:#e0d9c7; --accent:#8a1c1c; --gold:#b8860b;
-    --shadow:0 1px 3px rgba(0,0,0,.07),0 10px 30px rgba(0,0,0,.05);
+    --bg:#e8d9b5; --panel:#f5ead0ee; --panel2:#e0cfa6; --ink:#3a2c17;
+    --muted:#7d6a47; --line:#c9b184; --accent:#8a1c1c; --gold:#9c6b15;
+    --shadow:0 1px 3px rgba(70,45,10,.18),0 10px 30px rgba(70,45,10,.14);
     --geez:1.7rem;
   }
   html[data-theme="dark"]{
@@ -21,9 +21,27 @@
   }
   *{box-sizing:border-box}
   html,body{margin:0;height:100%}
-  body{background:var(--bg);color:var(--ink);
+  body{color:var(--ink);
     font:1rem/1.6 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
-    -webkit-font-smoothing:antialiased}
+    -webkit-font-smoothing:antialiased;
+    background-color:var(--bg);
+    background-image:
+      radial-gradient(ellipse at 12% 18%, rgba(150,110,50,.16), transparent 42%),
+      radial-gradient(ellipse at 88% 8%, rgba(120,80,30,.13), transparent 38%),
+      radial-gradient(ellipse at 72% 92%, rgba(140,100,45,.15), transparent 45%),
+      radial-gradient(ellipse at 30% 78%, rgba(110,75,25,.12), transparent 40%),
+      radial-gradient(ellipse at 50% 50%, rgba(255,250,235,.35), rgba(255,250,235,0) 70%),
+      url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='220' height='220'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/><feColorMatrix type='saturate' values='0'/><feComponentTransfer><feFuncA type='linear' slope='0.06'/></feComponentTransfer></filter><rect width='220' height='220' filter='url(%23n)'/></svg>");
+    background-attachment:fixed,fixed,fixed,fixed,fixed,fixed;}
+  html[data-theme="dark"] body{
+    background-image:
+      radial-gradient(ellipse at 12% 18%, rgba(120,85,35,.10), transparent 45%),
+      radial-gradient(ellipse at 88% 8%, rgba(90,60,20,.09), transparent 40%),
+      radial-gradient(ellipse at 72% 92%, rgba(110,75,30,.10), transparent 48%),
+      radial-gradient(ellipse at 30% 78%, rgba(85,55,18,.08), transparent 42%),
+      radial-gradient(ellipse at 50% 45%, rgba(60,50,30,.30), rgba(0,0,0,0) 72%),
+      url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='220' height='220'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/><feColorMatrix type='saturate' values='0'/><feComponentTransfer><feFuncA type='linear' slope='0.05'/></feComponentTransfer></filter><rect width='220' height='220' filter='url(%23n)'/></svg>");
+  }
   .geez{font-family:"Noto Serif Ethiopic","Noto Sans Ethiopic","Kefa","Nyala",serif}
   button,input{font:inherit;color:inherit}
   button{cursor:pointer}
