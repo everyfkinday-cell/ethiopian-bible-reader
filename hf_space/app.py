@@ -13,6 +13,7 @@ import sys
 import io
 import json
 import wave
+import threading
 import warnings
 import urllib.parse
 import posixpath
@@ -49,20 +50,29 @@ VOICES = {
     "sanda":  ("sanda.onnx", "Sanda", "F"),
 }
 
-_PIPER = {"voice": None, "name": None}
-_cache = {}
+_PIPER = {"name": None, "voice": None}
+_SYNTH_LOCK = threading.Lock()
 
 
 def get_voice(name):
-    if name in _cache:
-        return _cache[name]
+    """Load a voice, keeping at most ONE model in memory (Render free = 512MB)."""
     if name not in VOICES:
         return None
+    if _PIPER["name"] == name and _PIPER["voice"] is not None:
+        return _PIPER["voice"]
+    # evict the previously cached voice before loading a new one
+    _PIPER["voice"] = None
+    _PIPER["name"] = None
+    try:
+        import gc
+        gc.collect()
+    except Exception:
+        pass
     from piper import PiperVoice
-    from piper.config import SynthesisConfig  # noqa
     path = os.path.join(VOICE_DIR, VOICES[name][0])
     v = PiperVoice.load(path)
-    _cache[name] = v
+    _PIPER["voice"] = v
+    _PIPER["name"] = name
     return v
 
 
@@ -156,7 +166,8 @@ class Handler(BaseHTTPRequestHandler):
                 self._json(400, {"error": "empty text"})
                 return
             try:
-                v = get_voice(name)
+                with _SYNTH_LOCK:
+                    v = get_voice(name)
             except Exception as e:
                 import traceback
                 self._json(500, {"error": "load failed: " + str(e),
@@ -166,7 +177,8 @@ class Handler(BaseHTTPRequestHandler):
                 self._json(404, {"error": "unknown voice: " + name})
                 return
             try:
-                wav = synth_wav(v, text[:4000], length_scale)
+                with _SYNTH_LOCK:
+                    wav = synth_wav(v, text[:4000], length_scale)
             except Exception as e:
                 import traceback
                 self._json(500, {"error": "synth failed: " + str(e),
@@ -182,7 +194,8 @@ class Handler(BaseHTTPRequestHandler):
             return
 
         if path == "/piper/health":
-            self._json(200, {"ok": True, "voices": list(VOICES.keys()), "cached": list(_cache.keys())})
+            self._json(200, {"ok": True, "voices": list(VOICES.keys()),
+                             "cached": ([_PIPER["name"]] if _PIPER["name"] else [])})
             return
 
         # static files

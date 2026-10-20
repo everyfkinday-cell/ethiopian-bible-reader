@@ -14,6 +14,7 @@ import json
 import wave
 import urllib.parse
 import warnings
+import threading
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 
 warnings.filterwarnings("ignore")
@@ -26,26 +27,31 @@ VOICE_DIR = os.path.join(HERE, "tts_voices")
 
 # voice name -> (file, label, gender)
 VOICES = {
-    "mihai":      ("mihai.onnx",      "Mihai",      "M"),
-    "lili":       ("lili.onnx",       "Lili",       "F"),
-    "lili-high":  ("lili-high.onnx",  "Lili (HQ)",  "F"),
-    "sanda":      ("sanda.onnx",      "Sanda",      "F"),
-    "sanda-high": ("sanda-high.onnx", "Sanda (HQ)", "F"),
-    "raluca":     ("raluca.onnx",     "Raluca",     "F"),
-    "liana":      ("liana.onnx",      "Liana",      "F"),
+    "lili":  ("lili.onnx",  "Lili",  "F"),
+    "sanda": ("sanda.onnx", "Sanda", "F"),
 }
 
-_cache = {}
+_PIPER = {"name": None, "voice": None}
+_SYNTH_LOCK = threading.Lock()
 
 
 def get_voice(name):
-    if name in _cache:
-        return _cache[name]
+    """Keep at most ONE model loaded in memory."""
     if name not in VOICES:
         return None
+    if _PIPER["name"] == name and _PIPER["voice"] is not None:
+        return _PIPER["voice"]
+    _PIPER["voice"] = None
+    _PIPER["name"] = None
+    try:
+        import gc
+        gc.collect()
+    except Exception:
+        pass
     path = os.path.join(VOICE_DIR, VOICES[name][0])
     v = PiperVoice.load(path)
-    _cache[name] = v
+    _PIPER["voice"] = v
+    _PIPER["name"] = name
     return v
 
 
@@ -89,7 +95,7 @@ class Handler(BaseHTTPRequestHandler):
             return
 
         if u.path == "/piper/tts":
-            name = (qs.get("voice", ["mihai"])[0] or "mihai").strip()
+            name = (qs.get("voice", ["lili"])[0] or "lili").strip()
             text = (qs.get("text", [""])[0] or "").strip()
             try:
                 length_scale = float(qs.get("length_scale", ["1.0"])[0])
@@ -99,15 +105,16 @@ class Handler(BaseHTTPRequestHandler):
                 self.send_error(400, "empty text")
                 return
             text = text[:4000]
-            v = get_voice(name)
-            if v is None:
-                self.send_error(404, "unknown voice: " + name)
-                return
-            try:
-                wav = synth_wav(v, text, length_scale)
-            except Exception as e:
-                self.send_error(500, "synth error: " + str(e))
-                return
+            with _SYNTH_LOCK:
+                v = get_voice(name)
+                if v is None:
+                    self.send_error(404, "unknown voice: " + name)
+                    return
+                try:
+                    wav = synth_wav(v, text, length_scale)
+                except Exception as e:
+                    self.send_error(500, "synth error: " + str(e))
+                    return
             self.send_response(200)
             self._cors()
             self.send_header("Content-Type", "audio/wav")
