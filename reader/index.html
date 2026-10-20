@@ -323,14 +323,31 @@ let piperReady = false;
 const piperAudio = (typeof Audio!=="undefined") ? new Audio() : null;
 let piperGen = 0;                         /* generation token: invalidates stale Piper callbacks */
 let piperSrvOK = false;
-function fetchPiperVoices(){
+let piperLoading = false;
+function fetchPiperVoices(attempt){
   if(typeof fetch!=="function") return;
+  const tries = attempt||0;
+  piperLoading = true;
+  refreshVoiceSelect();
   const ctl = (typeof AbortController!=="undefined") ? new AbortController() : null;
-  const to = setTimeout(()=>ctl&&ctl.abort(), 30000);
+  const to = setTimeout(()=>ctl&&ctl.abort(), 45000);
   fetch(PIPER_URL+"/piper/voices", {signal: ctl?ctl.signal:undefined})
     .then(r=>r.ok?r.json():[])
-    .then(list=>{ clearTimeout(to); PIPER_VOICES = Array.isArray(list)?list:[]; piperSrvOK = PIPER_VOICES.length>0; piperReady = true; refreshVoiceSelect(); })
-    .catch(()=>{ clearTimeout(to); piperSrvOK=false; piperReady=true; refreshVoiceSelect(); });
+    .then(list=>{
+      clearTimeout(to);
+      PIPER_VOICES = Array.isArray(list)?list:[];
+      piperSrvOK = PIPER_VOICES.length>0;
+      piperReady = true; piperLoading = false;
+      refreshVoiceSelect();
+      if(!piperSrvOK && tries<3){ setTimeout(()=>fetchPiperVoices(tries+1), 4000); }
+    })
+    .catch(()=>{
+      clearTimeout(to);
+      piperSrvOK=false; piperReady=true; piperLoading=false;
+      refreshVoiceSelect();
+      /* cold start can time out: retry a few times before giving up */
+      if(tries<3){ setTimeout(()=>fetchPiperVoices(tries+1), 4000); }
+    });
 }
 const VOICE_KEY = "eb.voice."; /* + lang -> voice name */
 function savedVoice(l){
@@ -389,6 +406,10 @@ function refreshVoiceSelect(){
   const sel = document.getElementById("a-voice");
   if(!sel) return;
   const opts = [];
+  /* while the server wakes up (Render cold start) show a hint instead of an empty box */
+  if(lang==="ro" && !PIPER_VOICES.length && piperLoading){
+    opts.push(`<option value="" disabled>${esc(t("audioLoadingVoices"))}</option>`);
+  }
   /* Piper neural voices (Romanian extras) */
   if(lang==="ro" && PIPER_VOICES.length){
     opts.push(`<optgroup label="${esc(t("audioPiperGroup"))}">`);
