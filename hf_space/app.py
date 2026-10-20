@@ -20,14 +20,33 @@ from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 
 warnings.filterwarnings("ignore")
 
+# --- memory-friendly onnxruntime options (important for Render free 512MB) ---
+try:
+    import onnxruntime as _ort
+    _orig_session = _ort.InferenceSession
+    def _lean_session(*args, **kwargs):
+        so = kwargs.get("sess_options") or _ort.SessionOptions()
+        try:
+            so.intra_op_num_threads = 1
+            so.inter_op_num_threads = 1
+            so.enable_cpu_mem_arena = False
+            so.enable_mem_pattern = False
+            so.execution_mode = _ort.ExecutionMode.ORT_SEQUENTIAL
+        except Exception:
+            pass
+        kwargs["sess_options"] = so
+        return _orig_session(*args, **kwargs)
+    _ort.InferenceSession = _lean_session
+except Exception:
+    pass
+
 HERE = os.path.dirname(os.path.abspath(__file__))
 PUBLIC_DIR = os.path.join(HERE, "public")
 VOICE_DIR = os.path.join(HERE, "tts_voices")
 
 VOICES = {
-    "mihai":  ("mihai.onnx",  "Mihai", "M"),
-    "lili":   ("lili.onnx",   "Lili",  "F"),
-    "sanda":  ("sanda.onnx",  "Sanda", "F"),
+    "lili":   ("lili.onnx",  "Lili",  "F"),
+    "sanda":  ("sanda.onnx", "Sanda", "F"),
 }
 
 _PIPER = {"voice": None, "name": None}
@@ -74,6 +93,15 @@ class Handler(BaseHTTPRequestHandler):
         self.send_header("Access-Control-Allow-Origin", "*")
         self.send_header("Access-Control-Allow-Methods", "GET, OPTIONS")
         self.send_header("Access-Control-Allow-Headers", "*")
+
+    def _json(self, code, obj):
+        body = json.dumps(obj).encode("utf-8")
+        self.send_response(code)
+        self._cors()
+        self.send_header("Content-Type", "application/json; charset=utf-8")
+        self.send_header("Content-Length", str(len(body)))
+        self.end_headers()
+        self.wfile.write(body)
 
     def do_OPTIONS(self):
         self.send_response(204)
@@ -125,16 +153,24 @@ class Handler(BaseHTTPRequestHandler):
             except ValueError:
                 length_scale = 1.0
             if not text:
-                self.send_error(400, "empty text")
+                self._json(400, {"error": "empty text"})
                 return
-            v = get_voice(name)
+            try:
+                v = get_voice(name)
+            except Exception as e:
+                import traceback
+                self._json(500, {"error": "load failed: " + str(e),
+                                 "trace": traceback.format_exc()[-800:]})
+                return
             if v is None:
-                self.send_error(404, "unknown voice: " + name)
+                self._json(404, {"error": "unknown voice: " + name})
                 return
             try:
                 wav = synth_wav(v, text[:4000], length_scale)
             except Exception as e:
-                self.send_error(500, "synth error: " + str(e))
+                import traceback
+                self._json(500, {"error": "synth failed: " + str(e),
+                                 "trace": traceback.format_exc()[-800:]})
                 return
             self.send_response(200)
             self._cors()
@@ -143,6 +179,10 @@ class Handler(BaseHTTPRequestHandler):
             self.send_header("Cache-Control", "no-store")
             self.end_headers()
             self.wfile.write(wav)
+            return
+
+        if path == "/piper/health":
+            self._json(200, {"ok": True, "voices": list(VOICES.keys()), "cached": list(_cache.keys())})
             return
 
         # static files
