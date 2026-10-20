@@ -318,10 +318,12 @@ function saveVoice(l, name){
   prefs["voice_"+l] = name || "";
   savePrefs();
 }
+const HIDDEN_VOICES = ["Ioana"]; /* system voices hidden from the picker */
 function voicesForLang(l){
   if(!speechOK) return [];
   const base = l.toLowerCase();
-  return audio.voices.filter(v=>v.lang && v.lang.toLowerCase().replace("_","-").split("-")[0]===base);
+  return audio.voices.filter(v=>v.lang && v.lang.toLowerCase().replace("_","-").split("-")[0]===base
+    && !HIDDEN_VOICES.includes(v.name));
 }
 function langNativeLabel(l){ return { en:"English", de:"Deutsch", ro:"Română" }[l] || l; }
 function voiceLabel(v){
@@ -376,8 +378,7 @@ function refreshVoiceSelect(){
     opts.push("</optgroup>");
   }
   /* system voices (Ioana is hidden on request) */
-  const HIDDEN_VOICES = ["Ioana"];
-  const list = voicesForLang(lang).filter(v=>!HIDDEN_VOICES.includes(v.name));
+  const list = voicesForLang(lang);
   if(list.length){
     opts.push(`<optgroup label="${esc(t("audioSystemGroup"))}">`);
     for(const v of list){

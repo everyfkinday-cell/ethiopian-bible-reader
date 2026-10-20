@@ -46,7 +46,6 @@ PUBLIC_DIR = os.path.join(HERE, "public")
 VOICE_DIR = os.path.join(HERE, "tts_voices")
 
 VOICES = {
-    "lili":   ("lili.onnx",  "Lili",  "F"),
     "sanda":  ("sanda.onnx", "Sanda", "F"),
 }
 
@@ -156,7 +155,7 @@ class Handler(BaseHTTPRequestHandler):
             return
 
         if path == "/piper/tts":
-            name = (qs.get("voice", ["mihai"])[0] or "mihai").strip()
+            name = (qs.get("voice", ["sanda"])[0] or "sanda").strip()
             text = (qs.get("text", [""])[0] or "").strip()
             try:
                 length_scale = float(qs.get("length_scale", ["1.0"])[0])
