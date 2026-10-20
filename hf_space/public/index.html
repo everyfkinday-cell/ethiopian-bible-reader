@@ -368,7 +368,7 @@ function loadVoices(){
 function refreshVoiceSelect(){
   const sel = document.getElementById("a-voice");
   if(!sel) return;
-  const opts = [`<option value="">${t("audioDefault")}</option>`];
+  const opts = [];
   /* Piper neural voices (Romanian extras) */
   if(lang==="ro" && PIPER_VOICES.length){
     opts.push(`<optgroup label="${esc(t("audioPiperGroup"))}">`);
