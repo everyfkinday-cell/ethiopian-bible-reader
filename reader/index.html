@@ -298,7 +298,7 @@ const sectionName = s => { const k = I18N.SECTION_KEY[s]; return k ? t(k) : s; }
 /* ---- text-to-speech (audio book) ---- */
 const speechOK = (typeof window!=="undefined") && "speechSynthesis" in window &&
   typeof SpeechSynthesisUtterance !== "undefined";
-const audio = { rate: 1.0, playing: false, idx: 0, verses: [], abbr: null, ch: null, voice: null, voices: [], piperVoice: null };
+const audio = { rate: 1.0, volume: 1.0, playing: false, idx: 0, verses: [], abbr: null, ch: null, voice: null, voices: [], piperVoice: null };
 const LANG_BCP = { en:"en-US", de:"de-DE", ro:"ro-RO" };
 /* preferred accent per language (first match wins) */
 const LANG_PREF = { en:["en-US","en-GB"], de:["de-DE","de-AT","de-CH"], ro:["ro-RO"] };
@@ -623,6 +623,10 @@ async function renderChapter(abbr, ch){
         <button class="abtn" id="a-stop" title="${t("audioStop")}">■</button>
         <button class="abtn" id="a-prev" title="${t("audioPrev")}">⏮</button>
         <button class="abtn" id="a-next" title="${t("audioNext")}">⏭</button>
+        <label class="aspeed">${t("audioVolume")}
+          <input type="range" id="a-vol" min="0" max="1" step="0.05" value="${audio.volume}">
+          <span id="a-volv">${Math.round(audio.volume*100)}%</span>
+        </label>
         <label class="aspeed">${t("audioSpeed")}
           <input type="range" id="a-rate" min="0.6" max="1.6" step="0.1" value="${audio.rate}">
           <span id="a-ratev">${audio.rate.toFixed(1)}×</span>
@@ -712,6 +716,8 @@ async function renderChapter(abbr, ch){
     $("#a-next") && $("#a-next").addEventListener("click", ()=>{ hardStop(); audio.idx=Math.min(audio.verses.length-1,audio.idx+1); startSpeech(); });
     const rate=$("#a-rate");
     rate && rate.addEventListener("input", e=>{ audio.rate=+e.target.value; $("#a-ratev").textContent=audio.rate.toFixed(1)+"×"; if(audio.playing){ hardStop(); startSpeech(); } });
+    const vol=$("#a-vol");
+    vol && vol.addEventListener("input", e=>{ audio.volume=+e.target.value; const vv=$("#a-volv"); if(vv) vv.textContent=Math.round(audio.volume*100)+"%"; applyVolume(); });
     const vsel=$("#a-voice");
     if(vsel){
       refreshVoiceSelect();
@@ -739,6 +745,12 @@ function updatePlayBtn(){
   const b=$("#a-play"); if(!b) return;
   b.textContent = audio.playing ? "⏸ "+t("audioPause") : "▶ "+t("audioPlay");
 }
+function applyVolume(){
+  if(piperAudio){ try{ piperAudio.volume = audio.volume; }catch(e){} }
+  if(typeof speechSynthesis!=="undefined" && speechSynthesis.speaking){
+    /* system voices: infer on the active utterance is not exposed; volume applies to new utterances */
+  }
+}
 function setStatus(txt){ const s=$("#a-status"); if(s) s.textContent = txt||""; }
 function clearHighlight(){ document.querySelectorAll(".v.speaking").forEach(e=>e.classList.remove("speaking")); }
 function syncVnav(n){
@@ -762,6 +774,7 @@ function speakIndex(i){
   if(audio.voice) u.voice = audio.voice;
   u.lang = LANG_BCP[lang] || lang;
   u.rate = audio.rate;
+  try{ u.volume = audio.volume; }catch(e){}
   u.onend = ()=>{ if(audio.playing) speakIndex(i+1); };
   u.onerror = ()=>{ if(audio.playing) speakIndex(i+1); };
   window.speechSynthesis.speak(u);
@@ -773,6 +786,7 @@ function speakPiper(n, text, i){
               "&length_scale="+ls+"&text="+encodeURIComponent(text);
   piperAudio.onended = ()=>{ if(audio.playing) speakIndex(i+1); };
   piperAudio.onerror = ()=>{ if(audio.playing) speakIndex(i+1); };
+  try{ piperAudio.volume = audio.volume; }catch(e){}
   piperAudio.src = url;
   const p = piperAudio.play();
   if(p && p.catch) p.catch(()=>{ setStatus(t("audioPiperFail")); });
