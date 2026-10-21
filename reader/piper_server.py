@@ -29,7 +29,7 @@ VOICE_DIR = os.path.join(HERE, "tts_voices")
 VOICES = {
     "liana":      ("liana.onnx",      "Liana",      "F", "ro-RO", None),
     "thorsten":   ("thorsten.onnx",   "Thorsten",   "M", "de-DE", None),
-    "hfc_female": ("hfc_female.onnx", "HFC Female", "F", "en-US", None),
+    "hfc_male":   ("hfc_male.onnx",   "HFC Male",   "M", "en-US", None),
 }
 
 _PIPER = {"name": None, "voice": None}
