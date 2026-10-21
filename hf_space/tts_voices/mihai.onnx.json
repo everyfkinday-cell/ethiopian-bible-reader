@@ -1,18 +1,19 @@
 {
+  "piper_version": "1.0.0",
   "audio": {
-    "sample_rate": 22050
+    "sample_rate": 22050,
+    "quality": "medium"
   },
   "espeak": {
     "voice": "ro"
   },
-  "phoneme_type": "espeak",
-  "num_symbols": 256,
-  "num_speakers": 1,
   "inference": {
     "noise_scale": 0.667,
-    "length_scale": 1.0,
+    "length_scale": 1,
     "noise_w": 0.8
   },
+  "phoneme_type": "espeak",
+  "phoneme_map": {},
   "phoneme_id_map": {
     "_": [
       0
@@ -475,30 +476,18 @@
     ],
     "̻": [
       153
-    ],
-    "g": [
-      154
-    ],
-    "ʦ": [
-      155
-    ],
-    "X": [
-      156
-    ],
-    "̝": [
-      157
-    ],
-    "̊": [
-      158
-    ],
-    "ɝ": [
-      159
-    ],
-    "ʷ": [
-      160
     ]
   },
+  "num_symbols": 256,
+  "num_speakers": 1,
   "speaker_id_map": {},
-  "hop_length": 256,
-  "piper_version": "1.3.0"
+  "language": {
+    "code": "ro_RO",
+    "family": "ro",
+    "region": "RO",
+    "name_native": "Română",
+    "name_english": "Romanian",
+    "country_english": "Romania"
+  },
+  "dataset": "mihai"
 }
