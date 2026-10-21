@@ -480,8 +480,9 @@ function localizeStatic(){
 function setLang(code){
   if(!I18N.UI[code]) code = "en";
   lang = code; prefs.lang = code; savePrefs();
+  /* always rebuild the sidebar so the 81 book titles follow the chosen language */
+  if(typeof buildSidebar==="function") buildSidebar();
   if(typeof state!=="undefined" && state.abbr) renderChapter(state.abbr, state.ch);
-  else if(typeof buildSidebar==="function") buildSidebar();
   localizeStatic();
   if(typeof wireManuscripts==="function") wireManuscripts();
 }
@@ -547,19 +548,25 @@ function buildSidebar(){
       <span class="nm">${esc(bookName(m))}</span><span class="n">${m.chapters}</span></button>`;
   }
   list.innerHTML = html;
-  list.addEventListener("click", e=>{
+  /* assign (not addEventListener) so re-building on language change cannot stack handlers */
+  list.onclick = e=>{
     const b=e.target.closest(".bk"); if(!b) return;
     renderChapter(b.dataset.abbr, 1);
     document.body.classList.remove("nav-open");
+  };
+  const flt=$("#filter");
+  flt.oninput = e=>applyBookFilter(e.target.value);
+  /* keep an active search when the sidebar is rebuilt (e.g. language change) */
+  if(flt && flt.value) applyBookFilter(flt.value);
+}
+function applyBookFilter(val){
+  const list=$("#booklist"); if(!list) return;
+  const q=(val||"").toLowerCase();
+  list.querySelectorAll(".bk").forEach(b=>{
+    const m=metaOf(b.dataset.abbr);
+    b.style.display = (!q || bookName(m).toLowerCase().includes(q) || m.abbr.toLowerCase().includes(q)) ? "" : "none";
   });
-  $("#filter").addEventListener("input", e=>{
-    const q=e.target.value.toLowerCase(), val=e.target.value;
-    list.querySelectorAll(".bk").forEach(b=>{
-      const m=metaOf(b.dataset.abbr);
-      b.style.display = (!q || bookName(m).toLowerCase().includes(q) || m.abbr.toLowerCase().includes(q)) ? "" : "none";
-    });
-    list.querySelectorAll(".sect").forEach(s=>s.style.display=q?"none":"");
-  });
+  list.querySelectorAll(".sect").forEach(s=>s.style.display=q?"none":"");
 }
 function markActive(a){ document.querySelectorAll(".bk").forEach(b=>b.classList.toggle("active", b.dataset.abbr===a)); }
 
