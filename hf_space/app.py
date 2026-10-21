@@ -48,7 +48,6 @@ VOICE_DIR = os.path.join(HERE, "tts_voices")
 VOICES = {
     # id: (file, label, gender, lang, speaker_id)
     "liana":    ("liana.onnx",    "Liana",    "F", "ro-RO", None),
-    "anke":     ("mls.onnx",      "Anke",     "F", "de-DE", 12),
     "thorsten": ("thorsten.onnx", "Thorsten", "M", "de-DE", None),
 }
 
