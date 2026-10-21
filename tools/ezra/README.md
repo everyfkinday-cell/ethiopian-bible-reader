@@ -2,9 +2,9 @@
 
 ## Status
 
-**Not yet shipped.** The English translation of the Ethiopian `ApEz` book is
-blocked by a *textual*, not a technical, problem. Everything needed to finish
-it is already downloaded and extracted into this folder.
+**English shipped** (`reader/data/books/en/ApEz.js`, 10 chapters / 451 verses,
+aligned verse-for-verse with the Ge'ez). Romanian and German are machine
+translations of that English.
 
 ## Why it is hard (the real reason)
 
@@ -44,10 +44,48 @@ cap.8 = 13:57, cap.10 = 14:1.
 * `charles2_djvu.xml` (61 MB) downloaded; the two-column layout (Greek left,
   English right) separated **by content**, not by coordinates
   → `charles_4ezra_lines.json` (2364 lines, English column, noise stripped)
+* `charles_4ezra_dump.txt` — the same text as a flat, greppable line list
 * `extract_charles_4ezra.py` — PDF extraction with a font-size filter that
   removes Charles's critical notes (notes are 7.4–8.9 pt, main text 9.5–10.3 pt)
 * `index_greek_verses.py` — rebuilds a Greek-numbered verse index
-* `align_geez_chapters.py` — locates the 10 Ethiopic chapters in the English
+* `build_apez.py` — builds `data/books/en/ApEz.js`
+
+## How the alignment was done
+
+The English was taken as a **line range** per Ethiopic chapter (not a verse
+index — the OCR interleaves Charles's notes with the text, which corrupts any
+verse numbering).  The ranges were fixed by two independent checks:
+
+1. **content** — the Ethiopic opening of each chapter matched a specific
+   passage of the English (e.g. cap. 3 “In the thirtieth year, the king in
+   Babylon, I was lying, troubled in his spirit” = 4 Esdras 3:1);
+2. **length** — the Ethiopic chapter length (transliteration ÷ ~1.7) predicted
+   the English length to within 8–46 characters out of 1 000–5 000 for seven of
+   the ten chapters.
+
+Final ranges (flat line numbers in `charles_4ezra_dump.txt`):
+
+| Ge'ez | English | Greek |
+|---|---|---|
+| cap. 1 | title | — |
+| cap. 2 | 1807–1868 | 4 Esdras 9:19 – 10:9 |
+| cap. 3 | 893–921 | 4 Esdras 3:1–18 |
+| cap. 4 | 2076–2092 | 4 Esdras 12:1–13 |
+| cap. 5 | 2240–2318 | 4 Esdras 13:47 – 14:17 |
+| cap. 6 | 2171–2224 | 4 Esdras 13:1–24 |
+| cap. 7 | 2079–2115 | 4 Esdras 12:36–51 |
+| cap. 8 | 2260–2277 | 4 Esdras 13:57 – 14:3 |
+| cap. 9 | 2268–2363 | 4 Esdras 14:3–50 (the Ezra legend) |
+| cap. 10 | 2264–2270 + DR 15:1–9 | 4 Esdras 14:1–2 + the conclusion |
+
+**Known limitation:** the Ethiopic text follows the Ethiopic recension (E²/S),
+Charles's English follows the Greek (M).  At the opening of some chapters the
+two recensions differ (e.g. 14:1: the Ethiopic has “Ezra was in the holy temple
+at Babylon, in the house of Jonathan son of Nason”, the Greek “after the third
+day, while I sat under the oak”).  The English shipped is Charles's Greek text;
+the Ethiopic original is shown side by side in the reader, so the reader can see
+both recensions.  The same applies to 4 Esdras 3:1 (“of the king” vs “after the
+ruin of the city”) and 9:19 (the earthquake, which the Latin text omits).
 
 ## Anchors already confirmed
 
@@ -60,18 +98,16 @@ cap.8 = 13:57, cap.10 = 14:1.
 | cap. 2 | 4 Esdras 9:19 ff. | "a great earthquake in all the land of Judah, and great terror round about it" |
 | cap. 4 | 4 Esdras 12:2 ff. | "And I saw Daniel…" |
 
-## Remaining work (well-defined, ~1–2 h)
+## Done
 
-1. Fix the 4 anchors above plus **cap. 5, 7, 9** in the English text
-   (each needs a manual read of the English around the candidate position).
-2. For each Ge'ez chapter take the Greek verse range and split Charles's
-   English into the Ge'ez's verse count (1 / 58 / 31 / 24 / 63 / 72 / 34 / 15 / 97 / 56).
-3. Write `reader/data/books/en/ApEz.js` in the app format
+1. ✅ The 10 chapter ranges determined and verified (content + length).
+2. ✅ Charles's English split into the Ethiopic verse counts
+   (1 / 58 / 31 / 24 / 63 / 72 / 34 / 15 / 97 / 56).
+3. ✅ `reader/data/books/en/ApEz.js` written in the app format
    `window.__EBT["en"]["ApEz"]=[[chapter,[[verse,"text"],…]],…]`.
-4. Add the credit to `reader/data/lang.js`:
-   "Apocalypse of Ezra — English translation of the Greek text after
-   R. H. Charles, *The Apocrypha and Pseudepigrapha of the Old Testament* II (1913), PD;
-   aligned with the Ethiopic (IAM corpus, CC BY-NC-SA 4.0)."
+4. ✅ Credit added to `reader/data/lang.js`.
+5. ✅ Romanian and German: machine translation of that English (same method as
+   the rest of the Romanian translation).
 
 ## License note
 
