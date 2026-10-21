@@ -1,0 +1,1 @@
+window.__EBT=window.__EBT||{};window.__EBT["de"]=window.__EBT["de"]||{};window.__EBT["de"]["Lef"]=[[1,[[1,"Erstes Gebet"]]],[2,[[1,"Zweites Gebet"]]],[3,[[1,"Drittes Gebet"]]],[4,[[1,"Viertes Gebet"]]],[5,[[1,"Fünftes Gebet"]]],[6,[[1,"Sechstes Gebet"]]],[7,[[1,"Siebtes Gebet"]]]];

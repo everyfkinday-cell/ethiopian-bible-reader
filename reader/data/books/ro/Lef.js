@@ -1,0 +1,1 @@
+window.__EBT=window.__EBT||{};window.__EBT["ro"]=window.__EBT["ro"]||{};window.__EBT["ro"]["Lef"]=[[1,[[1,"Prima rugăciune"]]],[2,[[1,"A doua rugăciune"]]],[3,[[1,"A treia rugăciune"]]],[4,[[1,"Rugăciunea a patra"]]],[5,[[1,"Rugăciunea a cincea"]]],[6,[[1,"A șasea rugăciune"]]],[7,[[1,"Rugăciunea a șaptea"]]]];
