@@ -336,7 +336,7 @@ const piperAudio = (typeof Audio!=="undefined") ? new Audio() : null;
 let piperGen = 0;                         /* generation token: invalidates stale Piper callbacks */
 let piperSrvOK = false;
 let piperLoading = false;
-const PIPER_LANGS = ["ro","de"];          /* languages served by the bundled Piper voices */
+const PIPER_LANGS = ["ro","de","en"];      /* languages served by the bundled Piper voices */
 function piperForLang(l){
   const base = (l||"").toLowerCase().split("-")[0];
   return PIPER_VOICES.filter(v=>((v.lang||"").toLowerCase().split("-")[0])===base);
