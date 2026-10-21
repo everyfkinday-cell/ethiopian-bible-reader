@@ -111,11 +111,6 @@
   .canonchead{font-family:'Noto Serif Ethiopic',serif;font-size:1.15rem;font-weight:700;margin:18px 0 2px}
   .pager{display:flex;justify-content:space-between;gap:10px;margin-top:32px}
   .empty{color:var(--muted);padding:40px 0;text-align:center}
-  .transl{margin:10px 0 2px;font-size:.78rem;color:var(--muted)}
-  .transl .tlink{display:inline-block;margin:0 3px;padding:3px 10px;border:1px solid var(--line);
-    border-radius:999px;text-decoration:none;color:var(--fg);background:var(--panel)}
-  .transl .tlink.on{border-color:var(--accent);color:var(--accent);font-weight:700}
-  .transl .tlink:hover{border-color:var(--accent)}
   .tnote{margin:18px 0 0;font-size:.72rem;color:var(--muted);font-style:italic}
   .langsel{padding:6px 8px}
   header #msBtn{margin-left:auto}
@@ -570,36 +565,6 @@ function applyBookFilter(val){
 }
 function markActive(a){ document.querySelectorAll(".bk").forEach(b=>b.classList.toggle("active", b.dataset.abbr===a)); }
 
-/* translation links for the current book/chapter (scripture stays Ge'ez) */
-const TR_BOOK = {
-  Gen:"Genesis",Exod:"Exodus",Lev:"Leviticus",Num:"Numbers",Deut:"Deuteronomy",Josh:"Joshua",
-  Judg:"Judges",Ruth:"Ruth","1Sam":"1 Samuel","2Sam":"2 Samuel","1Chr":"1 Chronicles",
-  "2Chr":"2 Chronicles",Ezra:"Ezra",Neh:"Nehemiah",Esth:"Esther",Job:"Job",Ps:"Psalms",
-  Prov:"Proverbs",Eccl:"Ecclesiastes",Song:"Song of Songs",Isa:"Isaiah",Jer:"Jeremiah",
-  Lam:"Lamentations",Ezek:"Ezekiel",Dan:"Daniel",Hos:"Hosea",Joel:"Joel",Amos:"Amos",
-  Obad:"Obadiah",Jonah:"Jonah",Mic:"Micah",Nah:"Nahum",Hab:"Habakkuk",Zeph:"Zephaniah",
-  Hag:"Haggai",Zech:"Zechariah",Mal:"Malachi",Tob:"Tobit",Jdt:"Judith",Sir:"Sirach",
-  Wis:"Wisdom",Rev:"Revelation",Jude:"Jude",Matt:"Matthew",Mark:"Mark",Luke:"Luke",
-  John:"John",Acts:"Acts",Rom:"Romans","1Cor":"1 Corinthians","2Cor":"2 Corinthians",
-  Gal:"Galatians",Eph:"Ephesians",Phil:"Philippians",Col:"Colossians","1Thess":"1 Thessalonians",
-  "2Thess":"2 Thessalonians","1Tim":"1 Timothy","2Tim":"2 Timothy",Tit:"Titus",Phlm:"Philemon",
-  Heb:"Hebrews",Jas:"James","1Pet":"1 Peter","2Pet":"2 Peter","1John":"1 John","2John":"2 John",
-  "3John":"3 John"
-};
-const LANG_SITES = {
-  en:{ label:"English", url:(b,c)=>`https://www.biblegateway.com/passage/?search=${encodeURIComponent(b+" "+c)}&version=KJV` },
-  de:{ label:"Deutsch", url:(b,c)=>`https://www.biblegateway.com/passage/?search=${encodeURIComponent(b+" "+c)}&version=LUT` },
-  ro:{ label:"Română",  url:(b,c)=>`https://www.biblegateway.com/passage/?search=${encodeURIComponent(b+" "+c)}&version=VDC` }
-};
-function translationLinks(abbr, ch){
-  const b = TR_BOOK[abbr];
-  if(!b) return `<span class="tnonote">—</span>`;
-  return Object.keys(LANG_SITES).map(code=>{
-    const s=LANG_SITES[code], on=code===lang?" on":"";
-    return `<a class="tlink${on}" href="${s.url(b,ch)}" target="_blank" rel="noopener">${s.label}</a>`;
-  }).join("");
-}
-
 /* render */
 async function renderChapter(abbr, ch){
   const m = metaOf(abbr); if(!m) return;
@@ -706,7 +671,6 @@ async function renderChapter(abbr, ch){
     ${audioBar}
     <div class="chead canonchead">${t("chapterWord")} ${ch}</div>
     <div class="chapnav canon">${chips}</div>
-    <div class="transl">${t("readIn")} ${translationLinks(m.abbr, ch)}</div>
     ${notice}
     ${transBlock}
     ${geBlock}
