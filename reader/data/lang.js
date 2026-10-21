@@ -67,7 +67,7 @@ window.__EBi18n = (function () {
       transUnavailable: "No free public-domain translation is available for this book. Showing the Ge’ez original.",
       transChapterMissing: "This chapter is not present in the free translation. Showing the Ge’ez original.",
       showingTranslation: "showing English (World English Bible, public domain)",
-      translationCredit: "Translation: World English Bible (public domain); 1 Enoch (R. H. Charles 1917), Jubilees (Charles), Kebra Nagast (Budge 1922), 4 Baruch (M. R. James 1920), 1-3 Meqabyan and 1 Clement (public domain English translations), 2 Kings for the Ethiopian ‘Kings’ book — text of IAM Divine Word Restoration Project (CC BY-NC-SA 4.0). The Ge’ez original is preserved in the reader.",
+      translationCredit: "Translation: World English Bible (public domain); 1 Enoch (R. H. Charles 1917), Jubilees (Charles), Kebra Nagast (Budge 1922), 4 Baruch (M. R. James 1920), 1-3 Meqabyan and 1 Clement (public domain English translations), 2 Kings for the Ethiopian ‘Kings’ book, and the Apocalypse of Ezra after R. H. Charles, The Apocrypha and Pseudepigrapha of the Old Testament II (1913) — text of IAM Divine Word Restoration Project (CC BY-NC-SA 4.0). The Ge’ez original is preserved in the reader.",
       translationLabel: "English translation",
       geezLabel: "Ge’ez original",
       transChapterOf: "chapter",

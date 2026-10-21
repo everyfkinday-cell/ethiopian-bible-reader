@@ -1,0 +1,2528 @@
+
+===== PAG 556 =====
+  0| "
+  1| 5 Esdras = 4 Ezra, chapters 15-16 (2 Esdras xv—xvi of our Apocrypha).
+  2| According to this enumeration:
+  3| 2 Esdras = chapters 1-2.
+  4| 4 Esdras = 3-14 (our Apocalypse).
+  5| and 5 Esdras = 15-16.
+  6| This is adopted by James (BF, p. xxvii).?
+  7| The prevailing usage of the Latin MSS. (including the important codices SA) is to designate
+  8| chapters 3-14 (= our Apocalypse) as the Fourth Book of Ezra (4 Ezra). (See also Vol. I, pp. 2-3
+  9| of this work on this question. —Gen. Edit.)
+ 10| The Oriental versions are also inconsistent in the titles they employ. In Ar.’ and Ethiop.
+ 11| the Apocalypse (= chapters 3-14) is called The First Book of Ezra. The Syr. and Ar. attach no
+ 12| number to the title. It seems probable that the title prefixed to the lost Greek version was
+ 13| 6, as Clement of Alexandra quotes from our Apocalypse as from 6
+ 14| (cf. Clem. Alex., Stromateis, iii. 16), while St. Ambrose also uses the name propheta Esra (cf. also
+ 15| the opening words of 4 Ezra i ber Ezrae prophetae secundus). Another possible form (suggested
+ 16| by Westcott) is.
+ 17| 3. THE ANCIENT VERSIONS.
+ 18| (2) THE LATIN. The text of the Old Latin version reproduced in the Vulgate rests upon late MS.
+ 19| authority, and is full of corruptions and inaccuracies. The first serious contribution towards the forma-
+ 20| tion of a critical text was made by Sabatier in the eighteenth century, who noted the variants of the
+ 21| Codex Sangermanensis(Codex S) in his great corpus of the Latin texts of the Bible? A further advance
+ 22| was made by Volkmar in 1863, who published a Latin text, adding the variants of a Ziirich MS.
+ 23| (Codex Turicensis, thirteenth century), in his edition of our Apocalypse. A few years later Hilgen-
+ 24| feld in his Messias Iudaeorum (Leipzig, 1869), and Fritzsche (ZLzbrz Vet. Test. pseudepigraphi
+ 25| selecti, Leipzig, 1871) published critical editions of the Latin text embodying readings from other
+ 26| MSS. But all previous work in this direction was dwarfed into insignificance when Bensly in
+ 27| 1875 published his epoch-making contribution to the critical study of 4 Ezra—The missing fragment
+ 28| of the Latin translation of the Fourth Book of Ezra (Cambridge). Up to this time all known MSS.
+ 29| of the Latin text yielded a defective text of chapter 7: a long passage (some 70 verses) was missing
+ 30| between verses 35 and 36 of this chapter, as was shown clearly by the Oriental versions which attest
+ 31| the missing verses. In 1875 Bensly had the good fortune to discover the Latin text of the missing.
+ 32| fragment in a ninth-century MS. which was then in the possession of the communal library of
+ 33| Amiens. The discovery was without delay communicated to the world in a splendid edition of
+ 34| the text of the fragment, enriched with a valuable introduction and commentary. Bensly’s 12552
+ 35| Fragment (MF) is valuable not only for the text of the fragment itself, but for the textual study
+ 36| of the whole book. It abounds with notes, remarks, and accurate information which make it indis-
+ 37| pensable for the serious student of the Latin Bible. The curious lacuna in chapter 7 which
+ 38| characterizes all known Latin MSS. (except the few enumerated below) is due to the mutilation of
+ 39| the great Codex S (preserved in the Bibliothéque Nationale of Paris).4 In 1856 Prof. Gildermeister,
+ 40| in collating this MS., discovered that a leaf (which had originally contained the missing fragment)
+ 41| had been (no doubt purposely) cut out in early times. ‘From this and other indications he drew
+ 42| the indisputable and highly important conclusion that all 1.5.5. of 4 Esdras which do not contain
+ 43| that passage were ultimately derived from the Codex Sangermanensis.... Codex S is the oldest
+ 44| known manuscript of 4 Esdras and is the parent of the vast majority of extant copies.’
+ 45| Besides (1) Codex S the following are among the most important MSS. for text-critical purposes:
+ 46| (2) Codex A (i.e. Codex Ambianensis). This is the MS. in which Prof. Bensly discovered the missing
+ 47| value by the side of it.
+ 48| (3) Codex C (Codex Complutensis, formerly at Complutum) known as the Bible of Alcala, It is now in
+ 49| transcribed by Prof. Palmer in 1826, but never published by him. After the publication of AZF in 1875
+ 50| transcript was found among Prof. Palmer’s papers, and was printed in the Journal of Philology in 1877
+ 51| vil. 264).
+ 52| 543
+
+===== PAG 557 =====
+  0| INTRODUCTION
+  1| was made known by M. Berger in 1885. Its text (which includes the missing fragment) is of the same type
+  2| as that of C (eleventh century).
+  3| To these—the principal MS. authorities—must now be added::
+  4| (5) Codex V (= Codex Abulensis) now in the Biblioteca Nacional at Madrid. 1: is known as the Bible
+  5| (6) Codex L (Codex Legionensis) in the Library of San Isidro de Leon at Leon. This Codex (in 3 vols.)
+  6| these peculiarities are largely due to deliberate revision by a late transcriber. Its date, according to the same
+  7| scholar, is probably about 1300. See further Violet, pp. xxii-xxiv.
+  8| (7) The latest discovered unmutilated text is a MS. which is denoted N (Codex N) by Violet. It is
+  9| preserved at Brussels, and its existence was first made known in October, 1906 (by D. Donatien de Bryne,
+ 10| O.S.B.). It is part of a Bible in 4 vols.; the writing is of the twelfth century. According to Violet its text is
+ 11| For the special MS. evidence that exists for chap. viii. 20-36 (the so-called Confessto Esdraec) see the
+ 12| introductory section to that passage in the present writer’s edition of the book (ZA, p. 176); and cf. further
+ 13| the introductions of 227 and Violet for this point, and for the MS. evidence generally: also Bensly A/F,
+ 14| The critical edition of the text of the whole book, which Bensly was prevented from completing
+ 15| by death, was finally edited and published, with a valuable introduction, by Dr. M. R. James, in
+ 16| 1895.1 A splendid critical edition of the Latin text, with a full apparatus criticus, and with German
+ 17| translations of the Oriental versions (also provided with an apparatus criticus) in parallel columns
+ 18| has been edited by Dr. Bruno Violet for the Royal Prussian Academy of Science, and recently
+ 19| published.?
+ 20| Both Bensly (with James) and Violet agree in the conclusion that broadly the MSS. yield two types
+ 21| of text: the one, represented by the group SA, may be styled the French recension (= Violet's ¢);
+ 22| the other, the Spanish recension, represented by the group CMNVL (= Violet’s ). On the whole
+ 23| the former group ( ) yields a decidedly superior text to that of the latter (y).
+ 24| See further on this point Violet, 12. Violet also (p. xxvi) calls attention to the existence of a number
+ 25| have not as yet been utilized for the criticism of the text.
+ 26| Greek version, is undoubtedly very early. It was well known to Ambrose of Milan, who cites freely
+ 27| from it (see BF, pp. xxxii-xxxiv). Possible but doubtful citations are made by Tertullian (4 Ezra
+ 28| viii. 20) and Cyprian (4 Ezra v. 54, 55). It has also been supposed that Commodian the Christian
+ 29| poet of the third century, cites 4 Ezra xiii.. It is interesting to note in this connexion that it
+ 30| seems fairly probable that in the time of Ambrose the Latin text of the additional chapters 15-16
+ 31| was already current ‘in the version in which we possess them and... that they were also attached
+ 32| to chapters 3-14.5 The Latin version as a whole is singularly faithful and literal, and it is not
+ 33| difficult to arrive at the Greek text underlying it. It has itself suffered a certain amount of internal
+ 34| corruption in transmission; but this, with the aid partly of new MS. evidence, and partly of the
+ 35| other versions, can often be corrected successfully. From every point of view it is the most
+ 36| valuable of the versions that have come down to us.
+ 37| Of the Oriental versions the most valuable is (6) THE. This is far more faithful
+ 38| and less paraphrastic than the other Oriental versions. The Syriac text of the book is unfortunately
+ 39| only known to us in a single MS. authority—the great Ambrosian (sixth century) Bible-Codex
+ 40| at Milan, which has been made available for scholars by the Italian scholar A. Ceriani. In this Codex
+ 41| 4 Ezra follows the Baruch-A pocalypse, and precedes the canonical books of Ezra and Nehemiah (here
+ 42| reckoned as one book: viz. the second Book of Ezra): 4 Ezra has no number attached to it. A
+ 43| printed edition of the Syriac text has been published by Ceriani in his Alonumenta sacra et profana
+ 44| (vol., fasc. i, 1868); and it is also included in the photo-lithographic reproduction of the Ambrosian
+ 45| Codex. Ceriani’s Latin translation of the Syriac text of 4 Ezra is reprinted, with some improve-
+ 46| 544
+
+===== PAG 558 =====
+  0| IV EZRA
+  1| ments, in Hilgenfeld’s Messias Iudaeorum, pp. 212 ff. Like all the Oriental versions the Apocalypse
+  2| in the Syriac text consists of chapters 3-14 of the Latin only. A translation (in German) with
+  3| critical notes is printed in Violet, vol. i.
+  4| (ec) Etuyoric. This version was first published in 1820 by the famous Orientalist
+  5| Richard Laurence (afterwards Archbishop of Cashel; editor of 1 Enoch and of The Ascension of
+  6| Tsaiah). Laurence’s Latin translation of the Ethiopic text, revised by Praetorius, is printed in
+  7| Hilgenfeld’s Messias Judaeorum (pp. 262 ff.). A critical text of this version, based upon the collation
+  8| of several MSS., was prepared by Dillmann and published after his death. A French translation,
+  9| based upon Dillmann’s critical text, was published by Basset in 1899. The Ethiopic version is not
+ 10| so valuable as the Syriac. It is much more paraphrastic and free in its handling of the text, but
+ 11| it sometimes attests interesting and important readings, and is important for the criticism of the
+ 12| Greek text underlying it. A German translation, based upon Dillmann, is printed in Violet,
+ 13| vol. i (with critical notes).
+ 14| ( THE ARABIC VERSIONS. Two independent Arabic versions of the book are in existence
+ 15| which (following Gunkel) we may designate Ar. and Ar.. Of the first Arabic version (Ar. )
+ 16| two MSS. are known to be in existence—the original MS. in the Bodleian Library at Oxford
+ 17| (part of the Laudian collection), and a transcript of this preserved at the Vatican. An English
+ 18| translation was made by Simon Ockley from the Oxford MS., and appeared in William Whiston’s
+ 19| Primitive Christianity reviv'd (vol. iv, 1711), and a Latin version, made from Ockley's English,
+ 20| and corrected by Steiner from the Arabic text, is given in Hilgenfeld (of. 6/5 pp. 323 ff.). The
+ 21| Arabic text was first published by Ewald in Abhandlungen d. Kénigl. Gesellsch. d. Wissenschaften
+ 22| eu Gottingen
+ 23| In this MS. our book appears as 1 Ezra; then follows Ezra-Nehemiah as 2 Ezra, succeeded
+ 24| by the Book of Tobit. A curious fact concerning the Oxford MS. is that there is a lacuna in
+ 25| the text of one page, which is supplied by the Vatican transcript. There are two other lacunae
+ 26| common to both MSS. In 1898 Violet, however, found in the Oxford MS. itself (but displaced)
+ 27| the missing page, which is given in the Vatican transcript in its right place (see further Violet,
+ 28| pp. xxxi-xxxvi). This version, which is exceedingly free, was also made from a Greek text;
+ 29| whether it—or the Greek text underlying it—has been revised is uncertain. A German trans-
+ 30| lation, with critical notes, is given in Violet.
+ 31| The Second Arabic Version (Ar. ) is an independent version made directly from the Greek.
+ 32| It exists in a complete form in a Vatican MS. (Arab. 462) which has been edited and published,
+ 33| with a Latin translation, by Gildemeister (Esdvrae liber quartus arabice e cod. Vat., Bonn 1877).
+ 34| Extracts from this version are contained in an Oxford (Bodleian) MS. 260; anda fragment contain-
+ 35| ing ch. vii. 75-91 has been found in a Paris MS. by Violet.
+ 36| This version contains some interesting and valuable readings which have led Gunkel to postulate
+ 37| the existence of a second Greek version, made from the Hebrew original, which he supposes to have
+ 38| been the basis of this version.
+ 39| (eternal) = Heb. wy): the other versions imply for a witness (= Wd). Evidently there were two Greek
+ 40| readings, representing two renderings of a single Hebrew text. One has been followed by Ar.?; the other by
+ 41| the other versions. Again, in xiv. 3 Ar.’ has SizaZ ( ( where the other versions have dusk (= --(
+ 42| phenomena which point to different readings in the Greek, due to a difference of reading the Hebrew. But
+ 43| it is not necessary to infer from such instances (which, in any case, are few) that two different recensions of
+ 44| the Greek existed. The readings more probably represent marginal variants or corrections in the Greek
+ 45| exemplar used. In any case, as Violet has shown, both Ar.’ and Ar? go back to one recension of the Greek,
+ 46| which is characterized by a lacuna in the text, viii. 50-ix. 1 being omitted. It is probable that different MSS.
+ 47| of this Greek recension (if it may be so called) were used by the translators of Ar.’ and...
+ 48| Thus Ar.’, though it is very free and paraphrastic on the whole, is often an important textual
+ 49| witness, and must never be neglected.
+ 50| It is interesting to notice that Ar.’ agrees with the Syr. in omitting the first half of xi. 30 (= ef vid?
+ 51| quomodo complexa est), and again with the Syr. in attesting (in xi. 43) a clause which has fallen out in all the
+ 52| other versions (= that thou shouldst forsake us also).
+ 53| Two further fragments of an Arabic version independent of Ar.1 and Ar.? are also known;
+ 54| but these seem to be of secondary importance, depending, as they not improbably do, on the Latin
+
+===== PAG 559 =====
+  0| INTRODUCTION
+  1| version. [See further Violet, xxxi-xxxix: Violet gives a German translation of both Ar.’ and
+  2| Ar. with critical notes.]
+  3| (e) THE ARMENIAN. This version was first printed in the Armenian Bible of 1805 (Venice),
+  4| and again in the Armenian edition of the Apocrypha of the Old Testament (Venice, 1896). A Latin
+  5| translation (by J. 11. Petermann) is given in Hilgenfeld (of.. pp. 378 ff.), and a German one by
+  6| Violet. The version is exceedingly free, and possesses little or no value for the criticism of the text.
+  7| It may have been made from the Syriac.
+  8| (f) FRAGMENTS AND TRACES OF OTHER VERSIONS. An important discovery of some frag-
+  9| ments of a Sahidic version of our book was made known in 1004.1 The fragment in question
+ 10| covers chap. xiii. 29-46; but the leaf containing it is unfortunately much damaged. The recovery
+ 11| of other parts of this version, which is not impossible, would probably afford valuable help in
+ 12| reconstructing the underlying Greek text, if, as is likely, the Sahidic was made directly from
+ 13| the Greek. The Sahidic translation would certainly embody many of the original Greek words
+ 14| as loan-words.
+ 15| Traces also exist of an old Georgian version of our book. [See further Violet, pp. xl.]
+ 16| 4. Lost GREEK VERSION. )
+ 17| The dependence of all the versions (with the possible exception of the Armenian) upon a lost
+ 18| Greek version hardly needs any detailed proof. The differences between the versions can con-
+ 19| stantly be explained by corruptions of a Greek text underlying them.
+ 20| To select a few instances out of many: in v. 28 the Latin has 2700070577 (= yroysacas) unam radicem
+ 21| super alas; but the Oriental versions rightly render ‘thou hast dishonoured (= µ ) the one root’, &c.
+ 22| the city appearing ' (so Syr. substantially); but the true text, represented by the Ethiopic and Armenian runs:
+ 23| great bewilderment ( ); but the Ethiopic has search for bewilderment, misreading as.
+ 24| Further, the internal evidence of the versions singly often clearly demonstrates dependence upon
+ 25| a Greek underlying text. Thus the Latin sometimes reproduces Greek constructions (e. ₪. the genitive
+ 26| absolute, v. 55), and Greek genders unknown to Latin (e.g. x. 23 signaculum Sion... resignata
+ 27| est: ‘seal’ being treated as fem. as in Greek=7. See further on these points WF,
+ 28| pp. 17 f.; EA, pp. xi, xviii (see also Index V of the latter work under Greek constructions and
+ 29| Greek words).
+ 30| Positive evidence of the existence of such a Greek version as is desiderated by the evidence of
+ 31| the secondary versions is afforded by actual citations in the early patristic literature, as well as
+ 32| by the existence of Greek works which have been based upon, or imitated from, the lost Greek
+ 33| Stromatezs, iii. 16; and of viii. 23 in Const. Apost. viii. 7; while Const. Apost. ii. 14 contains a passage,
+ 34| the language of which is strongly reminiscent of vii. 103 (fathers for sons, sons for parents, brothers
+ 35| jor brothers, kinsfolk for their nearest, friends for their dearest). The passage in question runs as
+ 36| follows:--
+ 37| El, viol,,
+ 38| ,,, (0.. )
+ 39| . add’ oixelov.
+ 40| A knowledge of the Greek 4 Ezra appears to be presupposed, also in the Hippolytean fragment
+ 41| . The alleged citations in our book of the Efistle of Barnabas are, however, more
+ 42| than doubtful (see the notes on v. g below). For a full discussion of these points reference must
+ 43| be made to BY, pp. xxvii-xxx; cf. also ZA, p. xii. For later Greek works which have imitated
+ 44| the Greek 4 Ezra (viz. the Apocalypses of Esdras and Sedrach), see Violet, pp.!-lix.
+ 45| The reconstruction of the lost Greek text from the Latin version of our book has been carried out
+ 46| with a considerable amount of success by Hilgenfeld (with the assistance of Lagarde and Hermann
+ 47| Ronsch). It is printed in AZessias Iudaeorum (pp. 36-113), and is a most valuable piece of work.
+ 48| Volkmar, also, in his edition of our book (Das vierte Buch Esra, 1863) has constantly suggested
+ 49| Greek renderings which are often important for this purpose; while in Gunkel’s commentary some
+ 50| 546
+
+===== PAG 560 =====
+  0| IV EZRA
+  1| useful notes of a similar character by Wilamowitz are occasionally cited. An elaborate reconstruc-
+  2| tion is promised by Violet.
+  3| hope that parts, or even the whole, of the lost Greek version of the Apocalypse proper may yet come to light.
+  4| Gunkel (. Kautzsch) has propounded a theory that two independent Greek translations of a
+  5| Hebrew original were made; while the Lat., Syr., Ethiop., Ar.’ (and possibly the Armenian) rest
+  6| upon one of these, Ar., he thinks, rests upon a mixed Greek text, made up of the edition used by
+  7| the other versions, and a second made independently and later. The evidence adduced for this
+  8| view is, however, very slight, and has already been dealt with above in 3d (in connexion with
+  9| ). The textual phenomena are susceptible of an alternative and simpler explanation, viz. that
+ 10| Ar.? has embodied marginal variants occasionally; while, in other respects, it has handled its Greek
+ 11| text rather freely, omitting considerable portions. [For Volkmar’s theory of a second Greek recen-
+ 12| sion see ZA, p. xiii.]
+ 13| = THE ORIGINAL HEBREW TEXT.
+ 14| The most recent investigators of the textual problems of our book are agreed in postulating a
+ 15| Hebrew text as the original form in which 4 Ezra was composed. These scholars include Well-
+ 16| hausen, Charles, Gunkel, and Violet... The opposite view (of a Greek original) has been championed
+ 17| by Liicke, Volkmar, and Hilgenfeld.
+ 18| The fullest discussion of the grounds for assuming a Hebrew original is that of Wellhausen.?
+ 19| It may be said, without qualification, that judged by any of the properly applicable tests, the
+ 20| phenomena point to a Semitic original. THE SYNTAX REFLECTS CHARACTERISTICALLY HEBREW
+ 21| in consequence it is sometimes difficult to determine exactly where the protasis of a hypothetical
+ 22| sentence ends, and the apodosis begins.
+ 23| editors is not certainly correct—the sentences should, perhaps, be run on.
+ 24| Note also turns of expression as e¢ factum est et and et erit et, which are essentially Hebrew
+ 25| modes of expression, as also are ef ecce (very frequent in chapters 10 and 11), and { vidi et ecce
+ 26| (iv. 48, xi. 1 {.) or 27 audivi et ecce (vi. 18). All these, as Wellhausen points out, are characteristically
+ 27| THE FOLLOWING AKE EXAMPLES OF STRONGLY MARKED HEBRAISMS: the complement of
+ 28| the relative by a demonstrative pronoun, 6. g. de quibus st mihi renunciaverts ex his (iv. 4), de quo
+ 29| me interrogas de (iv. 28), in quo stas super eum (vi. (4), super quem stabam super eum (vi. 29), gui per
+ 30| semet ipsum liberabit creaturam suam (xiii. 26).
+ 31| The last instance cited is an excellent example of the ambiguity which may arise from the misunder-
+ 32| does not distinctly express standing of the Hebrew relative and its complement (the Heb. relative particle
+ 33| either number or case). Similar instances of misunderstanding also occur in ix. 20 ( propter cogitationes quae
+ 34| in eo advenerunt should be. ¢. corum gui in eo, &c.); and in xiii. 4 (quem captivum duxit Salmanassar
+ 35| should be guas or guos captivos duxit, &c.).
+ 36| The construction of the Hebrew infinitive absolute with the finite verb is of extraordinarily
+ 37| frequent occurrence. It is usually rendered by a particle or by an abstract substantive.
+ 38| The following are illustrative of numerous examples: excedens excessit cor tuum (iv. 2); festinans festinat
+ 39| Sacculum pertransire (iv. 26); mensura mensuravit tempora et numero numeravit tempora (iv. 37); odtens odisti
+ 40| populum tuum (. 30). The number of these examples might be somewhat increased if the instances could be
+ 41| added where the Syr. attests the same construction without the support of the Latin.
+ 42| One of the characteristic features of Hebrew, which it shares with other old Semitic languages,
+ 43| is the paucity of its adverbs. The language, consequently, is forced to adopt other modes of speech
+ 44| in order to express the adverbial idea. The infinitive absolute often does duty in this way (express-
+ 45| ing intensity or iteration: = surely, much, often, &c.). But sometimes other methods are resorted
+ 46| + ) to. Thus repeated action (= again) is expressed in Hebrew by such phrases as { add to do
+ 47| another verb). This usage is reflected in our text by such un-Greek expressions as adiciam (dicere)
+
+===== PAG 561 =====
+  0| INTRODUCTION
+  1| coram te (. 32); superdixerunt (vii. 23); ergo adicere ingquirendo (viii. 55); adictam dolorem
+  2| (ix. 41); adposnut adhuc logui (x. 19).
+  3| The usage of prepositions is often Hebrew rather than Greek (see the examples cited in 24,
+  4| p-xvf.). The characteristic features of Hebrew style are marked throughout all sections of the book.
+  5| Thus in the dialogue between the seer and the angel the expression he answered (I answered) and
+  6| said constantly recurs; cf. also ask... and say, v. 46, 50. Before the oratio recta saying (= (
+  7| feature in Hebrew composition. Another characteristic feature in the dialogue is the self-designation
+  8| of the human speaker as ¢/y servant, while the angel is addressed as domine (cf.. 45-56, Vi. 12,
+  9| vii. 75, 102, viii. 6, 24, x. 37, xii. 8, xiii. 14); in the case of a woman thine handmatd (ix. 43, 45).
+ 10| The title of address O dominator domine (O Lord that bearest rule, R.V.) which occurs several times is
+ 11| properly applicable only to God = µ (Heb. or.(
+ 12| Characteristically Hebrew, again, is the artless simplicity with which sentences (esp. imperative
+ 13| forms of speech) are constantly expanded by the use of redundant expressions.
+ 14| The following examples are cited by Wellhausen: vade fondera mihi (iv. 5); venite et eamus (iv. 14);
+ 15| zenite ascendentes debellemus (iv. 15); vade et interroga (iv. 40), &c. The materializing of the action is
+ 16| detailed by the side of the description of the action itself: e.g. Respext oculis meis et vidi (ix. 38); apertum
+ 17| Further examples of genuine Hebraisms are the following: dzxz { corde meo (iti. 28); accepisti
+ 18| in corde tuo (vii. 16); reddere animam suam (vii. 75); non dirigentur viae eorum (. 12):
+ 19| . 5,7); women uni vocasti (vi. 49); nomen tuum invocatum est super dare vocem suam (=
+ 20| nos (iv. 25, X. 22); fiebat species coruscus (x. 25); factus est in uno casus eorum (iii. 10); factus est
+ 21| Tacob in multitudine magna (iii. 16); factus est in vano (iv. 16); concupiscentia gustus multiformtis
+ 22| (vi. 44).
+ 23| A number of words are used also in a sense that can only be explained by Hebrew usage: cf. e.g.
+ 24| tree confractio (vii. and note), cor maris (iv. 7), flumen (= the River sc. Euphrates, xili. 40), =
+ 25| or (iv. 13; v. 5 = Heb. = both wood and { ), multus for magnus (Heb., x. 38, &c.), nationes (=
+ 26| mode or hind; cf. vii. 80, iv. 3 and often: see note 5, p. 145(; )== xiii. 9, 28), va (= Heb.
+ 27| It would, no doubt, be possible to explain isolated examples in the lists given above without
+ 28| recourse to the hypothesis of a Hebrew original; but the cumulative effect of the whole evidence
+ 29| creates a presumption which amounts to a certainty that the Greek text which underlies the extant
+ 30| versions was itself a translation from a Hebrew original. The whole book is coloured by Hebrew
+ 31| diction, Hebrew modes of thought and characteristic modes of expression.
+ 32| This conclusion is in no way weakened by the fact that Graecisms are of not infrequent occurrence. As
+ 33| Wellhausen remarks, Graecisms occur in the LXX. Attention has already been called to the fact of the
+ 34| which the Latin translator worked. Of Graecisms proper in the Greek translation itself a good instance is
+ 35| in co quod misereatur (Vil. 132) =, several examples of which occur ( 7¢+infin.). Occasional
+ 36| 548
+
+===== PAG 562 =====
+  0| IV EZRA
+  1| One other criterion exists by which the hypothesis of a Hebrew original may be tested: viz.
+  2| whether the hypothesis will explain, or is compatible with, the variations that exist in the versions.
+  3| A certain number of these are due to internal corruptions in the versions themselves.'_ But a large
+  4| number of cases remains where divergent readings of the Greek can best be explained by the hypo-
+  5| thesis of corruption in the original Hebrew text (for examples see the notes in the following
+  6| commentary).
+  7| Again ex hypothesi it ought to be possible throughout to arrive at an approximation to the under-
+  8| lying Hebrew text. This has been constantly borne in mind by the present editor, and it can
+  9| confidently be asserted that, all through, the textual phenomena are compatible with a Hebrew original.
+ 10| a Hebrew original (cf. notes ad ). The word-play in the Greek of xii. 24-25 has already been referred to.
+ 11| In the previous discussion it has been assumed throughout that a Hebrew original is postulated.
+ 12| The textual phenomena certainly point to this rather than Aramaic. The constant use of such
+ 13| expressions as 02 factuim est, et erit, et ecce, and, above all, the recurring use of the infinitive absolute,
+ 14| point to a Hebrew rather than an Aramaic original.
+ 15| It remains to add a word on the relation of the Hebrew original to the versions. The extant
+ 16| versions are, as has already been pointed out, translations directly from the lost Greek version
+ 17| (with the possible exception of the Armenian, which may have been made from the Syriac).
+ 18| The original Greek version was itself a translation of the Hebrew text which embraced the
+ 19| Apocalypse proper (i.e. chapters iii-xiv of 2 Esdras in the Vulgate form). To this original Greek
+ 20| version were appended (in the third century) the additional chapters )1-11 and xv—xvi of the Vulgate
+ 21| and our own official Apocrypha). They were composed in Greek and are of Christian origin. In
+ 22| the time of Ambrose apparently the Latin version of chapters xv—xvi was already current, and it is
+ 23| probable that these chapters were already attached to chapters iii-xiv (see further BF, p. xliii; and
+ 24| for the whole subject of this section ZA, pp. xiii-xix).
+ 25| 6. THE COMPOSITE CHARACTER OF THE TEXT.
+ 26| the whole, a uniform composition which in a real sense goes back to a single author? The latter
+ 27| alternative is accepted by (among modern scholars) Gunkel and F. C. Porter; the former is upheld
+ 28| by Kabisch and Dr. Charles.
+ 29| At the outset we are confronted with a da‘um that strongly suggests the use by an editor of an
+ 30| independent source. In the very first verse we read: J Salathiel who am also Ezra (11. 1). This
+ 31| strange identification of Salathiel with Ezra cannot be justified historically, nor can it be explained
+ 32| as due to defective historical knowledge on the part of the original writer of this section of the book.
+ 33| The only adequate explanation is that an editor or compiler is using an independent writing in which
+ 34| the seer who is the recipient of the revelations that follow, spoke in the name of Salathiel, and that
+ 35| the compiler who utilized this written source was anxious, for some reason, to connect it with the
+ 36| name of Ezra; accordingly he inserted the words who am also Esra.
+ 37| What other explanation is possible? If it be assumed that the author wrote the words, then we must
+ 38| surely far-fetched, and in the highest degree unnatural. If the author had wished to speak throughout in the
+ 39| name of Ezra it would have been perfectly easy for him to do so. The importation of Salathiel would in that
+ 40| sources, all is explained.
+ 41| We may assume, then, that the present form of our book reveals unmistakably the hand of a
+ 42| Compiler or Redactor (R) who has used as a source an originally independent Salathiel-apocalypse
+ 43| (S). It remains to determine what are the limits of S, so far as it is embodied in our own book,
+ 44| and what are its relations to other parts of the book.
+ 45| 7. THE SOURCES OF THE BOOK.
+ 46| No question arises in connexion with regard to chapters 3-10 which, apart from the eschatological
+ 47| passages, may be assigned as a whole toS. The Redactor (R) will, of course, be in evidence
+ 48| 549
+
+===== PAG 563 =====
+  0| INTRODUCTION
+  1| occasionally; but there will be little difficulty in assigning limits to his work after the more important
+  2| This resolves itself into the question whether the author of S can have embodied in his work the
+  3| 5th, 6th and 7th visions of the book (chapters xi-xiv), or whether these are to be regarded in the light
+  4| of appendices, drawn from independent sources, and inserted in their present position by R.
+  5| The famous Eagle-vision (chapters xi-xii) has all the appearance of an independent writing.
+  6| It has a style and form of its own. But the all-important fact about it is that it reveals eschatological
+  7| conceptions which are radically opposed to those of S. The latter holds strongly to a dualistic and
+  8| transcendental view. There are two ages; one the present corruptible age, and the other the
+  9| glorious incorruptible age that is to succeed the present one, after the Final Judgement. The hopes
+ 10| of S are fixed on the latter; he gives up the present as hopeless (see further 6 10 (1). On the other
+ 11| hand, in the Eagle-vision a strongly political view is held. The writer's hopes are fixed on the
+ 12| annihilation of the Eagle (i.e. the Roman Empire). It is this that will mark the decisive moment;
+ 13| the Day of Judgement will dawn, according to this writer's conception, when the Roman Empire
+ 14| is annihilated by the Messiah, and the Rule of God becomes a reality upon the earth. The two con-
+ 15| ceptions are difficult to harmonize. Doubtless the compiler (R) did try to harmonize them by com-
+ 16| bining them in thought; he doubtless anticipated that the world, even after the victory of the
+ 17| Messiah over Rome, would still come to its predestined end which would usher in the final Day
+ 18| of Judgement. But can such a conception be attributed to S? If anything is certain about this
+ 19| a mere collector of opposed opinions. The conviction that dominates the whole thought of S is that
+ 20| the evil which reigns in the present order is so deep-rooted that nothing less than the dissolution of
+ 21| the present world and the ushering in of the future and better world (or age) will suffice to eliminate
+ 22| the wrongs and unrighteousness that now 6156. Is it conceivable that S can at the same time have
+ 23| held the view that the annihilation of the oppressive world-power by the Messiah will usher in a new
+ 24| age in the present world, which will bring felicity to those who live on into it, and justify the ways of
+ 25| God by making the divine rule a reality upon the earth? No. This older view was doubtless well
+ 26| known to S, and had failed to satisfy him. In his agonizing struggle for fresh light he im-
+ 27| plicitly repudiates the older eschatology, with its political hopes and somewhat materialistic
+ 28| aspirations, and takes refuge in a transcendental view. Consequently we are justified in treating
+ 29| the Eagle-vision (A) as an independent source which owes its position in the book to R.2 The
+ 30| general theme of the Son of Man vision (ch. xiii)—viz. the annihilation of hostile powers and the
+ 31| setting up of the Messianic kingdom—is identical with that of the Eagle-vision. For the reasons
+ 32| already advanced it cannot, therefore, belong to S. Its eschatology also is different from that of the
+ 33| Eagle-vision, as will be shown later. Consequently it must be regarded as an independent writing.
+ 34| Though in tone and in some of its characteristic conceptions the final chapter (xiv) of our Apocalypse
+ 35| is much more akin to S than the two independent sources already referred to, it yet cannot be
+ 36| regarded as belonging to the Salathiel-apocalypse. The situation presupposed throughout this
+ 37| chapter (with the exception of some interpolations due to R) is that of the historical Ezra, living
+ 38| Salathiel (who lived a century earlier) as this is implied in S.
+ 39| apocalypse (S) is contained within chapters iii-x of our book; while outside of and independent
+ 40| of this at least three other independent sources have been used, viz. the Eagle-vision (chapters xi—xii
+ 41| E?). =A), the Son of Man vision (ch. xiii=M), and an Ezra-piece (ch. =
+ 42| The combination of these elements into the present whole of the Ezra-apocalypse will have been
+ 43| the work of the compiler (R). 1 the process of redaction the hand of R will naturally be evident
+ 44| especially in fitting together the diverse material, and in the work of harmonization. It becomes
+ 45| But before this is attempted the question of the possible existence of another source within our
+ 46| book remains to be discussed. Within the chapters which contain S there are four eschatological
+ 47| passages, marked by special features, the relation of which to S it is important to determine. These
+ 48| passages are the following: (1) iv. 52-v. 13a, (2) vi. 11-29, (3) vii. 26-44, and (4) viii. 63-ix. 12.
+ 49| In general they contain eschatological descriptions, of a well-known traditional type, which set forth
+ 50| the ‘signs’ that are to precede the end of the world, and usher in the Final Judgement.
+ 51| Thus (1) describes the ‘signs’ that precede the End as follows: it will be a time of commotions, and the
+ 52| general break up of moral and religious forces (v. 1-2); the heathen world-power (= Rome) will be destroyed
+
+===== PAG 564 =====
+  0| IV EZRA
+  1| have perished from the earth (v. ro-12). In (2) the description of the signs that precede the End is taken up
+  2| again and interwoven with another which has for its subject the End of the world itself. It also contains
+  3| delineation of the dissolution of the world interwoven with a description of the Judgement itself (vii. 26-44).
+  4| In (4) the signs of the End are again reviewed (viii. 63-ix. 12).
+  5| Are these passages integral parts of S? Or can S have been responsible for their insertion in
+  6| their present contexts? The traditional character of the passages as a whole is generally conceded;
+  7| they belong to a type which has many parallels elsewhere. Is it conceivable, then, that S took
+  8| up this widely current traditional material, and embodied it in his own work? An examination of the
+  9| 56 12) mentioned discloses unmistakable marks of interpolation. Its - first of the passages (iv..
+ 10| awkward insertion in its present context cannot be due to S; it was doubtless interpolated by R. The
+ 11| second passage is parallel to and depends upon the first. If (1) is an interpolation, it follows that
+ 12| (2) must be also. The source from which R excerpted them was, Kabisch thinks, an old Ezra-
+ 13| apocalypse, containing eschatological descriptions of the ‘ signs’ preceding the End, and of the End
+ 14| itself. It may be denominated E (= Ezra-apocalypse; so Kabisch). For similar reasons the third
+ 15| and fourth passages {vii. 26-44 and viii. 63-ix. 12) cannot belong to S or have been inserted in their
+ 16| present contexts by S. Kabisch believes that both these passages have been drawn from E. The
+ 17| present writer, however, thinks that in their extant form both are the work of R, who may have
+ 18| drawn upon E, but has also utilized other material. They are in fact a compilation of diverse
+ 19| elements (cf. the discussion in £.A, pp. 108 ff. and 199 ff.).
+ 20| The results thus reached may be stated as follows: the present form of our apocalypse is due
+ 21| to a Redactor (R) who used the following sources:
+ 22| (1) 5, A SALATHIEL-APOCALYPSE which (so far as it has been utilized) is embodied in iii. 1-31,
+ 23| 15 57; in addition the two sections - iv. I-51, v. 13 b—vi. 10, vi. 30-vii. 25, Vil. 45—viii. 62, and ix..
+ 24| xii. 40-48 and xlv. 28-35 are probably misplaced pieces which belong to S (see the introductory
+ 25| sections ad /oc.).
+ 26| 52 13a and vi. 13-29 are extracts. Their (2) E, AN EZRA-APOCALYPSE, from which iv.. -
+ 27| present position is due to R, who has also drawn upon this source in vii. 26-44 and viii. 63-ix. 12.
+ 28| (3) A, THE EAGLE-VISION, contained (with revision by R) in chapters xi-xii.
+ 29| SON OF MAN VISION, contained (with much revision and insertions by R) in (4) M,
+ 30| chapter xiii. \
+ 31| (6) R is responsible for the compilation of the book as a whole. By means of redactional
+ 32| links and adjustments he has fitted the different elements of the book together; the following
+ 33| passages (redactional links) are due to his hand: iv. 52 (as for the signs concerning which thou
+ 34| askest me, I may tell thee of them in part but) introducing the extract from E which follows:
+ 35| (v. I-13 a), vi. 11-12 (introducing the second extract from E which follows in vi. 13-28), vi. 29,
+ 36| x. 58-9 (transition to the Fifth vision), xii. 49-51 (transition to the Sixth vision), xiv. 0
+ 37| (conclusion of the book). In the process of adjustment R has also, apparently, misplaced cer-
+ 38| tain sections of S. Besides the two sections already mentioned (xii. 40-8 and xiv. 28-35) the
+ 39| following also fall under this category: v. 14-15 and xiii. 57-8. The following are the longer
+ 40| insertions which were probably compiled in their present form, as well as inserted by R:
+ 41| . 32-6, vii. 26-44, viii. 63-ix. 12, and xiii. 13 b-24: R is also responsible for a certain amount
+ 42| of revision in the fourth and following visions (especially in the interpretation): x. 45 (27
+ 43| altered in the original Heb. to zz ea) and x. 46 (David altered into Solomon), xi. 12 (on the right
+ 44| Side), xi. 20 (upon the right side), xii. 8 (completely), xii. 9, xii. 14, xii. 15 (the twelve), xii. 26 b-28.
+ 45| xii. 32 (partly), xii. 34, xii. 39, xiii. 26b, xiii. 29-32, xiii. 36, xiii. 48, xiii. 52 (or those that
+ 46| are with him). For minor adjustments made by R reference must be made to £4, p. xxvii.
+ 47| The above analysis agrees, in the main, with the results of Kabisch’s masterly discussion in his
+ 48| essay on our book.’ The present editor, however, differs from Kabisch in assigning rather more to
+ 49| R—in particular the sections vii. 26-44 and viii. 63-ix. 12 which appear to be compilations by him.
+ 50| Thus the book as a whole is a compilation from different sources. In the case of EA
+ 51| of E we have also a piece which was extracted from a larger source (cf. EA, pp. 301). Only
+ 52| 551
+
+===== PAG 565 =====
+  0| INTRODUCTION
+  1| in the case of S, which forms the groundwork of the whole book, have we a source which
+  2| is substantially preserved in its entirety—though even here there are some curtailments. With S the
+  3| compiler interwove extracts from other (Ezra) apocalypses, and then invested the whole with the
+  4| name of Ezra (cf. the case of 1 Enoch, which is a compilation of extracts from a number of Enochic
+  5| apocalypses interwoven with fragments of a Noah-apocalypse)."
+  6| 8. THE DATE OF THE SOURCES AND OF THE FINAL REDACTION.
+  7| Fortunately in the opening verse of the book we have a precise statement which points definitely
+  8| to an exact date for the original appearance of the Salathiel-apocalypse (S). It is stated in iii. 1 that
+  9| it was 271 the thirticth ycar of the downfall of the city that Salathiel was in Babylon and underwent the
+ 10| experiences detailed in the visions that follow; and this statement is confirmed in iii. 29 (these
+ 11| thirty years). This date, which probably is intended to refer to the original publication of S, points
+ 12| to the year A. D. 100 (i.e. thirty years after the destruction of Jerusalem in A. D. 70) as the time when 5
+ 13| originally appeared or was completed as an independent work. For reasons supporting this view
+ 14| reference must be made to ZA, p. xxviii f. The place of composition of 5 was probably Palestine,
+ 15| and not Rome as Kabisch supposes (ibid.).
+ 16| With regard to the dates of the other sources embodied in our book, E is marked by traditional
+ 17| features which suggest that it was current long before it was utilized by R, who has handled it with
+ 18| considerable freedom.? From the absence of any clear indication that the horrors of the struggle
+ 19| have coloured the delineation of the Messianic ‘woes’ in these which culminated in A.D.
+ 20| passages it may be inferred that E had assumed literary form some time before A.D. 70.5 Kabisch
+ 21| suggests as a possible date about 30 B.C.
+ 22| The date of the original composition of the Eagle-vision (A) may be more definitely deter-
+ 23| mined. The one usually favoured is some time in the reign of Domitian (A. D. 81-96); but a date
+ 24| in the reign of Vespasian (A. D.69-79) is quite possible, and not improbable (see the point fully
+ 25| discussed £A, p. 249).
+ 26| In the case of the Son of Man vision (M) the interpretation of the vision presupposes a time for its
+ 27| 256). As the Christology of M is more advanced than that composition before A.. 70 (cf. 22/4,.
+ 28| of E it is probable that it was reduced to written form at a later date than the latter, though it must be
+ 29| remembered that the actual vision in M (4 Ezra xiii. 1-13 a) embodies traditional elements that are
+ 30| much older.
+ 31| On the other hand, E? (ch. xiv) clearly implies a date subsequent to A.D.. The emphasis laid
+ 32| upon the representation of Ezra as the restorer of the Law that has been burnt (xiv. 21) points
+ 33| unmistakably to this. Kabisch regards this source as of contemporaneous origin with S, and this is
+ 34| quite possible; in tone it occasionally resembles S. But all that can be said with certainty is that
+ 35| it must have been composed some time between A.. 70 and the time of the Redactor (? c. A. D. 120);
+ 36| it is probable that some considerable time elapsed between the Fall of Jerusalem and the time
+ 37| of its composition; consequently a date at or about A.D. 100 is not improbable.
+ 38| The limits within which the final redaction of our book must have taken place may be fixed as
+ 39| A.D. 100-135. It is clear that the book cannot have been published in its present form before the
+ 40| former date in view of the explicit reference in iii. 1 to the thirtieth year after the downfall of the city;
+ 41| and on the other hand, it would have been impossible for a Jewish book of this kind to have found
+ 42| its way into Christian circles after the Bar-Kokba revolt, when Church and Synagogue had become
+ 43| 132-135 for the Hebrew original hopelessly alienated. Sufficient time must be allowed before A..
+ 44| to have been translated into Greek, and for the Greek version to have won its way into Christian
+ 45| circles. The date of the original publication cannot, therefore, be placed much after A.D. 120. Can
+ 46| it be placed any earlier?
+ 47| We have already seen reason to believe that the explicit time-determination given in iii. 1 marks
+ 48| the date of the publication of S—not that of the whole book. If that be so, sufficient time must be
+ 49| allowed for 5 to have become well known in the circles to which R belonged, and for the work of
+ 50| compilation to have taken place. A number of indications suggest that at the time when the
+ 51| Redactor compiled the work feeling towards Rome on the part of Jewish circles in Palestine had
+ 52| become embittered.‘ ~ This was the case after the suppression of the Jewish rebellions in A. D. 116-117;
+ 53| 552%
+
+===== PAG 566 =====
+  0| IV EZRA
+  1| and though with the accession of Hadrian a better feeling manifested itself, this was of short
+  2| duration, and the old spirit of hostility soon re-asserted itself. These various indications point to
+  3| a date about A. D. 120 as the time when the Redactor wrote and completed his work. It may have
+  4| been somewhat later.
+  5| its final form (in Hebrew and then translated into Greek).
+  6| 9. THE RELATION OF 4 EZRA TO 2 BARUCH.
+  7| It is evident from a comparison of parallel passages! that a relation exists between 4 Ezra and
+  8| 2 Baruch of the closest and most intimate description. To determine the exact details of this relation-
+  9| ship is not possible here in view of the complex critical problems involved by the composite character
+ 10| of the text of each book. All that can be attempted is to set forth some of the daa that will serve
+ 11| to indicate the lines of a solution.
+ 12| The composite character of 4 Ezra has already been indicated in the former part of this Intro-
+ 13| duction (see above 6 and 7). In the case of 2 Baruch also the editor (Dr. Charles) finds it necessary
+ 14| apocalypses, which look for a personal Messiah, being chapters xxvii—xxxi, xxxvi—xl, and liii-Ixxiv);
+ 15| as in these sections Jerusalem is represented, according to Dr. Charles, as still standing it may be
+ 16| concluded that they assumed literary form before A. D. 70: another set of passages, denominated 1
+ 17| (= i-ix. 1, xxxii. 2-4, xliii-xliv. 7, xlv—xlvi, Ixxvii-]xxxii, Ixxxiv, Ixxxvi {), which are optimistic
+ 18| as to the future of the present world-order, but do not expect the advent of a personal Messiah, may
+ 19| 70 be grouped partly with A’, A?, A; but the date of composition of B! must be subsequent to A..
+ 20| as the destruction of Jerusalem and the exile are presupposed. Dr. Charles also distinguishes
+ 21| Ixxv sq., 1xxxiii) and B (= Ixxxv): both B? and B? are pessimistic in their view of the present world-
+ 22| order, and do not look for a Messianic kingdom; their hopes are fixed on the advent of the final
+ 23| judgement and the spiritual world; they also presuppose the destruction of Jerusalem and the exile,
+ 24| and therefore assumed literary form subsequent to A. D. 70.
+ 25| The broad results of this critical analysis suggest that 2 Baruch is a compilation from diverse
+ 26| elements similar, in many respects, to 4 Ezra. In both cases older documents, containing the
+ 27| national eschatology, have been combined with later elements which reveal a fundamentally different
+ 28| outlook. The elements 25 135 in 2 Baruch are comparable with S in 4 Ezra, while A! has
+ 29| affinities with the E source of 4 Ezra, and the date of its composition may be much the same.
+ 30| As to the date of composition of and A the present writer must confess to some doubts.
+ 31| The former of these,, i.e. the fountain and cedar vision, is a vision of the fall of the Roman
+ 32| vision, and may very well be of much the same date (some time in the reign of Vespasian or
+ 33| Domitian). May it not have formed one of the collection of dream-visions from which the Eagle-
+ 34| vision of 4 Ezra was excerpted? The possibility must of course always be allowed for that the
+ 35| actual material of the vision is older than its interpretation. In A? (the cloud and water vision)
+ 36| there is apparently a fusion of early and later elements. It has several points of contact with
+ 37| of 4 Ezra, and in its present form may well be of much the same date as regards literary com-
+ 38| position (some time between A.D. 70 and 100, or even later); its reflective and theological tone
+ 39| harmonizes with this view. The material of the vision is probably one of the older elements,
+ 40| as also is the eschatological scheme of the Messianic ‘ woes’ in ch. Ixx.
+ 41| ! ]- the list of parallel passages in Dr. Charles’s edition of 2 Baruch (pp. 170-1; cf. also pp.
+ 42| in £A). It looks sometimes as if one were actually citing the other.
+ 43| In each book we apparently have the work of a school of apocalyptists. The schools are,
+ 44| it would seem, rival schools. One is answering the other. The present writer believes that 4 Ezra
+ 45| represents the work of a somewhat earlier school of apocalyptists who were under the influence of
+ 46| younger school, who were under the influence of Aqiba. The latter work answers the former; and,
+ 47| on the whole, it gives answers decidedly more in accordance with what later became orthodox
+ 48| Judaism. Thus whereas in 4 Ezra vii. 119 (O thou Adam, what hast thou done! For though it was
+ 49| thou that sinned, the fall was not thine alone, but ours also who are thy descendants! a passage belong-
+ 50| ing to S) Adam is charged with being the cause of the perdition of the whole race, this teaching
+ 51| 553
+
+===== PAG 567 =====
+  0| INTRODUCTION
+  1| is expressly refuted in 2 Baruch (cf. liv. 19: Adam is therefore not the cause, save only of his own soul,
+  2| but each one of us has been the Adam of his own soul, a passage which belongs to A according to
+  3| Dr. Charles’s analysis).
+  4| It seems probable that 2 Baruch in its final form was edited and put forth soon after the appearance
+  5| of 4 Ezra in its present form; i.e. some time between A. D. 120 and 135, perhaps very soon after
+  6| A.D.120. Like 4 Ezra it was originally written in Hebrew, and soon after its appearance in this
+  7| language was translated into Greek.
+  8| $10. THE THEOLOGY AND ESCHATOLOGY OF THE
+  9| The book as a whole presents, as Gunkel has pointed out, two kinds of material: ‘(1) properly
+ 10| apocalyptical and especially eschatological mysteries; this material is to be compared with Dan. vii. ff.
+ 11| or Revelation ivff.; (2) religious problems and speculations which relate to eschatology and find
+ 12| in it either their answer or their occasion; this material is comparable with the speculations of
+ 13| the Pauline letters. The author put these problems in general before the mysteries, as being
+ 14| of greater importance, an order which can be compared with that of Revelation’? In the light
+ 15| of the critical analysis given in & 6 and 7 above by ‘author’ here we must understand, for the
+ 16| purposes of our discussion, Redactor. The latter, in compiling our book, must have placed the
+ 17| felt to be concerned with one of the burning subjects of the day—the religious significance of
+ 18| the Fall of Jerusalem. The appendices to S (chapters xi-xiv) were intended to supplement the
+ 19| Salathiel-apocalypse by setting forth some classical expressions of the older eschatology. As
+ 20| will be seen, the eschatology of S, both explicit and implicit, is in many respects of a fundamentally
+ 21| different character.
+ 22| (1) The theology and eschatology of S. The author of S appears to have been in close touch
+ 23| with the circles of the Teachers of the Law, and may have actually been a member of the scribal
+ 24| class (cf. viii. 29). Like many Pharisees of the time he valued and practised an ascctic mode of life
+ 25| (cf. vi. 32, and the frequent references to fasting in the first four visions). As a Jew he postulates
+ 26| the fundamental beliefs of Judaism. He insists on God’s unity and uniqueness; God and God alone,
+ 27| without the intervention of any mediatorial agency, is responsible for creation, and God alone will
+ 28| exercise the functions of Judge at the final judgement (vi. 1-6). Israel is God’s elect people (v. 27;
+ 29| cf. the whole passage v. 23-30; vi. 58; viii. 16, &c.), with whom God entered into a special
+ 30| covenant-relation (iii. 14 f.), and for whose sake the world was made (vi. 55, vii. 11). The Law isa
+ 31| special divine gift to Israel (iii. 10 f., ix. 31 f.). It had indeed been offered to the other nations of the
+ 32| world but deliberately rejected by them (cf. vii- 23, 24, vii. 72); Israel, on the other hand, had
+ 33| accepted it, and had thereby acknowledged the divine sovereignty. In consequence Israel is the true
+ 34| representative of humanity before God—the other nations are ‘nothing’; by rejecting the divine
+ 35| gift they have put themselves outside the pale (vi. 56, vii. 23 f.). The apocalyptist glorifies the Law
+ 36| (cf. esp. ix. 29-37), but is perplexed by the problems presented by it in its relation to Israel.
+ 37| These problems are debated in the first part of the book. Why is the chosen people given up as
+ 38| a prey to the heathen? Because of its sins? But the sins of the godless heathen far outweigh those
+ 39| of Israel; why, then, should the former be allowed to lord it over and oppress the latter? (cf. v. 29,
+ 40| iii, 28). To these questions no satisfactory answer can be found in the Law alone. The Law
+ 41| is impotent to redeem and save the sinner (ix. 36; cf. Rom. iii. 20). a race doomed to sin the
+ 42| promises of the Law are a mockery (vii. 116-31). The utmost that the seer can hope from the
+ 43| Law is that while the many are born to perish, but few shall be saved. The answers to the
+ 44| problem of the nation to which the apocalyptist struggles in the debate are the following:
+ 45| (a) God's ways are inscrutable. Man cannot understand or fathom the most ordinary elements
+ 46| of the material world: how, then, can he hope to comprehend the things of the incorruptible world?
+ 47| (iv. 7-11; cf. v. 35 {.).
+ 48| (b) Human intelligence is finite and limited. The angel enforces the point that the human
+ 49| intelligence must keep within its own prescribed bounds by a parable taken from the sea and the
+ 50| forest (iv. 12-21). The seer protests that he has no desire to explore heavenly secrets, but that his
+ 51| is about to dawn will solve all difficulties (iv. 22-32).
+ 52| (c) The course and duration of the present world has been pre-determined. Evil must run its
+ 53| course; the harvest of evil must first be gathered before the good can take its place (iv. 28-31); but
+ 54| everything has been pre-dctermined—the number of the righteous elect, and the duration of the present
+ 55| 554
+
+===== PAG 568 =====
+  0| IV EZRA
+  1| age—and things as they are will not be moved nor stirred {17 the measure appointed be fulfilled.
+  2| But when the predestined moment shall have come nothing will be able to delay its consummation
+  3| (iv. 33-43). That moment, it is hinted, will soon arrive (iv. 44-50(-
+  4| (4) { spite of all appearances to the contrary God loves Israel now and always. The apocalyp-
+  5| tist never wavers in his conviction that God’s love for Israel exceeds all other, and finds in this
+  6| thought a source of supreme consolation (v. 31-40; cf. viii. 47).
+  7| The one positive result reached in the discussion so far is an eschatological one. The future
+  8| age will solve all difficulties. This is a fundamental conviction of our apocalyptist. The present
+  9| age, in his view, is hopelessly involved in evil: it is full of impotence and sorrow. The contrast
+ 10| between the two ages—the present and the future—is emphasized in the strongest possible manner
+ 11| throughout. The corruptible world, and all that is mortal, will dissolve and be succeeded by the
+ 12| incorruptible world and immortality. It will thus be seen that the apocalyptist’s view of the present
+ 13| world-order is extremely pessimistic. He gives up the old hope of a renovation and purification of
+ 14| the present world, and fixes his gaze and his hopes on the future world or age—the age of true life
+ 15| and immortality wherein
+ 16| weakness is abolished,
+ 17| infidelity ts cut off,
+ 18| while righteousness is grow,
+ 19| and faithfulness is sprung up (vii. 114).
+ 20| But having won his way to this position the apocalyptist still finds himself baffled and perplexed
+ 21| with sore difficulties.
+ 22| In answer to the difficulty that the conung age shall bring delight to few, but tormcnt unto many
+ 23| (vii. 47) the angel can only say that the few are precious and the many worthless (vii. 49-61).
+ 24| This naturally fails to satisfy the seer, who protests that man had better not have been created
+ 25| at all (cf. vii. 62-9) or at least been restrained from sinning (vii. 116-26). Against the logical
+ 26| result of pure legalism the seer confidently appeals tothe divine compassion (vii. 132-40). Moreover,
+ 27| he is answered by the angel that his love for creation comes far short of the divine love.
+ 28| It will have become apparent from the previous discussion that the author of S realizes the inherent
+ 29| weakness of the Law as a redemptive power. He thus approaches to the attitude of mind of St. Paul
+ 30| (cf. Rom. viii. 3 f.); and it is clear that this attitude of mind was by no means so rare and isolated
+ 31| a phenomenon in contemporary Judaism as is sometimes supposed. This becomes even more
+ 32| apparent when we examine the doctrine of sin as it emerges in our Apocalypse together with the
+ 33| related doctrine of salvation by faith and works.
+ 34| It is important to remember that in the theology of S it is the acceptance of the Law that ts the
+ 35| standard by which men must be judged at the last, not the observance of it. ‘True, the Law, once
+ 36| given, ought to have been observed. But so far is this from being the case that very few, ifany, even
+ 37| in Israel have lived up to the divine requirements as set forth in the Law:
+ 38| For in truth
+ 39| There is none of the earth-born that has not dealt wickedly,
+ 40| And among those that exist who has not sinned (viii. 35).
+ 41| So conscious is the apocalyptist of this that he reckons himself among the sinners (cf. vii. 48,
+ 42| Vii. 64, vii. 118, 126, viii. 17, viii. 31). Thus, according to S, sin is conceived as consisting essen-
+ 43| tially in unfaithfulness to the Law (cf. ix. 36: we who have received the Law and sinned must
+ 44| perish). The result has been alienation and estrangement from God (vii. 48); and this result is due,
+ 45| in some way, to the sin of Adam which has involved the fall of the entire human race (cf. vii. 118).
+ 46| Man’s infirmity is to be traced to the evil heart (cor malignum) which was developed in Adam and
+ 47| transmitted to his descendants (cf. iii. 20-2 and iii. 25-6). The effect of the Law was nullified
+ 48| because of the evil germ (root iii. 22) or grain of evil seed (granum seminis mali) which was sown
+ 49| in the heart of Adam from the beginning (iv. 30). This evil root or grain of evil seed doubtless
+ 50| corresponds to the evil impulse (yeser ha-ra’) of Rabbinic theology. Adam clothed himself with the
+ 51| cor malignium by yielding to the suggestions of the evil tmpulse. The evil heart, thus developed,
+ 52| inevitably led to sin and death. The evil seed sown in the heart of Adam was transmitted to
+ 53| his descendants (iv. 30) with the result that the infirmity became inveterate (iii. 22). All men have
+ 54| fallen into sin (viii. 35), and, as a consequence, ¢izs age [the present world-order] zs fell of sorrow
+ 55| and impotence (iv. 27); the ways of this world have become narrow and sorrowful and painful
+ 56| (vii. 12). The evil heart has estranged from God and brought into destruction... not a few only,
+ 57| but wellnigh all that have been created (vii. 48); for all the earth-born are defiled with iniquities,
+ 58| 555
+
+===== PAG 569 =====
+  0| INTRODUCTION
+  1| full of sins, laden with offences. At the most, judged by the standard of the Law, only a few
+  2| can hope to be saved (vii. 45).
+  3| Exactly how the fall of Adam and the universal state of sin are connected is nowhere
+  4| explicitly stated. That the two things are connected is certainly implied in vii. 118. It is true
+  5| Adam’s descendants share his responsibility for what has happened in that they have deliberately
+  6| followed his example in clothing themselves with the evil heart (iii. 26); the moral responsibility
+  7| of each individual member of the race is not denied. Probably at the back of the apocalyptist’s
+  8| thought lies the idea that Adam by his transgression lost much of his power of resisting the evil
+  9| impulse or thought, and transmitted this weakness to his descendants. It is noteworthy that the fall
+ 10| of man is nowhere in our apocalypse attributed to external agency (demonic incitement).
+ 11| The corruption of the human race is regarded as due to a development of something inherent
+ 12| in man’s nature (yeser - of Rabbinic theology); but by representing the Law as powerless to
+ 13| prevent the evil element in man’s nature from gaining the entire mastery (iii. 22), our apocalyptist
+ 14| directly contradicts the orthodox Rabbinic view, according to which the 60/1 yeser could be—and as
+ 15| a matter of fact has been by the pious in Israel generally—successfully resisted by the study of the
+ 16| Law and the practice of good works. In 5 also the entry of physical death into the world is directly
+ 17| connected with the Fall. Thus, according to this teaching, both physical and spiritual death are
+ 18| a legacy from Adam. For a comparison of these positions with that of St. Paul see ZA, p. xiii.
+ 19| In fact the doctrine of our apocalyptist ultimately resolves itself into a pure and _ lofty
+ 20| individualism. His view of sin as universal, owing to its root in the evil heart which is also universal,
+ 21| leads him to manifest a certain compassion for and sympathy with the perishing masses of mankind:
+ 22| But what is man that thou shouldst be wroth with him?
+ 23| Or what is a corruptible race that thou canst be so bitter towards it?
+ 24| For in truth
+ 25| There is none of the earth-born who has not dealt wickedly,
+ 26| And among those that exist who has not sinned (viii. 34, 35).
+ 27| Where all are involved in a state of unrighteousness before God there is little room for self-
+ 28| gratulation. One of the most striking features in S is the absence of the note of self-confidence,
+ 29| based upon Israel’s possession of the Law, which is so prominent in 2 Baruch.) The Law in 5
+ 30| rather brings terror by its condemnation than hope of salvation. The universal need is mercy
+ 31| rather than the award of the Law; and so the apocalyptist is driven to appeal, against the
+ 32| Law, to the divine attributes of compassion and forgiveness (cf. vii. 132-viii. 3, viii. 36).
+ 33| Nowhere is the individual note more clearly sounded than in what may be described as
+ 34| our apocalyptist’s eschatology of the individual, This is set forth, with great wealth of detail,
+ 35| in vii. 75-101, which gives a long description of the state of the soul after death and before the
+ 36| judgement. It is further stated (vii. 102-15) that no intercession will be allowed on the Day
+ 37| of Judgement:
+ 38| The Day of Fudgement is decisive, and displays unto all the seal of truth...none shall
+ 39| pray for another on that Day, neither shall one lay a burden on another; for then every one shall bear
+ 40| his own righteousness or unrighteousness (vii. 104-5).
+ 41| While the theology of S recognizes the Day of Judgement and an intermediate state for
+ 42| the soul between death and judgement, it knows of no resurrection of the body. In the description
+ 43| of the state of the soul after death it is made clear that the soul enters at once into a state
+ 44| of blessedness or the reverse, according as it is righteous or wicked. The souls of the righteous
+ 45| are guarded in chambers, and there, in great tranquillity and happiness, await the final judge-
+ 46| ment; the souls of the wicked, on the other hand, move about restlessly in torment. These
+ 47| conditions—though they will be intensified—are not to be essentially altered on the Day of
+ 48| Judgement itself. This practically means that judgement sets in immediately after death, and
+ 49| that a man’s fate is virtually determined by the present life—which is the doctrine of the Book
+ 50| of Wisdom and of Hellenistic Judaism.?
+ 51| It has already been pointed out that the writer of S discards, implicitly, the older eschatology
+ 52| His hopes are fixed on the advent of the new and better world which is to follow the collapse of the
+ 53| 556
+
+===== PAG 570 =====
+  0| IV EZRA
+  1| present world. Consequently he anticipates merely the catastrophic end of the present world-order
+  2| —his theology does not allow of any intermediate Messianic Age. The new Jerusalem which is to
+  3| come will be the Heavenly City, which is shown to Salathiel in his final vision (x. 25 f.), and
+  4| which belongs to the future incorruptible age. As to the precise time when the end of the present
+  5| order is to come the apocalyptist has no definite knowledge; but he is made to understand that the
+  6| decisive moment is not far distant (cf. iv. 41, iv. 44-50); the appointed time has been pre-determined
+  7| by God (iv. 36 f.), as well as the number of the righteous elect, and till this number shall have
+  8| been completed the promised salvation cannot come (iv. 36). God’s purpose is fixed, but it is
+  9| beyond the power of the human mind to fathom it (cf. v. 34-40, vi. 6, vii. 11, vii. 20). There is thus
+ 10| a strong element of determinism in S; but the freedom of the human will is also emphatically
+ 11| asserted—the two truths are set side by side.
+ 12| The theology of S is essentially other-worldly. The writer’s dualism is emphatic and pronounced.
+ 13| The present age and the future, above and below, are in fundamental opposition. The same violent
+ 14| contrast characterizes the material and the spiritual (cf. iv. 11). The body, regarded as the prison-house
+ 15| of the soul, is described as this corruptible vessel (vii. 88). It is significant that in 5 there is no
+ 16| resurrection of the body; what is anticipated is practically a pure immortality of the soul. According
+ 17| to S the human heart, which has received the Law, is essentially a corruptible vessel, which belongs
+ 18| to the present order and will perish (ix. 36). In contrast to the present world-order, which zs fud/
+ 19| of sorrow and impotence (iv. 27), and the ways of which, owing to man’s sin, have become zarrow
+ 20| and sorrowful and painful (vii. 12), the ways of the future world are broad and safe, and yield the
+ 21| Sruit of immortality (vii. 19). In the future age, which is already prepared:
+ 22| The (evil) root is sealed up from you,
+ 23| Lnfirimity from your path extinguished;
+ 24| Hades fled away;
+ 25| Corruption forgotten,
+ 26| And in the end the treasures of immortality are made manifest (viii. 53, 54).
+ 27| The pessimistic view of the present world-order which is characteristic of S naturally harmonizes
+ 28| with the ascetic tendencies to which reference has already been made. Taken together all these
+ 29| various tendencies—which are also marked in other apocalyptic literature—suggest, perhaps, the
+ 30| influence of Alexandrine rather than specifically Palestinian thought. But it must not be forgotten
+ 31| that Palestine was saturated with Hellenistic influence at this period, and that Palestinian Judaism
+ 32| was profoundly affected by it. The partial elimination of Greek elements, and the hardening and
+ 33| crystallization of the Rabbinic type of thought, was only effected later. The religious significance
+ 34| of S has been well set forth by Dr. Maldwyn Hughes in a sentence. Our apocalyptist, he says,
+ 35| despairs of a life of absolute obedience to the Law, even by Israel, not to speak of the world. The
+ 36| unconscious and unexpressed cry of the book is for a moral dynamic, which legalism could not
+ 37| supply.’?
+ 38| (2) The theology and eschatology of the other original sources. Of the remaining original sources
+ 39| of our Apocalypse apparently the oldest is E. The contents of this source, so far as it is embodied
+ 40| in our book, are purely eschatological in character. The themes with which it deals are (t) the
+ 41| Messianic ‘ woes’, i.e. the signs and portents that are to usher in the End of the world (iv. 56-v. 13 a,
+ 42| vi. 21-2); (2) the End of the world (this is announced by the Voice of God, but not actually
+ 43| described: vi. 13-20, 23-4); (3) the felicity of those who survive the Messianic ‘wocs’ and
+ 44| live on into the Messianic Age (vi. 25-8). It seems probable that E in its original form regarded
+ 45| the age of felicity, that was to follow the judgement, as a Messianic kingdom, of indefinite duration, set
+ 46| Age were to appear—the men who have not tasted death from their birth—whose task it was to
+ 47| convert the surviving members of the human race 10 ₪ different spirit (vi. 26-8). This eschato-
+ 48| logical scheme is of the older type, common in the prophetic books of the Old Testament and in the
+ 49| older apocalypses (e.g. 1 Enoch i-xxxvi). As has been pointed out in a former chapter, E has
+ 50| probably been utilized by R in vii. 26-44 and viii. 63-ix. 12, and, in any case, only appears in our
+ 51| book in fragments. This fact makes it difficult to determine its theological positions precisely.
+ 52| It is possible that one of the missing portions contained an account of the resurrection, the
+ 53| place of which has been taken in R’s compilation by vii. 31. The description of the Messianic
+ 54| ‘woes’ has many traditional features which find close parallels in similar descriptions elsewhere
+ 55| (cf. EA, p. 41).
+ 56| 557
+
+===== PAG 571 =====
+  0| INTRODUCTION
+  1| In the case of the Eagle-vision (ch. xi-xii) the dominating eschatological conception is
+  2| a political one. Wickedness is concentrated in godless imperial Rome! and the judgement will
+  3| be effected when Rome is destroyed by the Lion of Judah, i.e. the Messiah... who shall
+  4| spring from the sced of David (xii. 32). The overthrow of the Roman Empire is to be followed
+  5| by the setting up ox earth of the theocratic kingdom under the direct rule of God. The author
+  6| was apparently a zealot (see these points fully discussed in EA, pp. 246 f.). The Messiah appears
+  7| in a very active rdle here as the instrument for overthrowing the Roman Empire.
+  8| Very different eschatological conceptions emerge in the Son of Man vision (M=ch. xiii).
+  9| These have been fully discussed in £.A (pp. 282-6), to which the reader must be referred.
+ 10| One featurc, however, that comes out in the interpretation of the vision calls for special mention
+ 11| here. This is the emphasis that is laid on the Law. The heavenly Messiah destroys his
+ 12| enemies without labour by the Law (xiii. 38). Further, in the legend of the Ten Tribes, which
+ 13| is given in the same context, their deliverance and ultimate return are represented as due to a
+ 14| return on their part to the observance of the Law. In order to do this they leave their
+ 15| heathen surroundings and migrate to land further distant, where the human race had never dwelt,
+ 16| there at least to keep the statutes which they had not kept in their own land (xiii. 41 f.). In other
+ 17| words, to the author of this apocalyptic piece the Law is the standard of piety, and he can only
+ 18| conceive of the restoration of the lost Tribes as due to a whole-hearted acceptance of the ‘ yoke of
+ 19| the Law’.
+ 20| In the last of the original sources embodied in our book, viz. E? (i.e. the Ezra-legend given in
+ 21| ch. xiv) the most outstanding doctrinal feature is the conception of the Messiah (God’s Son) 85 pre-
+ 22| existing in heaven, surrounded by a community of elect ones. This agrees with the representation
+ 23| of the heavenly Son of Man of the Parables of 1 Enoch (xxxvii-Ixxi). Just as in the Parables Enoch
+ 24| is removed to heaven to dwell with the Son of Man (1 Enoch Ixx. 1 f.), so here Ezra’s assumption
+ 25| until the End and the coming of the Judgement (cf. xiv. 9,10 and notes). The world history is divided
+ 26| into twelve parts, nine and a half of which have already passed in the time of the historical Ezra
+ 27| (i.e. the middle of the fifth century B.C.). This suggests that the apocalyptist conceives the world
+ 28| to have already entered upon the last period of tribulation (the last three and a half years of woe of
+ 29| Dan. ix. 27), and regards the approach of the final consummation as imminent (cf. xiv. 11, 12 and notes).
+ 30| Another feature of E? is its pessimistic outlook on the present world-order. It also assigns a high place
+ 31| to the Law and the other Scriptures, but by the side of the apocalyptic books (cf. ZA, pp. 304-7).
+ 32| (3) Lhe theology and eschatology of the Redactor (R). The Redactor who is responsible for the
+ 33| present form of our Apocalypse has impressed a certain unity on the book, which, though it involves
+ 34| the combination of conceptions essentially disparate, yet serves to reveal a whole which he contrived
+ 35| to combine (by the insertion of connecting links and supplementary matter at different points) into
+ 36| one system in his own thought.
+ 37| The groundwork of his compilation is the Salathiel-apocalypse. But evidently he felt it
+ 38| necessary to supplement this with extracts from other apocalypses which represent very different
+ 39| points of view. From the position and bulk of S in R’s compilation it may be inferred that he was
+ 40| specially interested in its main theme—a discussion of the religious problems involved in the fall and
+ 41| destruction of Jerusalem. The element in S which is concerned with the eschatology of the
+ 42| individual, involving, as it does, the discussion of the problem of the origin and prevalence of sin,
+ 43| to which the misery of the world is due, would doubtless have appealed to R with special force.
+ 44| On the other hand, R was not prepared to discard the older hope of the coming of Messianic redemp-
+ 45| tion for the nation, and so found it necessary to append the Eagle and Son of Man visions (ch. xi-xiii).
+ 46| The combination of these elements results in the following eschatological scheme, which was
+ 47| adopted by R:
+ 48| (1) The period of ‘ woes’ preceding the advent of the Messiah (iv. 56-v. 13a, vi. 11-28) will
+ 49| first occur.
+ 50| (2) The Messiah and his immortal companions (Enoch, Elijah, &c.) will then suddenly be
+ 51| ‘revealed ’, the new Jcrusalem will appear and a temporary Messianic kingdom, lasting 400 years, set
+ 52| up in which those who have survived the Messianic ‘ woes’ are destined to enjoy a period of felicity
+ 53| (vii. 26-8 R). Inch. xii. (M) the active work of the Messiah is described more fully. There,
+ 54| a principal part of his mission is to destroy the assembled enemies of the divine rule (= ‘the wars of
+ 55| Gog and Magog’), and gather together the lost Ten Tribes who are to be brought back to the Holy
+ 56| Land, Apparently the destruction of the hostile forces is conceived as closing the period of ‘ woes ’,
+ 57| 558
+
+===== PAG 572 =====
+  0| IV EZRA
+  1| that are found within my holy border (xiii. 48) shall be defended by the Messiah (xiii. 49, cf. xiii. 26 b),
+  2| and see very many wonders. Presumably the rule of the Messiah here indicated was conceived
+  3| by R to synchronize with the 400 years’ reign referred to in vii. 28, though this was not its
+  4| significance in the original vision.
+  5| (3) The temporary Messianic kingdom and the rule of the Messiah will terminate in his
+  6| death and that of all human beings, and creation will revert to primaeval silence for seven
+  7| days (vii. 29-30).
+  8| It should be noted that the Eagle-vision (ch. xi—xii), which depicts the destruction of the Roman Empire
+  9| by the Lion of Judah (i.e. the Messiah), has no logical place in this scheme. The eschatological drama, as
+ 10| outlined above, was inherited by R from tradition, which was too firmly rooted to be ignored. But in the
+ 11| Eagle-vision we ought probably to see an expression of the real hopes which animated our compiler. Living
+ 12| at a time when Israel had suffered—and was still suffering—so much at the hands of Rome his hopes for the
+ 13| world-power, and the incarnation of all wickedness.
+ 14| Such is the scheme of the national eschatology as it was combined in the mind of R.
+ 15| How essentially incompatible the diverse elements of which it is composed really are needs no
+ 16| further demonstration.
+ 17| In combination with and supplementing this our compiler accepted the eschatology of the
+ 18| individual as set forth in S. In contrast with S, R has much greater confidence in the Law as such
+ 19| as a protective power to the Jew (cf. iii. 26-36, and see further 4, pp. lv—vii).
+ 20| . RELATION OF THE APOCALYPSE WITH THE NEW TESTAMENT.
+ 21| A number of resemblances in thought, and (occasionally) of diction, with the New Testament
+ 22| occur in 4 Ezra; but nothing which suggests direct dependence.
+ 23| Gunkel, it is true, thinks that 4 Ezra xii. 42 (for of all the prophets thou atone art left tous...asalamp
+ 24| in a dark place) is cited in 2 Pet. i. 19 (And we have the word of prophecy more sure; whereunto ye do well
+ 25| In 4 Ezra iv. 28 the idea of sowing, reaping, and harvest is applied metaphorically to evil, and
+ 26| it is stated that the harvest of evil must first be reaped before the good can take its place; the
+ 27| thought here is parallel with that of the parable of the Sower (Matt. xiii); cf. in particular Matt.
+ 28| xiii. 39: the enemy that sowed... is the devil, and the harvest is the end of the world, and the
+ 29| reapers are the angels.
+ 30| In 4 Ezra iv. 36 the seer is reminded by the angel that he cannot know the duration of the
+ 31| time that must elapse before the End (though elsewhere it has been revealed to him that the
+ 32| End is imminent); in other words the exact moment cannot be fixed—it is known to God alone.
+ 33| The passage runs:
+ 34| Number me the days that are not yet come (the implication being—you cannot); cf. Mark xiii. 32
+ 35| and parallels: Butof that day or that hour knoweth no one, not even the angels in heaven, neither the
+ 36| Son, but the Father.
+ 37| There is a certain amount of literary contact between the Johannine Apocalypse and 4 Ezra,
+ 38| which, however, does not amount to direct literary dependence, but, probably, points to a common
+ 39| source or sources; thus 4 Ezra ix. 35 and Rev. vi. 0-11 seem to be related in this way?; so in
+ 40| 4 Ezra iv. 41 the underworld (infernum= Sheol) is used as in Rev. i. 18, &c., as the place where
+ 41| the wicked dead remain in the intermediate state.
+ 42| An abundance of resemblances in thought or diction has been pointed out in the notes on the
+ 43| text.2. One or two examples may be given here: in 4 Ezra vii. 88 the body is called this corruptible
+ 44| vessel; cf.1 Cor. xv. 53 thes corruptible; in 4 Ezra ix. 37 the Law, it is said, perishes not but
+ 45| abides in its glory (i.e. the Law is heavenly and divine); cf. Rom. vii. 14 (the Law spiritual),
+ 46| 2 Cor. iii. 7 f., &c., &c.
+ 47| The close parallels in thought as to the origin and prevalence of sin between S and
+ 48| St. Paul have already been pointed out in 10 (1).
+ 49| 559
+
+===== PAG 573 =====
+  0| INTRODUCTION
+  1| 12. BIBLIOGRAPHY.
+  2| 560
+
+===== PAG 574 =====
+  0| IV EZRA
+  1| THE FIRST VISION.
+  2| (iii, 1-v..)
+  3| (I. iii. 1-3) INTRODUCTION (S).
+  4| 31 In the thirtieth year after the downfall of the City I, Salathiel—{ who am also Ezra ]—was in Babylon,
+
+===== PAG 575 =====
+  0| IV EZRA 3. 1-18
+  1| and as I lay upon my bed I was disquieted... - - + 2 6 6 2 ee
+  2| 5
+  3| ee. and my mind was preoccupied with my thoughts;
+  4| because I saw Sion’s desolation on the one hand (matched) with the abundant wealth of Babylon's
+  5| 3 inhabitants on the other. And my spirit was stirred profoundly, and in my agitation I began to
+  6| address the Most High.
+  7| II. iii. 4-36. THE FIRST QUESTIONS: WHENCE ARISE THE SIN AND MISERY OF THE WORLD?
+  8| JUSTICE?
+  9| 4 And I said: 5 Lord my Lord,’ was it not thou who in the beginning, when thou didst form the
+ 10| 5 earth—and that thyself alone—didst speak and commandedst the dust, so that it gave thee Adam ‘,
+ 11| a lifeless body? But yet it was both itself the formation of thy hands and thou breathedst into
+ 12| 6 him the breath of life, so that he was made living before thee. And thou leddest him into Paradise,
+ 13| 7 which thy right hand did plant before ever the earth came forward; and to him thou commandedst
+ 14| 4one only observance of thine 4, but he transgressed it. FForthwith thou appointedst death for him
+ 15| and for his generations, and from him were born nations and tribes, peoples and clans innumerable.
+ 16| 8 And every nation walked after their own will, and behaved wickedly before thee, and were ungodly
+ 17| 9 —but thou didst not hinder them. Nevertheless again in (due) time thou broughtest the Flood
+ 18| 10 f upon the earth and‘ upon the inhabitants of the world, and destroyedst them. And & their fate 8
+ 19| was one and the same; as death (overtook) Adam, so the Flood (overwhelmed) these. Nevertheless
+ 20| one of them thou didst spare—Noah with his household (and with him) all the righteous his
+ 21| 12 descendants. And it came to pass that when the inhabitants upon the earth began to multiply,
+ 22| and "there were born children also and peoples and nations many, that they began to practise
+ 23| 13 ungodliness more than former (generations). And it came to pass that when they practised
+ 24| 14 ungodliness before thee, thou didst choose thee one from among them whose name was Abraham: him
+ 25| 15 thou didst love, and unto him only didst thou reveal ‘the end of the times! secretly by night; and
+ 26| with him thou didst make an everlasting covenant, and didst promise him that thou wouldst never
+ 27| 16 forsake his seed. And thou gavest him Isaac, and to Isaac thou gavest Jacoband Esau. And thou
+ 28| 17 didst set apart Jacob for thyself, but Esau thou didst hate; and Jacob became a great host. And
+ 29| it came to pass that when thou leddest forth his seed out of Egypt, and didst bring them to the
+ 30| 18 Thou didst bow down the heavens,
+ 31| didst make the earth quake
+ 32| 562
+
+===== PAG 576 =====
+  0| IV EZRA 8. 18-24
+  1| and convulsedst the world—
+  2| | Thou didst cause the deeps to tremble
+  3| and didst alarm the spheres.
+  4| " And thy glory went through the four gates of fire, earthquake, wind, and cold,
+  5| To give Law to Jacob’s seed
+  6| and Commandment to the generation of Israel.
+  7| 20 And yet thou didst not take away from them the evil heart, that thy Law might bring forth fruit
+  8| 22 and likewise also all who were born of him. Thus the infirmity became inveterate; the Law indeed
+  9| was in the heart of the people, but (in conjunction) with the evil germ; so what was good departed,
+ 10| 23 and the evil remained. So the times passed away and the years came to an end; and (then) thou
+ 11| 24 didst raise up for thyself a servant whose name was David; and thou commandedst him to build the
+ 12| 25 City (which is called) after thy name, and to offer thee oblations therein of thine own. And after
+ 13| 26 this had been done many years, the inhabitants of the City committed sin, in all things doing even
+ 14| as Adam and all his generations had done: for they also 'had clothed themselves with! the evil
+ 15| , 28 heart: and so thou gavest thy city over into the hands of thine enemies, Then I said in my heart:
+ 16| 29 Are their deeds any better that inhabit Babylon? he for this "rejected" Sion? It came to
+ 17| pass when I came hither and saw ungodly deeds innumerable, and myself saw many sinners these
+ 18| 3 thirty years, that my heart P was perturbed”: for I have seen
+ 19| how thou dost suffer the sinners
+ 20| and dost spare the ungodly,
+ 21| how thou hast destroyed thy people
+ 22| and preserved thine enemies;
+ 23| i. 31 and hast not made known at all unto any how this course of thine shall be abandoned. Have the
+ 24| ) 32 deeds of Babylon been better than those of Sion? [Has any other nation known thee beside Israel?
+ 25| 33 Or what tribes have so believed thy covenants as those of Jacob?—whose reward (nevertheless) hath
+ 26| not appeared nor their labour borne fruit! For I have gone hither and thither through the nations
+ 27| 34 and seen them in prosperity, although unmindful of thy commandments. Now, therefore, weigh
+ 28| thou our iniquities, and those of the inhabitants of the world, in the balance and so shall be found
+ 29| 563 002
+
+===== PAG 577 =====
+  0| IV EZRA 8. 35—4. 7
+  1| R 35 %which way the turn of the scale inclines’. Or when was it that the inhabitants of the earth did
+  2| 36 not sin before thee? Or what nation hath so kept thy precepts? Individual men of note indeed
+  3| thou mayst find to have kept thy precepts; but nations thou shalt not find.]}
+  4| Gop’s WAYS ARE INSCRUTABLE. III. Tue Divine;
+  5| (iv. I-v. 19.)
+  6| (a) iv. 1-11. The human spirit can only hope to understand dimly and in part (9).
+  7| S41,2 Thereupon the angel answered me who had been sent to me, [and whose name was Uriel]; and
+  8| he said to me: Thy heart hath utterly failed thee regarding this world; and thinkest thou to
+  9| comprehend the way of the Most High?
+ 10| 3 Then said 1: Yes, my Lord.
+ 11| 4 to set before thee: if thou canst declare me one of these I also will show thee the way thou desirest
+ 12| 5 And I said: Speak on, my Lord.
+ 13| Then he said unto me:
+ 14| Or recall me the day that is past.
+ 15| And he said to me: Had I asked thee
+ 16| How many dwellings are in the heart of the sea?
+ 17| Or how many springs in the source of the deep?
+ 18| Or how many ways above the firmament?
+ 19| Or where are the portals of Hades?
+ 20| Or where the paths of Paradise?
+ 21| 564
+
+===== PAG 578 =====
+  0| IV EZRA 4. 8-22
+  1| 8 Perchance thou wouldst have said to me:
+  2| Into the deep I have not descended,
+  3| nor as yet gone down? into Hades;
+  4| Neither to heaven have I ever ascended,
+  5| nor entered Paradise.
+  6| But now I have only asked thee of the fire, the wind, and the day that is past,—things without
+  7| which thou canst not be; and yet thou hast vouchsafed me no answer about them!
+  8| What belongs to thee —the things that have intermingled with thy 1 He said moreover unto me:
+  9| 11 growth—thou art incapable of understanding; how then should thy vessel be able to comprehend the
+ 10| way of the Most High? 4 For the way of the Most High has been formed without measure 4, how,
+ 11| then, should it be possible for a mortal in a corruptible world to understand the ways of the
+ 12| ? Incorruptible
+ 13| ( 4) iv. 12-21. The dialogue continued: it is foolish and senseless to demand
+ 14| what is against nature (S).
+ 15| 12 [And when I heard these things I fell upon my face]‘ and said unto him: It would have been
+ 16| better 5 that we had never been created 5 than having come [into the world] to live in sins and suffer,
+ 17| and not "to know why we suffer.
+ 18| 13 And heanswered me and said: ‘ Once upon atime the woods of the trees of the field went forth,
+ 19| 14 and took counsel, and said: Come, let us go and make war against the sea, that it may retire before
+ 20| said: Come, let us go up and wage war against the wood of the field, that there also we may win us
+ 21| 17 more territory. The counsel of the wood was in vain, for the fire came and consumed it; likewise,
+ 22| 18 also, the counsel of the waves of the sea, for the sand stood up and stopped them. If thou, now,
+ 23| 19 hadst been judge between them whom wouldst thou have justified or whom condemned? I answered
+ 24| and said: Both have taken a foolish counsel; for to the wood the land has been assigned, and ' to the
+ 25| sea a place! to bear its waves.
+ 26| 20 Then he answered me and said: Thou hast judged aright; but why hast thou not given judgement
+ 27| 21 in thine own case? For just as the earth has been assigned tothe wood, and the place of the sea
+ 28| to bear its waves; even so the dwellers upon earth can understand only what is upon the earth,
+ 29| "and they who are above the heavens that which is above the heavenly height.
+ 30| (c) iv. 22-32. The dialogue continued: The seer protests that his perplexities are occasioned by the
+ 31| daily experiences of earth. He is told that the new age which is about to dawn will solve all
+ 32| difficulties (S).
+ 33| 22 Then answered I and said: I beseech thee, O Lord, wherefore have I been endowed with an
+ 34| 5
+
+===== PAG 579 =====
+  0| IV EZRA 4. 23-34
+  1| 5
+  2| 23 understanding to discern? For I meant not to ask about the ways above but of those things we
+  3| daily experience;
+  4| Why is Israel to the heathen given over for reproach,
+  5| thy beloved people to godless tribes given up?
+  6| The Law of our fathers has been brought to destruction,
+  7| 24 We vanish from the world as locusts,
+  8| our life is a breath 4.
+  9| 25 We indeed are not worthy to obtain mercy; but what will he do for his own name whereby we are
+ 10| called? It is about these things that I have asked.
+ 11| 26 Then he answered me and said: 1] thou survive' thou shalt see, and if thou livest long thou shalt
+ 12| marvel; for the age is hastening fast to its end.
+ 13| 27 Because it is unable to bear the things promised in their season to the righteous; for this age is
+ 14| full of sorrow and impotence.
+ 15| 28 For the evil ‘concerning which thou askest me is sown, but "the ingathering of it" is not yet
+ 16| 29 come. Unless, therefore, that which is sown be reaped, and unless the place where the evil is sown
+ 17| 30 Shall have passed away, the field where the good is sown cannot come. For a grain of evil seed was
+ 18| sown in the heart of Adam from the beginning, and how much fruit of ungodliness has it produced
+ 19| unto this time, and shall yet produce until the threshing-floor come!
+ 20| 31 Reckon up, now, in thine own mind: ‘if’ a grain of evil seed has produced so much fruit of
+ 21| 32 ungodliness, when once the ears " 0] the good 5660 " shall have been sown without number, how
+ 22| great a floor shall they be destined to fill?
+ 23| (4) iv. 33-43- The dialogue continued. In reply to his question, When shall these things be?
+ 24| the seer receives the answer— When the number of the righteous is complete (S).
+ 25| 33 Then I answered and said: How long and when% shall these things ( coming to pass)? ¥ For?
+ 26| our years are few and evil.
+ 27| 34 And he answered me and said: Thy haste may not exceed that of the Most High; for thou art
+ 28| hastening 5 for thine own self, but the Exalted One on behalf of many.
+ 29| 566
+
+===== PAG 580 =====
+  0| IV EZRA 4. 25-41
+  1| Were not these questions of thine asked by the souls of the righteous in their chambers?
+  2| How long are we (to remain) here? When cometh the fruit upon the threshing-floor of our
+  3| reward?’
+  4| 36 And to them the archangel Jeremiel made reply, and said: Even when the number " of those like
+  5| is fulfilled! yourself
+  6| For he has weighed the age in the balance,
+  7| And with measure has measured the ‘times,
+  8| And by number has numbered the seasons:
+  9| Neither will he move nor stir things,
+ 10| till the measure “appointed 4 be fulfilled.
+ 11| 38, 39
+ 12| account of perchance,‘ on our account that 5 the threshing-floor of the righteous is kept back >--
+ 13| the sins of the dwellers upon earth?
+ 14| So he answered me and said: Go and ask the woman who is pregnant, when she has completed
+ 15| her nine months, if her womb can keep the birth any longer within her?
+ 16| The underworld and the chambers of Then said I: No, Lord, it cannot. And he said to me:
+ 17| 567
+
+===== PAG 581 =====
+  0| IV EZRA 4. 42-52
+  1| S 42 souls" are like the womb: for just as she who is in travail makes haste to escape the anguish of the
+  2| 43 travail; even so do these places hasten to deliver what has been entrusted to them from the
+  3| beginning. Then to 11106 it shall be showed concerning those things that thou desirest to see.
+  4| ( ) iv. 44-50. The dialogue continued. In reply to a further question, the seer is shown
+  5| by a similitude that the End will come soon (S).
+  6| 44 Then I answered and said: If I have found favour in thy sight, and if it be possible, and if I be
+  7| 46 is already gone by us? For what is gone by I know, but what is to come I know not.
+  8| 47 And he said to me: Stand to the right, and I will explain the meaning of a similitude unto thee.
+  9| 48 So I stood, and saw, and lo! a blazing furnace passed by before me; and it happened that when
+ 10| the flame had gone by I looked and lo! the smoke remained still.
+ 11| 49 Thereupon there passed by before me a cloud full of water, and sent down much rain with
+ 12| a storm; and when the rain-storm was past the drops remained therein still.
+ 13| fire is greater than the smoke, so has the measure of what is past exceeded by far; but there are
+ 14| still left over—the drops and the smoke!
+ 15| (Sf) iv. 51-v. 13. The signs which precede the End (E) (R).
+ 16| 51 Then 1 made supplication, and said: Thinkest thou that I shall live until those days? ‘Who!
+ 17| shall be (live) in those days?
+ 18| 52 He answered me, and said: [As for the signs concerning which thou askest me, I may tell thee
+
+===== PAG 582 =====
+  0| IV EZRA 4. 52—5. 7
+  1| 5 them in part; but] concerning thy life I have not been sent to speak to thee, nor have I any
+  2| knowledge (thereof).
+  3| / 51 Concerning the signs, however:
+  4| Behold, the days come when the inhabitants of earth shall be seized J with great panic],
+  5| ' And the way of truth shall be hidden,
+  6| and the land be barren of faith. \
+  7| | 2 And iniquity shall be increased above that which thou thyself now 5665 or that thou hast heard of
+  8| 8 long ago. And the land that thou seest now to bear rule ‘shall be a pathless waste; and men
+  9| 4 shall see it forsaken: if the Most High grant thee to live, thou shalt see it after!the third (period)
+ 10| in confusion |.
+ 11| Then shall the sun suddenly shine forth by night
+ 12| and the moon by day:
+ 13| and the stone utter its voice:
+ 14| The peoples shall be in commotion,
+ 15| the outgoings (?) (of the stars) shall change.
+ 16| 6 And one whom the dwellers upon earth do not look for shall wield sovereignty, and the birds
+ 17| shall take to general flight,
+ 18| and “the sea” shall cast forth its fish.
+ 19| , And one whom the many do not know will make his voice heard by night; and all shall hear
+ 20| is voice.
+ 21| 569
+
+===== PAG 583 =====
+  0| IV EZRA 5. 8-19
+  1| 8 P And the earth o'er wide regions shall open,”
+  2| and fire burst forth for a long period:
+  3| vi. 21 (And one-year-old children shall speak with their voices; pregnant women shall bring forth
+  4| 22 untimely births at three or four months, and these shall live and dance. And suddenly shall the
+  5| sown places appear unsown, and the full storehouses shall suddenly be found empty.)
+  6| ¥.9 Salt waters shall be found in the sweet; friends shall attack one another 5 suddenly.
+  7| and wisdom withdraw to its chamber—
+  8| by many shall be sought and not found.
+  9| ask another and say: Is Righteousness—that doeth the right—passed through thee? And it shall
+ 10| In that time men shall hope and not obtain,
+ 11| shall labour and not prosper.
+ 12| 14 Such are the signs I am permitted to tell thee; but if thou wilt pray again, and weep as now, and
+ 13| fast seven days, thou shalt hear again greater things than these.
+ 14| IV. v. 14-19. CONCLUSION OF THE VISION (S).
+ 15| 14 [Then I awoke, and my body trembled greatly; my soul also was wearied even unto fainting.
+ 16| up upon my feet.]
+ 17| 16 And in the second night Phaltiel, the captain of the people, came unto me, and said: Where hast
+ 18| 17 thou been? And why is thy countenance sad? Or knowest thou not that Israel has been entrusted
+ 19| desert us as a shepherd does (who leaves) his flock in the power of noxious wolves!
+ 20| Then said I unto him: Depart from me, and come not nigh me for seven days; then thou mayst
+ 21| come unto me ‘and I will explain matters unto thee'. And when he heard what I said he left me.
+ 22| eye
+
+===== PAG 584 =====
+  0| IV EZRA 5. 20-30
+  1| THE SECOND VISION.
+  2| (v. 26-01. 34.)
+  3| 20,21 Sol fasted seven days, mourning and weeping, even as the angel Uriel commanded me. And
+  4| 22 after the seven days the thoughts of my heart began to oppress me again grievously; then my soul
+  5| recovered the spirit of understanding, and 1 began once more to address the Most High.
+  6| . v. 23-40. THE PRAYER AND ITS ANSWER.
+  7| (a) The prayer (v. 23-30.)
+  8| depths of the sea thou hast replenished for thyself one river; out of all the cities that have been built
+  9| 26 thou hast sanctified Sion unto thyself; out of all birds that have been created thou hast called for
+ 10| thyself one dove; out of all the cattle that have been formed thou hast provided thee one sheep;
+ 11| 27 and out of all the peoples who have become so numerous thou hast gotten thee one people: and the
+ 12| law which thou didst approve out of all (laws) thou hast bestowed upon the people whom thou
+ 13| didst desire.
+ 14| 28 And now, O Lord, why hast thou delivered up the one unto the many, and dishonoured the one
+ 15| root above the rest, and scattered thine only one among the multitude?
+ 16| 29 And (why) have ¥ they who denied thy promises been allowed to tread under foot those that have
+ 17| go believed thy covenants’? If thou didst so much hate thy people they ought to have been punished
+ 18| with thine own hands.
+ 19| 571.
+
+===== PAG 585 =====
+  0| IV EZRA 5. 31-41
+  1| (6) The answer: in spite of all God loves Israel now and always (v. 31-40).
+  2| S 31 Now when 1 had spoken these words the angel who had before come to me on the previous night
+  3| 32 was sent unto me: and he said to me:
+  4| Attend unto me, and I will speak again before thee.
+  5| 33 And I said: Speak on, my lord. And he said: Art thou in sore perplexity of mind touching
+  6| Israel? Lovest thou him better than he that made him?
+  7| 34 And I said: No, lord: but of very grief have I spoken; for every hour I suffer agonies of soul in
+  8| striving to comprchend the way of the Most High, and to seek out 7 the decree of his judgement.
+  9| 35 _ And he said unto me: Thou canst not. And 1 said: Wherefore, Lord? Why then was I born?
+ 10| Wherefore did not my mother's womb become my grave
+ 11| that I might have been spared the sight of Jacob’s misery,
+ 12| and the distressful toil of the stock of Israel?
+ 13| Number me the days that are not yet come
+ 14| gather me the rain-drops that are scattered,
+ 15| make me the withered flowers bloom again;
+ 16| 37 Open me the chambers that are closed
+ 17| and bring me forth the spirits shut up in them;
+ 18| [ Show me the image of faces thou hast never seen ]
+ 19| or show me the image of a voice;
+ 20| and then I will display to thee “the
+ 21| objective % thou askest to see.
+ 22| 38 And I said: O Lord my Lord, why who is able to understand such matters save he who has not
+ 23| his dwelling among men?
+ 24| 39 As for me, I am unwise and powerless: how then should I essay to speak of these things of
+ 25| which thou questionest me?
+ 26| 40 Then said he unto me: Just as thou art unable to do even one of these things that have been
+ 27| mentioned, even so thou art powerless to discover my judgement or the goal of the love that I have
+ 28| declared unto my people.
+ 29| (a) v. 41-49. The succession of generations accords with the Divine plan;
+ 30| God's judgement reaches all alike.
+ 31| end; but what shall our predecessors do, or we ourselves or our posterity?
+ 32| 573
+
+===== PAG 586 =====
+  0| IV EZRA 5. 42-55
+  1| 5
+  2| 42 And he said untc me: I will liken my judgement to a ring; just as there is no retardation of them
+  3| that are last, even so there is no hastening of those that are first.
+  4| have been, those who (now) exist, and those who are to be—that thou mightst display thy
+  5| judgement the sooner?
+  6| 44 He answered me and said: The creation may not proceed faster than the Creator; nor could the
+  7| world hold all at once those created in it.
+  8| 45 And I said: How then is it that thou hast (just now) said to thy servant that &thou wilt verily quicken?
+  9| all at once the creation created by thee? "If, then, they (i.e. all of the created) shall indeed be
+ 10| alive all at once, and ‘creation’ shall be able to sustain them, it might even now support them
+ 11| (all) present at once.
+ 12| 46 And he said unto me: Ask the womb of a woman, and say unto it: If thou bringest forth ten
+ 13| children, why (dost thou bring them forth) each in its own time? Demand, therefore, that it
+ 14| produce ten all at once.
+ 15| 47 And I said: It cannot possibly, but (only each) in its own time.
+ 16| 48 Then said he unto me: J Thus have I also made the earth the womb for those J who, in their own
+ 17| 49 time, are conceived by it. For just as the young child does not bring forth, nor she that is aged
+ 18| any more, so have 'I also! disposed the world which I have created = by defined periods of time.
+ 19| (6). 50-55. The Earth has grown old and its offspring degenerate.
+ 20| 50 Thereupon I asked "him and said: Seeing thou hast now showed me the way, I would fain
+ 21| speak (further) before thee. Is our mother, of whom thou hast told me, still young? Or does
+ 22| she now approach old age?
+ 23| 51,52 He answered me and said: Ask a woman who has borne (children), and let her tell thee; say to
+ 24| her: Why are (the children) whom thou hast lately brought forth not like the first, but inferior in
+ 25| 53 stature?? And she also shall answer thee: Those that are born in vigorous youth are of one
+ 26| 54 fashion, and those born in old age, when the womb fails, are otherwise. Consider, therefore, thou
+ 27| 55 also that ye are inferior in stature in comparison with your predecessors; and so, also, (will be) your
+ 28| posterity than yourselves: even as creation is already grown old, and is already past the strength
+ 29| of youth.
+ 30| 573
+
+===== PAG 587 =====
+  0| IV EZRA 4. 56—6. 5
+  1| (. 56-vi. 6).
+  2| 5
+  3| whom 5 thou wilt visit thy creation.
+  4| [ the beginning of the terrestrial world And he said unto me:
+  5| or ever the " wind-blasts" blew; before ever "106 heavenward portals were standing
+  6| before the rumblings of thunderings did sound,
+  7| When
+  8| the foundations of paradise were not yet laid,
+  9| nor the beauty of its flowers” yet seen;
+ 10| Before ever “ the motive powers (of heaven) were established,
+ 11| or the numberless armies of angels were gathered;
+ 12| Before ever the heights of the air were uplifted,
+ 13| ere the footstool of Sion was appointed ”.
+ 14| Before the years of the present ¥ were reckoned’,
+ 15| “ere the counsels of present-day sinners were spurned 5
+ 16| or the gatherers of the treasures of faith were sealed—
+ 17| 374
+
+===== PAG 588 =====
+  0| ‘IV EZRA 6. 6-13
+  1| 6 Even then had I these things in mind; and through me alone and none other were they created;
+  2| as also the End (shall come) through me alone and none other.
+  3| (vi. 7-10) (S).
+  4| Then answered I and said: What shall mark the parting asunder of the times? When shall the
+  5| End of the first (age) and the beginning of the second be?
+  6| 8 And he said unto me: From Abraham to Abraham. For from him sprang Jacob and Esau,"
+  7| “but Jacob’s hand held the heel of Esau from the beginning. 4 The heel of the first age is Esau;
+  8| the hand of the second is ]." The beginning of a man is his hand, and the end of a man 5
+  9| his heel.e Between heel and hand seek naught else, Ezra!
+ 10| VI. THE SIGNS OF THE LaST TIME AND END.
+ 11| (vi. 11-28) (E) (R).
+ 12| (a2) vi. 11-12. Redactional Introduction.
+ 13| 1,12 [I answered and said: O Lord my Lord, if I have found favour in thy sight, ‘(I beseech thee) that
+ 14| thou show’ thy servant the last of thy signs of which thou didst show me a part in the night
+ 15| that is past.]
+ 16| (6) Description of the End (vi. 13-20, 23, 24) together with some misplaced verses
+ 17| describing the signs that precede the End (vi. 21-22).
+ 18| 134 And he answered and said unto me: Stand up upon thy feet, and thou shalt hear a voice exceeding
+ 19| 575
+
+===== PAG 589 =====
+  0| IV EZRA 6. 14-26
+  1| be greatly shaken 5, when it (i. 6, the voice) E 14,15 loud; and it shall be if the place whereon thou standest,
+  2| speaks! with thee! be not thou terrified; for the word is of the End, and the foundations of the
+  3| 16 earth Jshall understand! that the speech is concerning themselves. They shall tremble and be
+  4| shaken, for they know that their end is to be changed.
+  5| 17 And it happened that when 1 had heard it I stood up upon my feet, and hearkened: and lo!
+  6| a voice spake, and the sound of it was as the sound of mighty waters.
+  7| 18 And it said:
+  8| Behold the days come, and it shall be,
+  9| When I am about to draw nigh
+ 10| to visit the dwellers upon earth,
+ 11| 19 And when I require from the doers of iniquity
+ 12| ( the penalty of) their iniquity;
+ 13| ] dud when the humiliation of Sion
+ 14| shall be complete}
+ 15| 20 And when the Age which is about to pass away
+ 16| : shall be sealed
+ 17| then [ ] 7 show these signs|: the books shall be opened before the face of the firmament, and all
+ 18| see together.
+ 19| vv. 21-22 misplaced.
+ 20| zx (And one-year-old children shall speak with their voices; pregnant women shall bring forth
+ 21| 23 sown places appear unsown, and the full storehouses shall suddenly be found empty;) And the
+ 22| 24 And at that time [ friends shall war against friends like enemies}, the earth shall be stricken with
+ 23| fear [together with the dwellers ]. and the springs of the fountains shall stand still so that for
+ 24| three " hours” they shall not run.
+ 25| (c) vi. 25-28 (29). The felicity of those who survive the Messianic Woes.
+ 26| 26 And it shall be whosoever shall have survived all these things that I have foretold unto thee, he
+ 27| 26 shall be saved and shall see my salvation and the end of my world. And the men who have been
+ 28| taken up, who have not tasted death from their birth, shall appear. Then shall the heart of the
+ 29| inhabitants (of the world) be changed, and be converted to a different spirit.
+ 30| 576
+
+===== PAG 590 =====
+  0| IV EZRA 6. 27-35
+  1| and deceit extinguished;
+  2| 28 Faithfulness shall flourish,
+  3| and corruption be vanquished;
+  4| 29 [And it came to pass while he spake to me, behold, by little and little (?) the place whereon
+  5| I stood rocked to and fro.]
+  6| (vi. 30-34) (5).
+  7| 0 31 And he said unto me: These things came I to show thee ‘this night. If therefore thou wilt
+  8| petition yet again, and fast seven days more, I will tell thee yet again greater things than these.
+  9| 32 For thy voice has surely been heard before the Most High; for the Mighty One has seen thy
+ 10| rectitude, and marked also thy chastity which thou hast had ever since thy youth.
+ 11| 33 Therefore has he sent me to show thee all these things, and to say unto thee: Be of good cheer,
+ 12| and fear not!
+ 13| 34 "Be not over-solicitous" in the case of former times to indulge idle thoughts, ‘lest solicitude
+ 14| overtake thee” in the last times.
+ 15| THE THIRD VISION.
+ 16| I. INTRODUCTION.
+ 17| (vi. 35-37) (S).
+ 18| 35 And it came to pass after this that I wept again, and fasted seven days in like manner, that
+
+===== PAG 591 =====
+  0| IV EZRA 6. 36-43
+  1| S 361 might fulfil the three wecks that had been commanded me. And in the eighth night my heart
+  2| 37 was troubled within me again, and I began to address the Most High. For my spirit was greatly
+  3| inflamed, and my soul was in distress.
+  4| (vi. 38-59) (5).
+  5| 38 And I said: O Lord, of a truth thou didst speak at the beginning of the creation upon the first
+  6| 39 day, saying: Let heaven and earth be made! and thy word perfected the work. Then was the
+  7| 40 before thee. Then thou didst command a ray of light to be brought forth out of thy treasuries,
+  8| that then thy works might become visible.
+  9| Upon the second day again thou didst create the spirit of the firmament, and didst command it 4
+ 10| to make a division between (the waters and) the waters that the one part might go up, the
+ 11| other remain beneath.
+ 12| 42 Onthe third day thou didst command the waters to be gathered together in the seventh part of
+ 13| the earth; six parts thou didst dry up and preserve, ¥ in order that (issuing) from them there might
+ 14| serve before thee those who both plough and sow’.
+ 15| 43 But as soon as thy word went forth the work was done.
+ 16| 578
+
+===== PAG 592 =====
+  0| IV EZRA 6. 44-59
+  1| 5
+  2| 44 For immediately there came forth
+  3| in pleasure of taste exquisitely varied 5
+  4| Flowers of inimitable colour
+  5| (trees infinitely varied in form) ”,
+  6| and odours of scent "1001600306 >.
+  7| This was done the third day.
+  8| 45 But on the fourth day thou didst command that there should come into being the brightness of
+  9| 46 the sun, the light of the moon and the order of the stars; and didst command them that they should
+ 10| 47 do service unto man, who was about to be formed. Upon the fifth day thou didst bid the seventh
+ 11| part, where the water was gathered together, to bring forth living creatures, birds, and fishes; and
+ 12| 48 so it came to pass. The dumb and lifeless water produced living creatures that for this the nations
+ 13| | Then didst thou preserve two living creatures; the name of 49 might declare thy wondrous
+ 14| thou didst separate the one from the other; for the seventh part, where the water was gathered
+ 15| 51 together, was unable to hold them (both). And thou didst give Behemoth one of the parts which
+ 16| 52 had been dried up on the third day to dwell in, (that namely) where are a thousand hills: but unto
+ 17| Leviathan thou gavest the seventh part, namely the moist: and thou hast reserved them to be
+ 18| devoured by whom thou wilt and when.
+ 19| 53 But upon the sixth day thou didst command the earth that it should bring forth before thee cattle
+ 20| 54 beasts, and creeping things; and over these Adam, whom thou didst ordain lord over all the works’
+ 21| that "thou didst create before him: of him we are all sprung, whom thou hast chosen (to be)
+ 22| (thy) people.
+ 23| that they are nothing, and that they are like unto spittle; and thou hast likened the abundance of
+ 24| 57 them to a drop on a bucket. And now, O Lord, behold these nations which are reputed as nothing
+ 25| 58 Jlord it over usJ and crush us. But we, thy people whom thou hast called thy first-born, thy
+ 26| 59 only-begotten,!thy beloved [most dear]', are given up into their hands. If the world has indeed
+ 27| been created for our sakes why do we not enter into possession of our world? How long shall
+ 28| this endure?
+ 29| 579 Pp2
+
+===== PAG 593 =====
+  0| IV EZRA 7. 1-12
+  1| (a).
+  2| 7: And when I had finished speaking these words, there was sent unto me the angel who had been
+  3| 2 sent unto me “on the former nights". And he said unto me: Up,, and hear the words that
+  4| 4is a sea lying in a wide expanse so that it is broad’ and vast; but the entrance thereto 5 lies”
+  5| 5 in a narrow space so as to be like a river. He, then, that really desireth to go upon the sea to
+  6| behold it or to “navigate it, if he pass not through the narrow part, how shall he be able to come into
+  7| 6the broad? Again, ‘another (illustration). There is a builded city which lies on level ground,
+  8| 7 and it is full of all good things; but its entrance is narrow and lies on a steep, having fire on the
+  9| 8 right hand and deep water on the left; and there is one only path lying between them both, that
+ 10| 9 footstep at once. If, now, this city be given to a man for an inheritance, unless the heir pass
+ 11| through the danger set before him, how shall he receive his inheritance? And I said: It is so, lord!
+ 12| world; but when Adam transgressed my statutes, ‘then that which had been made was judged't,
+ 13| 12 and then "the ways" of this world became narrow and sorrowful and painful ] few and evil]
+ 14| Pre ion i lyptist. Are ‘these things’ (i.e. the felicity of the {
+ 15| eas 4 giver of sat, 16, where the author, having demonstrated the reality and significance of the
+
+===== PAG 594 =====
+  0| IV EZRA 7, 13-25
+  1| full of perils coupled with great toils. But the ways " of the future world” are broad and safe, 1
+  2| 14 and yield the fruit of immortality. If, then, the living shall not have surely entered into these
+  3| 15 Narrow and vain things, they will not be able to receive what has been reserved for them. But now
+  4| Why disquietest thou thyself that thou art corruptible?
+  5| Why art thou moved because thou art mortal?
+  6| 16 Why hast thou not considered what is to come, rather than what is now present?
+  7| (4) vv. 17-25.
+  8| 17. Then answered I and said: O Lord my Lord, lo, thou hast ordained in thy Law that the rightcous
+  9| 18 shall inherit these things, but that the ungodly shall perish. The righteous, therefore, can endure
+ 10| the narrow things because they hope for the wide; those, however, who have done wickedly endure
+ 11| Thou art not’ a judge above God
+ 12| Nor wise above the Most High.
+ 13| 20 Yea, rather, "161 the many that now are perish? than that the law of God which is set before them
+ 14| 22 they should do to live, and what they should observe to avoid punishment. Nevertheless they were
+ 15| disobedient, and spake against him;
+ 16| They devised for themselves vain thoughts,
+ 17| they proposed to themselves wicked treacheries;
+ 18| 23 They even affirmed the Most High exists not,
+ 19| and ignored " his ways!
+ 20| 24 His law they did despise,
+ 21| and his covenants they denied;
+ 22| In his statutes they have put no faith,
+ 23| have set at naught his commandments:
+ 24| 35 Therefore, O Ezra,
+ 25| For the empty, empty things,
+ 26| And for the full, full things!
+ 27| 581
+
+===== PAG 595 =====
+  0| IV EZRA 7. 26-31
+  1| (vii. 26-44) (R) (19).
+  2| End of the Age (R).
+  3| For behold the days come, and it shall be when the signs which I have foretold unto thee shall come
+  4| { Then shall the city that now is invisible appear‘, and the land which is now concealed " be
+  5| seen
+  6| 27, 28) whosoever is delivered from the predicted evils, the same shall see my wonders. For ‘my
+  7| 29 survivors “four hundred years". And it shall be, after these years, that ‘my Soni the Messiah
+  8| 30 shall die, and all4in whom there is human breath‘, Then shall the world be turned into the
+  9| primaeval silence seven days, like as at the first beginnings; so that no man is left.
+ 10| (6) vii. 31-44. The General Resurrection and Final Fudgement; the Day of Fudgement described (R).
+ 11| And it shall be after seven days that the Age which is not yet awake shall be roused, and 1
+ 12| which is corruptible shall perish.
+
+===== PAG 596 =====
+  0| IV EZRA 7. 32-40
+  1| And
+  2| the earth shall restore those that sleep in her,
+  3| [and the chambers shall restore those that were committed unto them].
+  4| And the Most High shall be revealed upon the throne of judgement:
+  5| (and then cometh the End)!
+  6| and compassion shall pass away,
+  7| (and pity be far off,)
+  8| and longsuffering " withdrawn ";
+  9| judgement " alone shall remain, But
+ 10| and faithfulness triumph.
+ 11| And? recompense? shall follow,
+ 12| 2 Deeds of righteousness? shall awake,
+ 13| and deeds of iniquity shall not sleep.
+ 14| And then shall ‘the pit of torment appear,
+ 15| and over against it the place of refreshment;
+ 16| The furnace of Gehenna shall be made manifest,
+ 17| and over against it the Paradise of delight.
+ 18| And then shall the Most High say to the nations that have been raised [from the dead]:
+ 19| Look now and consider whom ye have denicd, whom ye have not served, whose commandments
+ 20| ye have despised.
+ 21| Look, now, before [you]:
+ 22| here delight and refreshment,
+ 23| there fire and torments!
+ 24| Thus "shall he speak" unto them in the Day of Judgement,
+ 25| For thus shall the Day of Judgement be:
+ 26| = [A day] whereon is neither sun, nor moon, nor stars;
+ 27| neither clouds, nor thunder, nor lightning;
+ 28| neither darkness, nor evening, nor morning;
+ 29| 583
+
+===== PAG 597 =====
+  0| IV EZRA 7. 41-45
+  1| neither shining, nor brightness, nor light,
+  2| save only the splendour of the brightness of the Most High, whereby all shall be destined to sce
+  3| is my Judgement and Pits prescribed order’: to thee only have I showed these things.
+  4| V. Tue DEBATE CONTINUED (from vii. 25): ISRAEL’S ELECTION AND THE PROBLEM
+  5| OF RIGHTEOUSNESS.
+  6| (1) vii. 45-74. THE FEWNESS OF THE SAVED JUSTIFIED: THIS FOLLOWED BY A LAMENT
+  7| OVER MAN’s, (. (S).
+  8| (a) vii. 45-61. The fewness of the saved.
+  9| S 45 And I answered and said: O Lord, I said even then and say now: Blessed are they who come
+ 10| (into the world) and keep 4thy commandments.
+ 11| 584
+
+===== PAG 598 =====
+  0| IV EZRA 7. 46-61
+  1| 46 But concerning those for whom my prayer (was offered): who is there of those who have come
+  2| ?
+  3| (into the world) that has not sinned? Or who of the earth-born is there that has not transgressed
+  4| covenant? And now I see that the coming Age shall bring delight to few, but torment unto 47 "
+  5| 48 many. For the evil heart has grown up in us
+  6| which has estranged us ‘ from God,
+  7| and brought us into destruction;
+  8| And ‘has made known to us“ the ways of death,
+  9| and showed us the paths of perdition,
+ 10| and that not a few only, but well nigh all that have been created!
+ 11| and a second time will admonish thee:
+ 12| ,51 For this caus2 the Most High has made not one Age but two. And whereas thou hast said that
+ 13| while the ungodly abound "—‘ hear (the answer) to this!: the righteous are not many but few,
+ 14| 52 Suppose thou have choice stones, in number exceeding few; / wilt cen set (place) with them lead
+ 15| and clay 12
+ 16| 54 And he said unto me: Not only so, but
+ 17| Speak to her, and she shall declare it unto thee.
+ 18| 5,56 Say to her: Thou bringest forth gold and silver and brass—and also iron and lead and clay: but
+ 19| 57 Clay than lead. Do thou, then, consider which things are precious and to be desired: that which is
+ 20| abundant or that which is rare?
+ 21| 58 And I said: O Lord my Lord, that which is plentiful is of less worth, but that which is more rare
+ 22| is precious.
+ 23| 59 And he answercd me and said: 'Wcigh within thyself 1 what thou hast thought! For he that has
+ 24| what is rare rejoices beyond him that has what is plentiful.
+ 25| 60 35 also shall be my promised judgement;" I will rejoice over the few that shall be saved, inas-
+ 26| much as they it 15 that make my glory prevail now already and through them my name is now
+ 27| already named (with praise).
+ 28| 61 And I will not grieve over the multitude of them that perish: for they it is who now
+ 29| are made like vapour,
+ 30| 585
+
+===== PAG 599 =====
+  0| IV EZRA 7. 61-74
+  1| P counted as smoke,
+  2| : are comparable unto the flame
+  3| They are fired, burn hotly, are extinguished!
+  4| (6) vii. 62-74. The apocalyptist’s lament over man’s evil case.
+  5| 62 And I answered and said: O thou Earth, what hast thou brought forth, if the mind is sprung
+  6| 63 from the dust as every other created thing! It had been better if the dust itself had even been
+  7| unborn, that the mind might not have come into being from it.
+  8| 64 But, as it is, the mind grows with us, and on this account we are tormented, because we perish
+  9| and know it.
+ 10| but the beasts of the field be glad!
+ 11| but let the cattle and flocks rejoice!
+ 12| 66 For it is far better with them than with us; for they have no judgement to look for, ncither do
+ 13| they know of any torture or of any salvation promised to them after death.
+ 14| 67 For what doth it profit us that " we shall be preserved alive’, but yet suffer great torment?
+ 15| 68 For all the earth-born.
+ 16| are defiled with iniquitics,
+ 17| laden with offences.
+ 18| 69 And if after death we werc not to come into judgement, it might, perchance, have been far better
+ 19| for us!
+ 20| came "of him", he first prepared the Judgement, and the things that pertain unto the Judgement.
+ 21| 71 But, now, from thine own words understand: for thou hast said that the mind grows with us.
+ 22| standing they yet wrought iniquity, and receiving precepts they yet kept them not, and having
+ 23| obtained the Law they set at naught that which they received.
+ 24| What, then, will they have to say in the Judgement, or how shall they answer in the last times?
+ 25| 74 For how long a time hath the Most High been longsuffering with the inhabitants of the world—
+
+===== PAG 600 =====
+  0| IV EZRA 7. 75-79
+  1| (2) vii. 75-101. THE STATE OF THE SOUL AFTER DEATH AND BEFORE THE JUDGEMENT (S).
+  2| 75 And I answered and said: If I have found favour in thy sight, O Lord ", show this also to thy
+  3| servant: whether after death, even now when every one of us must give back his soul, we shall be
+  4| kept in rest until those times come in which thou shalt renew the creation, or shall we suffer torture
+  5| forthwith <?
+  6| with them that have scorned, nor number thyself with those that suffer torment.
+  7| until the last times.
+  8| 78 And concerning death the teaching is: When 5 the decisive decree’ has gone forth from the Most
+  9| High that the man should die,
+ 10| as the soul? from the body departs
+ 11| that it may return to him who gave it,
+ 12| 79 to adore the glory of the Most High, first of all: if it be one of those that have scorned
+ 13| 587
+
+===== PAG 601 =====
+  0| EZRA 7. 79-95
+  1| and have not kept the ways of the Most High,
+  2| that have despised his law,
+  3| and that hate those who fear God—
+  4| 80 Such souls shall not enter into habitations, but shall wander about henceforth in torture, ever
+  5| grieving and sad, in seven ways.
+  6| 82 The first way (is) that ¢ they have scorned 5 the Law of the Most High; the second way, that they
+  7| $3 are now unable "50 make a good repentance for life; the third way (is): they shall sec the
+  8| 84 reward laid up for those who have believed ‘the covenants of the Most High‘; the fourth way,
+  9| 85 that they shall regard the torture laid up for themselves in the last days; the fifth way, that they
+ 10| of the other souls are guarded by angels in profound quietness; the 86 shall see how the habitations
+ 11| 87 sixth way, that they shall see ‘how from now henceforth they must pass over into torture’. The
+ 12| seventh way, which exceeds all the aforesaid ways, (is):
+ 13| that they shall pine away for shame,
+ 14| and be consumed with confusion J,
+ 15| and withered with fear.
+ 16| in that they sec the glory of the Most High, before whom they have sinned in life, and before whom
+ 17| they are destined to be judged in the last times.
+ 18| 88 those, however, who have kept the ways of the Most High this is ' the order!, when they shall
+ 19| be separated from this vessel of mortality.
+ 20| 89 “What time they dwelt therein” they painfully served the Most High, and were in jeopardy
+ 21| every hour, that they might observe the Law of the lawgiver perfectly.
+ 22| 91 Wherefore the matter as it relates to them is as follows: First of all they shall see with great joy
+ 23| 92 the glory of him who receives them; and they shall rest "in seven orders". The first order (is):
+ 24| that they have striven much and painfully to overcome the innate evil thought, that it might not
+ 25| 93 lead them astray?from life? unto death. The second order (is): that they see 9606 round in
+ 26| 94 Which the souls of the ungodly wander, and [16 punishment that awaits them. The third order
+ 27| (is): they see the witness which their Fashioner attests concerning them, that while they were alive
+ 28| 95 “they faithfully observed the Law which was given to them. The fourth order (is): they under-
+ 29| stand the rest which they now, being gathered in their chambers, enjoy in profound quietness
+ 30| 588
+
+===== PAG 602 =====
+  0| IV EZRA 7. 96-102
+  1| guarded by angels, and the glory which awaits them ‘at their latter end. The fifth order (is): they
+  2| rejoice that they have now escaped what is corruptible, and that they shall inherit that which is to
+  3| come; and moreover that they see the straitness and " painfulness" from which’ they have been
+  4| delivered, and the spacious liberty which they are destined “to receive with enjoyment and im-
+  5| mortality ¥. The sixth order: that it is shown unto them how their face is destined to shine as
+  6| the sun, and how they are destined to be made like the light of the stars, henceforth incorruptible.
+  7| The seventh order, which exceeds all the aforesaid, (is): that
+  8| for they are hastening to behold the face of him whom in life they served. and from whom they are
+  9| destined to receive their reward in glory.
+ 10| and) the This is the order of the souls of the righteous as from now henceforward is announced,)
+ 11| would not give heed. aforesaid ways of torture (are) those which they suffer henceforth who”
+ 12| And I answered and said: Shall time, therefore, be given unto the souls, after they are separated
+ 13| from the bodies, that they may see what thou hast described to me?
+ 14| And he said to me: Seven days they have freedom, that during these seven days they may see
+ 15| (3) vii. 102-115. INTERCESSION ON THE Day OF JUDGEMENT (S).
+ 16| whether in the Day of Judgement the righteous shall be able to intercede for the ungodly, or to
+ 17| 589
+
+===== PAG 603 =====
+  0| IV EZRA 7. 103-115
+  1| found favour in my sight, I will show this alsounto thee. The Day of Judgement is decisive 4, and
+  2| displays unto all the scal of truth. Even as now a father may not send a son, or a son his father, or
+  3| healed; so shall ‘none then’ pray for another on that Day, neither shall one lay a burden on
+  4| 106 another; for then every one shall bear his own righteousness or unrighteousness. And I answered
+  5| and said: How is it that we now find that first Abraham prayed for the people of Sodom, and
+  6| ] Moses for our fathcrs who sinned in the wilderness; and Joshua after him for Israel in the days 5 of
+  7| 108 Achar; and Samuel ‘in the days of Saul‘, and David Jfor the plague J, and Solomon for those
+  8| that (should worship) in the sanctuary"; and Elijah for those who received the rain, and for the
+  9| dead, that he might live; and Hezekiah for the people in the days of Sennacherib, and (others) many
+ 10| for many? If, therefore, now when corruption is grown up, and unrighteousness increased, the
+ 11| righteous have prayed for the ungodly, why shall it not be so then also?
+ 12| 112 And he answered me and said: The present age 115 not the End'!; “the glory of God abides not
+ 13| 113 therein continuously: therefore have the strong prayed for the weak. But the Day of Judgement
+ 14| shall be the end of this age and the beginning of the eternal age that is to come; wherein
+ 15| " corruption is passed away,
+ 16| infidelity is cut off;
+ 17| while righteousness is grown,
+ 18| and faithfulness is sprung up.
+ 19| 115
+ 20| So shall no man then be able to have mercy on him who is condemned in the Judgement, nor
+ 21| overwhelm " him who is victorious.
+ 22| 590
+
+===== PAG 604 =====
+  0| IV EZRA 7. 116-132
+  1| (4) vii. 116-131. WHAT AVAILS THE PROMISE TO MAN WHO IS BORN TO SIN?
+  2| YET, THOUGH TRAGIC, THE SINNER’S DOOM IS DESERVED (S).
+  3| 116 And 1 answered and said: This is my first and last word; better had it been that the earth had
+  4| not produced Adam, or else, having once produced him, (for thee)? to have restrained” him from
+  5| 117 sinning. For how does it profit us all that in the present we must live in grief and after death look
+  6| 120 the eternal age is promised to us, whereas we have done the works that bring death? And that
+  7| > there is foretold to us "an imperishable hope’, whereas we so miserably are brought to futility?
+  8| that the glory of the Most High is to defend them who have led a pure life, whereas we have walked
+  9| 23 in ways most wicked? And that Paradise whose fruit endures incorruptible, wherein is delight and
+ 10| 24 healing, shall be made manifest, but we cannot enter it because we have passed our lives in unseemly
+ 11| 26 whereas our faces shall be blacker than darkness? For, while we lived and committed iniquity we
+ 12| considered not what we were destined to suffer after death!
+ 13| 127 And he answered me and said: This is ‘the condition of the contest which (every) man who is
+ 14| 128 born upon earth must wage; that, if he be overcome, he shall suffer as thou hast said: but if he be
+ 15| 129 Victorious, he shall receive what I have said. For this is the way of which Moses, while he was
+ 16| 130 alive, spoke unto the people, saying: Choose thee life, that thou mayst live! Nevertheless they
+ 17| 131 believed not him, nor the prophets after him, no nor yet me who have spoken unto them. " Therefore
+ 18| shall there not be such grief at their perdition, as there shall be joy over the salvation of those who
+ 19| have believed.
+ 20| AS TO HOW THE PERDITION OF SO MANY CAN BE JUSTIFIED FROM THE (5)
+ 21| POINT OF VIEW OF CHARACTER AND ATTRIBUTES: DIVINE REPLY (5).
+ 22| (vii. 132—viii. 62.)
+ 23| (a) vii. 132—viil. 3. Will God—so merciful and compassionate—suffer so many to perish? (S.)
+ 24| 59!
+
+===== PAG 605 =====
+  0| IV EZRA 7. 111--8 3
+  1| . 136 “as his creatures "; and bountiful, since he is ready to bestow favour rather than exact; and of
+  2| great mercy, because he multiplics mercics so greatly to those who are in existence, and who have
+  3| 137 passed away, and who are to come:—for if he did not multiply mercy” the world with its
+  4| 139 unto life; and forgiving, for if he did not pardon those that were created by his word, and blot
+  5| 140 out the multitude "of their iniquities", there would, perchance, be very few left of an innumerable
+  6| multitude.
+  7| And he answered me and said: This age the Most High has made for many, but the age to come 8
+  8| 2 for few. I will tell thee, now, a similitude, Esra: as, when thou askest the earth, it shall say unto
+  9| thee that it produces much more mould from which earthen vessels are made, but little dust from
+ 10| 3 which gold comes; so also is 5 the course of the present age. Many have been created, but few
+ 11| shall be saved!
+ 12| 592
+
+===== PAG 606 =====
+  0| IV EZRA 8. 4-15
+  1| (2) viii. 4-19. Can God's creature, who has been fashioned with such infinite skill and
+  2| labour, perish finally? (S.)
+  3| 20 my soul, drink thy fill of understanding 4,
+  4| feed on wisdom‘! And, O heart
+  5| 5 &Involuntarily thou camest (into the world),
+  6| and when thou willest not departest 8:
+  7| 6 for permission has been given to thee only to live a brief time. 1 Lord above us’, if thou
+  8| wouldst but suffer thy servant to pray before thee; and wouldst give unto us the seed of a new
+  9| heart and culture to our understanding, whence fruit may come, whereby every corruptible one may
+ 10| 8 the work of thine hands, as thou hast said. 'And when! thou quickenest the body which thou
+ 11| fashionest in the womb, and endowest it with members, thy creature is preserved in fire and water,
+ 12| and nine months does that which thou hast fashioned (1. 6. the womb) bear thy creature 3 which thou
+ 13| 9 hast created within it". But that which keeps and that which 15 are both kept? by thy
+ 14| 1 keeping’. And when the womb gives up again 4 what has been created in it 1, thou hast commanded
+ 15| that out of the members themselves, that is out of the breasts, milk, the fruit of the breasts, should
+ 16| 11 be provided, that what has been fashioned may be nourished for a time.
+ 17| 12 And afterwards thou sustainest it in thy mercy
+ 18| and nourishest it in thy righteousness;
+ 19| Thou disciplinest it through thy law,
+ 20| and reprovest it in thy wisdom.
+ 21| 13 Thou wilt kill it—as (it is) thy creature,
+ 22| and quicken it—as (it is) thy work!
+ 23| 14 If, then, with a light word thou shalt destroy him who with such infinite labour has been
+ 24| 15 fashioned by thy command, ‘ to what purpose was he made? But now I will say: Concerning
+ 25| man in general, "thou knowest best, but concerning
+
+===== PAG 607 =====
+  0| IV EZRA 8. 16-21
+  1| 16 Thy people, on whose account I grieve,
+  2| And Israel for whom I am sad,
+  3| and Jacob’s seed for whom I am dismayed—
+  4| 18 that dwell in the land, and now also have heard 7 the decree of judgement” that is to come!
+  5| 19 Therefore hear my voice,
+  6| and consider my words?,
+  7| and let me speak before thee!
+  8| (c) viii. (19 6) 20-40. The secr’s prayer for compassion on his people, and the divine reply (S).
+  9| 6(
+ 10| The Prayer.
+ 11| 6" | The beginning of the words of the Prayer” of Esra before he was taken up. And he said:|
+ 12| 20 O Lord ‘that dwellest eternally,
+ 13| 4whose are the highest heavens 4,
+ 14| whose glory inconceivable;
+ 15| 594
+
+===== PAG 608 =====
+  0| IV EZRA 8. 21-30
+  1| 5 before whom (heaven’s) hosts stand trembling,
+  2| ‘and at thy word change to wind and fire ';
+  3| whose commandment is strong
+  4| whose look drieth up the depths,
+  5| whose indignation melteth the mountains;
+  6| whose faithfulness 5 standeth eternal 5---
+  7| Hear the voice of thy servant,
+  8| give ear to ‘ thy creature’s petition’,
+  9| and attend to my words!
+ 10| For so long as I live must I speak,
+ 11| and while I possess understanding, answer—
+ 12| O look not on the sins of thy people,
+ 13| but on them that have served thee in truth;
+ 14| Regard not the deeds of the godless,
+ 15| but (rather) them that have kept thy covenants in tortures;
+ 16| J Think notJ upon those that have walked in devious ways before thee,
+ 17| but remember them that have willingly recognized thy fear;
+ 18| Will not to destroy those that have lived like cattle,
+ 19| but regard them that have gloriously taught thy Law;
+ 20| Be not wroth with those that are deemed worse than the beasts,
+ 21| 30
+ 22| but love them that have always put their trust in thy glory—
+ 23| 595 Qq2
+
+===== PAG 609 =====
+  0| IV EZRA 8. 31-45
+  1| S 4 For we and our fathers have passed our lives in ways that bring death: but thou, because of
+  2| 32 us sinners, art called compassionate. For if thou hast a desire to compassionate us who have no
+  3| 33 works of righteousness, then shalt thou be called ‘the gracious One’. For the righteous, who have
+  4| many works laid up with thee, shall out of their own deeds receive their reward—
+  5| 34 But what is man that thou shouldst be wroth with him?
+  6| Or what is a corruptible race that thou canst be so bitter towards it?
+  7| 35 For in truth
+  8| There is none of the earth-born who has not dealt wickedly,
+  9| and 'among those that exist! who has not sinned.
+ 10| 6 For in this, O Lord, shall thy righteousness and goodness be declared, if thou wilt compassionate
+ 11| them that have no wealth of good works.
+ 12| (ii.)
+ 13| The Divine Reply.
+ 14| 37. Then he answered me and said: Some things thou hast spoken aright, and according to thy
+ 15| 38 words so shall it come to pass. For indeed I will not concern myself about the creation of those
+ 16| 39 who have sinned, or their death, judgement, or perdition; but I will rejoice (rather) over the creation
+ 17| 40 of the righteous, (over) their pilgrimage also and their salvation and their recompense. 3 As thou
+ 18| (d) viii. 41-45. Mankind is like the seed sown by the husbandman (S).
+ 19| [The speaker here is still the angel.)
+ 20| For just as the husbandman sows much seed upon the ground and plants a multitude of plants, 4
+ 21| and yet not all which were sown shall be saved in due season, nor shall all that were planted take
+ 22| root; so also they that are sown in the world shall not all be saved. And I answered and said: If 42
+ 23| I have found favour before thee, let me speak?. % The husbandman’s seed, if it come not up— 43
+ 24| because it has not received thy rain in due season'—or if it be ruined by too much rain, perishes;
+ 25| image, for whose sake thou hast fashioned all things— hast thou likened him to the seed of the
+ 26| husbandman 3?
+ 27| Nay, Lord God!¥ but 4
+ 28| spare thy people,
+ 29| compassionate thine inheritance,
+ 30| for thou compassionatest thine own creation!
+ 31| 596
+
+===== PAG 610 =====
+  0| IV EZRA 8. 2
+  1| ! (e) viii. 46-62. The final divine reply: The seer is assured that his lot is with the blessed, and is
+  2| bidden to contemplate their felicity, and not to think of the fate of sinners (S).
+  3| S 46 And he answered me and said:
+  4| Things present (match) them of the present,
+  5| Things future them of the future!
+  6| 47 For thou comest far short of being able to love my creation more than I!
+  7| Thou, however, hast many times " ranged thyself with” the ungodly. This must not be!
+  8| 48, 49 But even on this account thou shalt be honourable before the Most High; because thou hast
+  9| humbled thyself, as it becomes thee, 5 and hast not assigned thyself a place” among the righteous;
+ 10| 5 and so thou shalt receive the greater glory. For with many afflictions shall they be afflicted that
+ 11| 51 inhabit the world in the last times, because they have walked in great pride. But do thou (rather)
+ 12| | think of thine own 6356 4 and of them who are like thyself search out the glory.
+ 13| | 52 For for you
+ 14| is opened Paradise,
+ 15| planted the Tree of life;
+ 16| the future Age prepared,
+ 17| plenteousness made ready;
+ 18| 597
+
+===== PAG 611 =====
+  0| IV EZRA 8. 52-63
+  1| a City builded,
+  2| a Rest appointed;
+  3| Good works established,
+  4| The (evil) root is sealed up from you,
+  5| 53
+  6| infirmity from your path extinguished;
+  7| And Death is hidden.
+  8| Corruption forgotten,
+  9| and in the end ‘ the treasures of immortality ‘ are made manifest.
+ 10| Therefore ask no more concerning the multitude of them that perish; for having received liberty
+ 11| 55, 56
+ 12| they despised the Most High;
+ 13| and € forsook & his ways:
+ 14| Moreover "his saints' they have trodden under foot; and have said in their heart that there
+ 15| 57, 8
+ 16| is no God—yea, though knowing full well that they must die. ‘Therefore as‘ the things aforesaid
+ 17| jabide for you), so thirst and anguish -await them. For the Most High willed not that men
+ 18| should come to destruction; but they—his creatures—have themselves defiled the Name of him
+ 19| that made them, and have proved themselves ungrateful to him who prepared 'life for them’.
+ 20| Therefore my judgement is now nigh at hand; and this I have not made known unto all men,
+ 21| but only unto thee and to a few like thee.
+ 22| (6) THE SIGNS OF THE END REVIEWED AND APPLIED TO THE AUTHOR'S
+ 23| OWN TIMES (R) (E).
+ 24| (viii. 63-ix. 12.)
+ 25| Then I answered and said: Behold, O Lord, thou hast already shown me a great number of the
+ 26| signs which thou art about to do in the last times, but at what time thou hast not shown me.
+ 27| 598
+
+===== PAG 612 =====
+  0| IV EZRA 9. 1-12
+  1| 9:1 And he answered me and said: Measure (the matter) carefully in thy mind, and when thou seest
+  2| 2 that a certain part of the predicted signs are past, then shalt thou understand that it is the very
+  3| 3 time when the Most High is about to visit the world which he has made. When in the world there
+  4| shall appear
+  5| 5 quakings of places",
+  6| tumult of peoples,
+  7| schemings of nations,
+  8| disquietude of princes,
+  9| (E) 4 then shalt thou understand that it is of these things the Most High has spoken since the days that
+ 10| 5 were aforetime from the beginning. For just as with respect to all that has happened in the world 4
+ 11| 6 the beginning is obscure (2), but the end (issue) manifest’, so also are the times of the Most High:
+ 12| the beginnings are [visible] tin portents and secret signs‘, and the end “in effects and marvels”.
+ 13| 7 And every one that shall (then) be saved, and shall be able to escape on account of his works or his
+ 14| which he has believed, " such shall survive " from the perils aforesaid, and shall see my 8 faith
+ 15| 9 salvation in my land, and within my borders which I have sanctified for myself eternally. Then
+ 16| shall they be amazed that now have abused my ways; they shall abide in the torments which they
+ 17| have spurned and despised. For all who failed to recognize me in their lifetime,? although
+ 18| 11 1 dealt bountifully with them’; and all who have defied my Law, while they yet had liberty, and,
+ 19| 12 while place of repentance was still open to them, gave no heed but scorned (it); these must 6
+ 20| brought to know after death by torment.
+
+===== PAG 613 =====
+  0| IV EZRA 9. 13-22
+  1| (7) THE DivINE REPLY CONCLUDED: FINAL JUSTIFICATION OF THE FEWNESS
+  2| OF THE SAVED (S).
+  3| (ix. 13-22.)
+  4| 13 So, then, be thou no longer curious as to how the ungodly shall be punished, but inquire (rather)
+  5| how the righteous shall be saved —they to whom the world (belongs) and for whose sakes, also, the
+  6| 15 world has come into existence. And I answered and said: 1 have already said, and say now, and
+  7| 14
+  8| 16 shall say (it) again: There are more who perish than shall be saved, even as the flood is greater than
+  9| a drop!
+ 10| 17 And he answered me and said:
+ 11| As is the ground, so the sowings;
+ 12| as are the flowers, so are the colours;
+ 13| as is the husbandman, so is the threshing-floor—
+ 14| 18 For there was (a time) in the eternal ages when 1 prepared for those who now exist—before they
+ 15| had come into being—a world wherein they might dwell; and then none gainsaid me—for none
+ 16| 19 existed. But now they that have been created in this world—(a world) made ready with both an
+ 17| unfailing table and an enexplorable pasture—have become corrupt in their manners.
+ 18| 20 Then 1 considered my world, and lo! it was destroyed;
+ 19| and my earth, and lo! ‘it was in peril @—
+ 20| on account of the tumults f of those who are (living) in ”.
+ 21| and saved me a grape out of a cluster, 21 And I saw, and spared (some) £ with very great difficulty
+ 22| 22 and a plant out of a great forest. Perish, then, the multitude which has been born in vain; but
+ 23| let my grape be preserved, and my plant, which with much labour I have perfected!
+ 24| 600
+
+===== PAG 614 =====
+  0| IV EZRA 9. 23-27
+  1| VI. ix. 23-25. CONCLUSION OF THE VISION (S).
+  2| But if ‘thou wilt separate thyself? yet seven more days—thou shalt not, however, fast in them,
+  3| 23
+  4| but shalt go into a field of flowers, where no house has been built, and eat only jof the fruit of the
+  5| 24
+  6| 25 ₪602; and thou shalt taste no flesh and drink no wine, but (eat) only the fruit—and pray unto the
+  7| Most High continually, then [ will come and talk with thee.
+  8| THE FOURTH VISION.
+  9| 26 59.) (.. -
+ 10| 1. ix. 26-28. INTRODUCTION (S).
+ 11| So I went, as he commanded me, into the field which is called Ardat, and there I sat among
+ 12| the flowers, and did eat of the herbs of the field; 'and the eating thereof satisfied me. And it
+
+===== PAG 615 =====
+  0| IV EZRA 9. 28-37
+  1| 5
+  2| 28 came to pass after seven days, as I lay upon the grass, that my heart was again troubled as before.
+  3| Then I opened my mouth, and began to address the Most High.
+  4| II. ix. 29-37. THE ABIDING GLORY OF THE LAW, AND ISRAEL: A CONTRAST (S).
+  5| 29 And 1 said: 5 Lord, thou didst verily reveal thyself unto our fathers in the wilderness” when
+  6| they went forth out of Egypt, and when they walked through the untrodden and unfruitful wilder-
+  7| 3o ness; and thou didst say:
+  8| O Israel, hear thou me;
+  9| O sced of Jacob, attend unto my words!
+ 10| 31 For, behold, I sow my Law in you, and it shall bring forth fruit in you, and ye shall be glorified
+ 11| in it for ever.
+ 12| 33 the fruit of the Law did not perish, nor could it—because it was thine; but they who received it
+ 13| 34 perished, because they kept not that which had been sown inthem. 4 Now, it is a general rule
+ 14| when the ground has received seed, or the sea a ship, or any other vessel food or drink, and when
+ 15| it happens that what is sown’, or what is launched, or the things that have been taken in come to
+ 16| 35 an end,—these come to an end, while the receptacles remain: but with us it has not been so.
+ 17| 36 We who have received the Law and sinned must perish, together with our heart, which has taken
+ 18| 37 it in: the Law, however, perishes not, but abides in its glory.
+
+===== PAG 616 =====
+  0| IV EZRA 5 0
+  1| ]. ix. 38-x. 24. THE VISION OF DISCONSOLATE WOMAN (9).
+  2| 38 And when 1 spake thus in my heart I lifted up my eyes‘, and saw a woman upon the right; and
+  3| lo! she was mourning and weeping with a loud voice, and was much grieved in mind, and her clothes
+  4| 39 were rent and there were ashes upon her head. Then I dismissed my thoughts in which I had been
+  5| 40 preoccupied, and turned to her and said: Wherefore weepest thou? And why art thou grieved in
+  6| 4tthy mind? And she said unto me: Suffer me, my lord, to indulge my sorrow and “continue my
+  7| grief", for I am embittered in soul and deeply afflicted.
+  8| 42. And 1 said unto her: What has befallen thee? tell me.
+  9| 44 years. Both hourly and daily during these thirty years I besought the Most High night and day.
+ 10| 453 And it came to pass after thirty years
+ 11| God heard thy handmaid
+ 12| and looked upon my affliction;
+ 13| He considered my distress,
+ 14| and gave me a son.
+ 15| And I rejoiced in him greatly, I and my husband and all my fellow townsfolk, and we gave great
+ 16| , 47 glory unto “the Mighty One. And I reared him with great travail. So when he was grown up,
+ 17| feast day’. I came to take him a wife, and made?
+ 18| 1 And it came to pass when my son entered into his wedding chamber, he fell down and died.
+ 19| 2 Then 1 removed the lights, and all my fellow townsfolk rose up to comfort me; but I remained
+ 20| 3 quiet 2until the night of the next day. >And it came to pass when they were all quiet (and
+ 21| desisted) from consoling, as I remained quiet, I rose up by night, and fled, and came to this field,
+ 22| 4 as thou seest. And I purpose ‘never again to return to the city, but here to stay and neither eat
+ 23| 5 nor drink, but continually to mourn and to fast till I 616. Then I left the thoughts in which I was
+ 24| 6 still occupied, and answered her in anger, and said: O thou above all other women most foolish!
+ 25| 8 grief and deep affliction? “It is right now to mourn 4, seeing that we all mourn, and to grieve, seeing
+ 26| 9 that we are all grief-stricken; thou, however, art grief-stricken for one son. But ask the earth, and
+ 27| TN: see EA, p. 221) 6-6 so S (= pyxert); of. Ar.) perhaps was: ING DMD DvD
+ 28| 603
+ 29| -
+
+===== PAG 617 =====
+  0| IV EZRA 10. 9-22
+  1| 5
+  2| she shall tell thee, that it is she who ought to mourn ' the fall of so many‘ that have sprung into
+  3| being upon her. & Yea, from the beginning all who have been born, and others who are to come—
+  4| almost all into perdition, and the multitude of them comes to destruction. Who, then, tr lo! they
+  5| should mourn the more? Ought not she that has lost so great a multitude? or thou who grievest
+  6| 12 but for one? But if thou sayest to me: My lamentation is not like the earth’s, for I have lost the
+  7| fruit of my womb
+  8| which I bare with pains
+  9| and brought forth with sorrows—
+ 10| 13" but as regards the earth, (it is) according to the course of nature; the multitude present in it is
+ 11| 14 gone as it came: then I say to thee: Just as thou hast borne (offspring) with sorrow, even so also
+ 12| the earth has borne (given) her fruit, namely man, from the beginning unto him that made her.
+ 13| and bear gallantly the misfortunes that have befallen thee.
+ 14| 16 For if thou wilt acknowledge God's decree to be just, thou shalt receive thy son again in (due) time,
+ 15| 18 and shalt be praised among women. Therefore go into the city to thy husband. she said unto
+ 16| 20 unto her, and said: {, woman! no, woman!i do not do so;
+ 17| but suffer thyself to be prevailed upon by reason of Sion’s misfortunes,
+ 18| be consoled by reason of Jerusalem’s sorrow.
+ 19| 21 For thou seest how
+ 20| our sanctuary is laid waste,
+ 21| ‘our altar! thrown down;
+ 22| our Temple destroyed,
+ 23| our harp laid low;
+ 24| 22 our song is silenced,
+ 25| our rejoicing ceased;
+ 26| the light of our lamp is extinguished,
+ 27| the ark of our covenant spoiled;
+ 28| our holy things are defiled,
+ 29| the name that is called upon us is profaned;
+
+===== PAG 618 =====
+  0| IV EZRA 10. 22-29
+  1| our nobles are dishonoured,
+  2| our priests burnt,
+  3| our Levites gone into captivity;
+  4| our virgins are defiled,
+  5| "our righteous are seized,
+  6| our children are cast out 5,
+  7| our youths are enslaved,
+  8| our heroes made powerless:
+  9| 23 and, what is more than all—
+ 10| Sion’s seal %15 now sealed up dishonoured,
+ 11| and given up into the hands of them that hate us.
+ 12| abandon thy much sorrow,
+ 13| That the Mighty One may again forgive thee,
+ 14| and the Most High give thee rest,
+ 15| a respite from thy troubles!
+ 16| IV. x. 25-28. SION’s GLORY: THE VISION OF THE HEAVENLY JERUSALEM (S).
+ 17| 25 And it came 10 pass, while I was talking to her, lo!
+ 18| her countenance on a sudden shone exceedingly,
+ 19| and P her aspect became brilliant as lightning ”,
+ 20| so that I was too much afraid 4(to approach her, and my heart was terrified exceedingly)4: and
+ 21| 26 while I was debating what this might mean, she suddenly uttered a loud and fearful cry, so that the
+ 22| 27 earth shook at the noise. And when I looked, lo! the woman was no longer visible to me, but
+ 23| there was a City builded‘, and a place showed itself of large foundations. Then I was afraid, and
+ 24| 28 cried with a loud voice, and said: Where is Uriel, the angel who came unto me at the first? For he
+ 25| it is who has caused me to fall into this great bewilderment;
+ 26| and 50 my prayer " is made futile,
+ 27| and my request disappointed!
+ 28| V. x. 29-57. INTERPRETATION OF THE VISION (S).
+ 29| 2g And while I was speaking thus, lo! the angel came to me, who had come to me at the first; and
+ 30| 605
+
+===== PAG 619 =====
+  0| IV EZRA 10. 30-45
+  1| when he saw that I lay on the ground as one dead, 'my understanding being confused ", he grasped
+  2| my right hand and strengthened me, and set me on my feet, and said to me:
+  3| What aileth thee?
+  4| Why art thou so disquieted?
+  5| Wherefore is thy understanding confused,
+  6| and the thoughts of thy heart?
+  7| And I said: Because thou hast forsaken me! Yet I did as thou commandedst, and went into the
+  8| field, and lo! I have seen—"and yet see"—that which I am unable to express.
+  9| And he said unto me: Stand up like a man, and I will advise thee. Then said 1: Speak on, my
+ 10| lord; only forsake me not, lest I die to no purpose.
+ 11| For I have seen what I did not know “and heard ' what I do not understand.
+ 12| Or is my mind deceived,
+ 13| and my soul in a dream?:
+ 14| Now, therefore, I beseech thee to show thy servant concerning this perplexity!
+ 15| and tell thee concerning the things thou art afraid of;
+ 16| for the Most High hath revealed many secrets unto thee.
+ 17| For he hath seen " thy righteous conduct ",
+ 18| how thou hast sorrowed continually for thy people,
+ 19| and mourned greatly on account of Sion—
+ 20| = The matter, therefore, is as follows. The woman who appeared to thee a little while ago, whom
+ 21| 40, 41
+ 22| + thou sawest” mourning and begannest to comfort: whereas now thou seest no likeness of a woman
+ 23| any more, but 7a builded City hath appeared unto thee: and whereas she told thee of the misfortune
+ 24| 43
+ 25| of her son—this is the interpretation: This woman, whom thou sawest, is Sion, whom thou now
+ 26| 44
+ 27| beholdest as a builded City; And whereas she said unto thee that she was barren thirty years: the
+ 28| 45
+ 29| reason is that there were three thousand years in the world before any offering was offered " in (it)
+ 30| 606
+
+===== PAG 620 =====
+  0| IV EZRA 10. 5
+  1| 46 (z.c.in the world)”. And it came to pass after three thousand years that 4 (David) 5 built the City,
+  2| 47 and offered offerings: then it was that the barren bare a son. And whereas she told thee that she
+  3| 48 reared him with travail: that was the (divine) dwelling in Jerusalem. And whereas she said unto
+  4| thee: ‘My son entering into his marriage-chamber died,’ ‘ and that misfortune befell her ‘—this was
+  5| 49 the fall of Jerusalem that has come to pass. And lo! thou hast seen the (heavenly) pattern of her¢,
+  6| how she mourned her son, and thou didst begin to comfort her for what had befallen 5
+  7| that thou art grieved ‘deeply!
+  8| and art distressed whole-heartedly on account of her;
+  9| hath showed thee the brilliance of her glory,
+ 10| and jher majestic beauty j.
+ 11| 1. 5: ‘Therefore I bade thee remain in the field where no house has been builded; for I knew that the
+ 12| 53 Most High was about to reveal all these things unto thee. [Therefore I bade thee come into the
+ 13| 54 field where no foundation of any building is, for in the place where the City of the Most High was
+ 14| about to be revealed building-work of man could endure,[
+ 15| 5s Therefore be not thou afraid, and let not thy heart be terrified; but go in and see the brightness
+ 16| ‘and! vastness of the building, as far as it is possible for thee with the sight of thine eyes to see!
+ 17| 607
+
+===== PAG 621 =====
+  0| IV EZRA 10. 56-60
+  1| 5 56 Then shalt thou hear as much as the hearing of thine ears can hear.
+  2| 57 For thou art blessed above many,
+  3| and art named before the Most High as but few!
+  4| (The true sequel should be xii. 39 6, xiii. 57-58, and xii. 40-48 (xiv. 29-35); see introductions to the
+  5| two latter sections. The sequence is shown by the following verses:(
+  6| [(xii. 39 5) And he departed from me. (xiii. 57) And I went forth and walked in the field greatly
+  7| magnifying and praising the Most High on account of the marvellous acts which he performs in due
+  8| season; (xiii. 58) and because he governs the times, and the things which come to pass in due time.
+  9| (xii. 40 f.) And it came to pass when all the people heard, &c.]
+ 10| VI. x. 58-59. REDACTIONAL TRANSITION TO THE FIFTH VISION (R).
+ 11| the night of to-morrow thou shalt remain here; so will the Most High reveal to thee R 58,59 But "
+ 12| 59 “in dream-visions what the Most High will do unto the dwellers upon earth in the last days.
+ 13| THE FIFTH (EAGLE) VISION.
+ 14| (x. 60-xii. 35) (A).
+ 15| I. THE VISION.
+ 16| 60 3a) (A) (R). (x..11 -
+ 17| A 60 | 50 1 slept that night and the following as he had commanded me.
+
+===== PAG 622 =====
+  0| ie
+  1| 11 And it came to pass the second night that I saw a dream: and lo! there came up from the sea
+  2| 2 an eagle which had twelve (?) feathered wings, and three heads. And 1 beheld, and lo! he spread
+  3| 3 gathered together (unto him)”. And I beheld, (and lo!) out of his wings there grew ‘anti-wings";
+  4| 4and they became wings petty and small. But his heads were at rest; the middle head was greater
+  5| 5 than the other heads, yet it rested with them. And I beheld, and lo! the eagle flew with his wings
+
+===== PAG 623 =====
+  0| IV EZRA 11. 6-29
+  1| A 6 to reign over the earth and over them that dwell therein. And I beheld how all things under
+  2| heaven were subject unto him, and no one spake against him—not even one of the creatures upon
+  3| 7earth. And I beheld, and lo! the eagle rose upon his talons, and uttered his voice to his wings,
+  4| 8, 9 saying’, Watch not all at once: sleep every one in his place, and watch by course: but let the heads
+  5| be preserved for the last. And I beheld, and lo! the voice proceeded not from his heads, but from
+  6| 11 the midst of his body. And I numbered his anti-wings, and lo! there were eight.
+  7| 12 And I beheld, and lo! [ox the right side] there arose one wing, and reigned over the whole earth.
+  8| 13 And it came to pass that, after it had reigned, it came to its cnd and disappeared, so that the place
+  9| 14 of it was not visible. Then arose the second and reigned, and this bare rule for a long time. And
+ 10| it came to pass that, after it had reigned, it also came to its end, so that it disappeared even as the
+ 11| 15, 16 first. And lo! a voice sounded which said to it: Hear, thou that hast borne rule over the earth so
+ 12| 17 long a time: ‘this 1 proclaim unto thee before thou shalt disappear—After thee shall none bear
+ 13| 18 rule (the length of) thy time, nay not even the half of it! Then the third lifted itself up and held
+ 14| 19 the rule even as the former, and it also disappeared. And so it fell to all the wings ee turn"] to
+ 15| 20 rule and then disappear. And I beheld, and lo! in process of time the little wings ' also were set up
+ 16| | that they also might hold the rule; and some of them bare rule but [“ upon the right "
+ 17| 22 disappeared suddenly: and some of them were set up but did not hold the rule. After this I beheld,
+ 18| 23 and lo! the twelve wings disappeared, and two little wings; and nothing was left in the eagle’s body
+ 19| 24 save only the three heads that were at rest, and six little wings. And I beheld, and lo! from the
+ 20| six little wings two detached themselves, and remained under the head that was upon the right side:
+ 21| 25 but four remained in their place. And I beheld, and lo! these under-wings thought to set themselves
+ 22| 26 up and to hold the rule. And I beheld, and lo! one was sct up, but immediately disappeared;
+ 23| 27, 28 a second also, and this disappeared more quickly than the first. And I beheld, and lo! the two
+ 24| 29 that remained thought also in themselves to reign; and while they were thinking thus, lo! 7 one
+
+===== PAG 624 =====
+  0| IV EZRA 11. 29-45
+  1| of the heads that were at rest Y—it, namely, that was in the midst —awoke; for this one was greater
+  2| , 31 than the two [other] heads. And I beheld how it allied with itself the two other heads; and lo!
+  3| the head was turned with them that were with it, and did eat up the two under-wings that thought
+  4| 32 to have reigned. This head “bare rule over the whole earth”, and exercised lordship over the
+  5| dwellers therein with much oppression; [and it wielded more power over the inhabited world than
+  6| 33 all the wings that had been.| And after this I beheld, and lo! the middle head suddenly 5
+  7| 34 disappeared, even as the wings>. But there remained the two heads which also reigned over the
+  8| 33 earth, and over the inhabitants therein. And I beheld, and lo! the head upon the right side
+  9| 36 devoured that which was upon the left. Then I heard a voice, which said unto me: Look before
+ 10| 37 thee, and consider what thou seest. And I beheld, and lo! as it were a lion, roused out of the
+ 11| wood, roaring; and I heard how he uttered a man’s voice against the eagle; and he spake, saying:
+ 12| 39 Hear, thou Eagle ‘—I will talk with thee; the Most High saith to thee: Art thou not it that
+ 13| remainest of the four beasts which I made to reign in my world, that the end of my times might
+ 14| ocome through them? Thou, however, the fourth, who art come, hast overcome " all the beasts that
+ 15| Thou hast wielded power over the world‘ with great terror,
+ 16| and over all the inhabited earth with grievous oppression;
+ 17| > Thou hast dwelt 5 so long in the civilized world with fraud,
+ 18| 41 and hast judged the earth, (but) not with faithfulness:
+ 19| and oppressed the peaceable;
+ 20| Thou hast hated the upright 4,
+ 21| Thou hast destroyed! the strongholds! of the fruitful j,
+ 22| and laid low the walls of such as did thee no harm—
+ 23| 43 And so thine insolence hath ascended to the Most High.
+ 24| and thy pride to the Mighty One.
+ 25| 44 Then the Most High regarded his times—
+ 26| And lo! they were ended; -
+ 27| And his ages—
+ 28| (and) they were fulfilled.
+ 29| 45 Therefore shalt thou disappear, O thou Eagle,
+ 30| and thy horrible wings,
+ 31| and thy little wings most evil,
+ 32| 1thy harm-dealing heads',
+ 33| “thy hurtful talons,
+ 34| and all thy worthless body!
+
+===== PAG 625 =====
+  0| IV EZRA 11. 46—12. 4
+  1| 46 And 5 the whole earth, freed from thy violence, shall be refreshed again”, and hope for the
+  2| judgement and mercy of him that made her.
+  3| 3 that remained disappeared. And the two wings, which went over unto it, set themselves up to
+  4| reign; and their rule was short and full of uproar. And I beheld, and lo! these also disappeared,
+  5| and the whole body of the eagle was burnt; and the earth was terrified greatly.
+  6| Il. xii. 3 6-39. THE INTERPRETATION OF THE VISION (A) (R).
+  7| Then I awoke by reason of great perplexity of mind and from great fear, and said unto
+  8| A(R)
+  9| 4my spirit: Lo! this hast thou brought unto me because thou searchest out the ways of the
+ 10| Most High.
+ 11| 612
+
+===== PAG 626 =====
+  0| IV EZRA 12. 5-21
+  1| 5 Lo! Iam yet weary in my soul,
+  2| and very weak in my spirit,.
+  3| nor is there (left) the least strength in me on account of the great fear wherewith I have been
+  4| 6 affrighted this night. Therefore will I now beseech the Most High, that he will strengthen me unto
+  5| 7the end. And I said: O Lord my Lord, if I have found favour in thy sight, if I am justified with
+  6| 8 thee above many, if my supplication in truth be come up before thy countenance—Strengthen me,
+  7| and show me, thy servant, the interpretation and? distinct explanation” of this fearful vision, that
+  8| 9 thou mayst completely comfort my soul! [For thou hast judged me worthy to show mc the end of the
+  9| times and the last of the periods.|
+ 10| And he said unto me: This is the interpretation of the vision which thou hast seen. The eagle,
+ 11| which thou sawest come up from the sea is the fourth kingdom which appeared in vision to thy
+ 12| , 13 brother Daniel; [but it was not interpreted unto him as I now interpret it unto thee or have interpreted
+ 13| 15 terrible‘ than all the kingdoms that were before it. [2 it twelve kings shall reign, one after the other 3]
+ 14| And the second that shall reign, he shall bear rule a longer time than (any of) ] the { ] ]”. This is the
+ 15| 17 interpretation of the twelve wings which thou didst see. And whereas thou didst hear‘ a voice which
+ 16| 18 spake, going out not from his heads, but from the midst of his body, "this is the interpretation". In
+ 17| the midst " of the time of that kingdom there shall arise no small contentions, and it shall stand in peril
+ 18| 20 didst see eight under-wings grow up with his wings, this is the interpretation: In it there shall arise eight
+ 19| 21 kings, whose times shall be transient and years swift: and two of them shall perish when the middle
+ 20| time (of the kingdom) approaches; and four shall be kept for the time when its time for dissolution
+ 21| 613
+
+===== PAG 627 =====
+  0| IV EZRA 12, 22-37
+  1| A(R) 22 shall approach: but two shall be kept for the end. And whereas thou didst see three heads resting,
+  2| 23 this is the interpretation: In the last days thereof the Most High will raise up three kings; and
+  3| Ythey shall renew’ many things thercin, and shall exercise lordship over the earth and over the
+  4| 24 dwellers therein with much oppression, above all those that were before them. Therefore are they
+  5| 21 called the heads of the eagle: for these are they that shall bring to a head his wickedness, and
+  6| 20 consummate his last cend. And whereas thou didst see that the great head disappeared—one of
+  7| 27 them shall dic upon his bed, but yet with pain. But as for the two who remain the sword shall devour
+  8| 28 them. For the sword of the one shall devour him that was with him; nevertheless this one also
+  9| 20 shall fall by the sword in the last days. And whereas thou didst see two under-wings passing over
+ 10| 30 to the head that is upon the right side; this is the interpretation: These are they whom the Most
+ 11| High hath kept for his (ie, the eagle’s) end; and their rule shall be short and full of uproar, as thou
+ 12| 31 hast seen. And as for the lion whom thou didst see roused from the wood and roaring, and speaking
+ 13| 32 to the eagle and reproving him for his unrighteousness and all his deeds, as thou hast heard: This
+ 14| is the Messiah whom the Most High hath kept unto the end of the days, who shall spring from the
+ 15| seed of David, and shall come and speak "( unto them;
+ 16| he shall reprove them for their ungodliness,
+ 17| “rebuke them ¢ for their unrighteousness,
+ 18| ‘reproach them to their faces with their treacheries 4.
+ 19| 33 For at the first he shall set them alive for judgement; and when he hath rebuked them ‘he shall
+ 20| 34 destroy them. [But ay people who survive he shall deliver with mercy, even those who have been
+ 21| saved throughout my borders, and he shall make them joyful until the End come, even the Day of
+ 22| 35 Fudgement, of which I have spoken unto thee from the beginning.| This is the dream that thou
+ 23| 36 didst see, and this is its interpretation. Thou alone hast been found worthy to learn ‘this mystery!
+ 24| 37 of the Most High—Therefore write all these things that thou hast seen in a book, and put them in
+
+===== PAG 628 =====
+  0| IV EZRA 12. 38-51
+  1| (R) 38 a secret place; and thou shalt teach them to the wise of the people, whose hearts thou knowest are
+  2| 39 able to comprehend and keep these mysteries. [ut do thou remain here yet seven days more, that
+  3| there may be shown unto thee whatsoever it may please the Most High to show thec.]
+  4| 1. xii. 994-48 CONCLUSION OF THE VISION (S).
+  5| 39 And he departed from me.
+  6| 40 And it came to pass when all the people heard that the seven days were past and I not returned
+  7| to the city, they assembled themselves together, 5 3115 from the least unto the greatest; and they
+  8| came unto me and said:
+  9| 4t How have we sinned against thee,
+ 10| or how have we dealt iniquitously with thee
+ 11| that thou hast forsaken us and sittest in this place?
+ 12| 45 For of all the prophets thou alone art left to us,
+ 13| as a Cluster out of the vintage,
+ 14| as a lamp in a dark place,
+ 15| a haven of safety for a ship in a storm’. ' 5
+ 16| 3,44 Are not the evils that have befallen us sufficient i(that thou shouldst forsake us also)i? If thou
+ 17| shalt forsake us, how much better had it been for us if we also had been consumed in the burning of
+ 18| 45 Sion! For we are not better than they who died there. And they wept with a loud voice.
+ 19| Take courage, O Israel;
+ 20| be not sorrowful, O House of Jacob!
+ 21| 47 For you are remembered before the Most High,
+ 22| the Mighty One hath not forgotten you ' for ].
+ 23| 48 But as for me, I have not forsaken you, neither will I depart from you; but I have come to this
+ 24| place
+ 25| to pray for the desolation of Sion
+ 26| and to supplicate mercy for our sanctuary’s humiliation.
+ 27| zt zs probable that xiv. 29-35 immediately followed xii. 48 (see introductory section to
+ 28| 27-36. (
+ 29| . xii. 49-51. REDACTIONAL TRANSITION TO THE SIXTH VISION (R).
+ 30| . 49,50 And now go every one of you to his own house, and after these days I will come unto you. So
+ 31| 51 the people went into the city as I had told them. But I sat in the field seven days, as he had
+ 32| commanded me: and 1 did eat only "of the flowers of the field"; my food was of the herbs in
+ 33| those days.
+ 34| 615
+
+===== PAG 629 =====
+  0| IV EZRA 18. 1-5
+  1| THE SIXTH VISION.
+  2| (THE MAN FROM THE SEA.)
+  3| (xiii. 1-58) (M) (R).
+  4| 1. xiii. 1-13 a. THE VISION (M).
+  5| M13 1,2 And it came to pass after seven days that I dreamed a dream by night: (and I beheld.) and lo!
+  6| 3 there arose "a violent wind” from the sea, and stirred all its waves. And I beheld, and lo! 9(the
+  7| wind caused to come up out of the heart of the seas as it were the form of aman. And I beheld,
+  8| and Jo!) this Man flew” with the clouds of heaven. And wherever he turned his countenance to
+  9| 4 look everything seen by him trembled; and whithersoever the voice went out of his mouth, all that
+ 10| 5 heard his voice ‘ melted away‘, as the wax melts when it feels the fire. And after this I beheld,
+ 11| and lo! there was gathered together from the four winds of heaven an innumerable multitude of men
+
+===== PAG 630 =====
+  0| IV EZRA 13. 6-21
+  1| 6 to make war against the Man that came up out of the sea. And I beheld, and lo! he cut out for
+  2| 7 himself a great mountain and flew up upon it. But I sought to see the region or place from whence the
+  3| together against him to wage war with him were seized with great fear; yet they dared to fight.
+  4| 9 And lo! when he saw the assault of the multitude as they came he neither lifted his hand, nor held
+  5| spear nor any warlike weapon; but I saw only how he sent out of his mouth as it were “a fiery
+  6| stream", and out of his lips ‘a flaming breath’, and out of his tongue he shot forth “a storm of
+  7| sparks. And these were all mingled together—the fiery stream, the flaming breath, and the
+  8| storm, and fell upon 7 the assault of the multitude’ which? was prepared to fight, and burned
+  9| them all up, so that suddenly nothing more was to be seen of the innumerable multitude save only
+ 10| 12 dust of ashes and smell of smoke. When I saw this I was amazed. Afterwards I beheld the same
+ 11| Man come down from the mountain, and call unto him another multitude which was peaceable.
+ 12| some were in bonds, some brought others who should be offered.
+ 13| Il. xiii. 134-24. THe APOCALYPTIST’S REFLECTIONS ON THE VISION (mainly R).
+ 14| Then through great fear 1 awoke. And I supplicated the Most High and said:
+ 15| 14 Thou from the beginning hast shown thy servant these wonders, and hast counted me worthy to
+ 16| =, 16 receive my prayer: oh show me now moreover the interpretation of this dream! For as I conccive
+ 17| in my mind, woe unto them that shall survive in those days! but much more woe unto them that
+ 18| 4. 18 do not survive! For they that do not survive must be sorrowful, knowing as they do what things are
+ 19| 19 reserved in the last days, but not attaining unto them. But woe unto them also that survive, for
+ 20| 29 this reason—they must see great perils, and many distresses, even as these dreams do show. Yet
+ 21| bit is better to come into ‘these things " incurring peril, than to pass away as a cloud out of the
+ 22| 21 world and not to see what shall happen in the last time. And he answered me, and said: The
+ 23| interpretation of the Vision I will tell thee, and I will also explain unto thee the things of which
+
+===== PAG 631 =====
+  0| IV EZRA 18. 22-39
+  1| 22 thou hast spoken. Whereas thou hast spoken of those who survive “(and of those who do not
+  2| 23 survive) —this is the interpretation: He that shall bring the peril in that time will himself keep
+  3| them that fall into the peril, even such as have works and faith toward ‘(the Most High and)‘ the
+  4| 24 Mighty One. Know, thercfore, that those who survive (to that time) are more blessed than those
+  5| that have died.
+  6| Ill. 25-52, 5306. THE INTERPRETATION OF THE VISION (M) (R).
+  7| 25 ‘These are the interpretations of the vision: Whereas thou didst see a Man coming up from
+  8| 26 the heart of the Sea: this is he whom the Most High is keeping 5 many ages [(and) through whom
+  9| any warlike weapon, but destroyed the assault of that multitude which had come ‘to fight against
+ 10| 2y him4—this is the interpretation: [Be/old, the days come when the Most High is about to deliver them
+ 11| 31 that are upon carth. And there shall come astonishment of mind upon the dwellers on earth: and
+ 12| they shall plan to war oue against another, icity against city, place against place, people against
+ 13| 32 people, aud kingdom against kingdom. And it shall be when these things shall come to pass, and the
+ 14| signs shall happen which I showed thee before, then shall my Son be revealed whom thou didst see as
+ 15| 33.a Man ascending.| It shall be, when all the nations hear his voice, every man shall leave his own
+ 16| 34 land and the warfare which they have one against another; and an innumerable multitude shall be
+ 17| 35 gathered together, as thou didst see, desiring to come and to fight against him. But he shall stand
+ 18| 37 prepared and builded, even as thou didst see the mountain cut out without ] But he, my Son,
+ 19| shall reprove the nations that are come for their ungodliness—which things (i.e., the rebukes) are
+ 20| 35 like unto a storm—; and shall reproach them to their face with their evil thoughts and with the
+ 21| tortures with which they are destined to be tortured—which are compared unto a flame—; and then
+ 22| 39 shall he destroy them without labour by the Law which is compared unto fire. And whereas
+ 23| thou didst see 'that he summoned and gathered to himself! another multitude which was peaceable—
+
+===== PAG 632 =====
+  0| IV EZRA 138. 4
+  1| 40 These are the ten tribes which were led away captive out of their own land in the days "of
+  2| M
+  3| Josiah the king, which (tribes) Salmanassar the king of the Assyrians led away captive; he
+  4| 41 carried them across the River, and (thus) they were transported into another land. ” But they took
+  5| this counsel among themselves”, that they would leave the multitude of the heathen, and go forth
+  6| 43 statutes which they had not kept in their own land. And they entered by the narrow passages
+  7| 44 the river Euphrates. For the Most High then wrought “wonders? for them, and stayed the
+  8| 45 springs of the River until they were passed over. And through that country there was a great way
+  9| (R)
+ 10| 46 to go, (a journey) of a year and a half; and that region was called Arzareth. There they have dwelt
+ 11| 47 until the last times; and now, when they are about to come again, the Most High will again stay
+ 12| the springs of the River, that they may be able to pass over. Therefore thou didst see a multitude
+ 13| 48 gathered together in peace. [Bat the survivors of thy people, even those who are found within my holy
+ 14| 49 border, (shall be saved).| It shall be, therefore, when he shall destroy the multitude of the nations
+ 15| that are gathered together, he shall defend the people that remain. And then shall he show them
+ 16| 51 very many wonders. And I said: O Lord my Lord, show me this: wherefore 1 have seen the
+ 17| 52 Man coming up from the heart of the sea. And he said unto me: Just as one can neither seek out
+ 18| nor know what is in the deep of the sea, even so can no one upon earth see my Son [or those that
+ 19| 53 are with him), but in the time tof his day. Such is the interpretation of the dream which thou
+ 20| hast seen.
+ 21| IV. xiii 53 6-58. EPILOGUE AND TRANSITION TO THE SEVENTIL VISION
+ 22| (partly E?, partly 5 R).
+ 23| 54 because thou hast forsaken the things of thyself,
+ 24| and hast applied thy diligence unto mine
+ 25| and searched out my Law;
+ 26| 619
+
+===== PAG 633 =====
+  0| EZRA 18. 55--14. 2
+  1| and hast called understanding thy mother.
+  2| 56 Therefore have I showed thee this; for there is a reward (laid up) with the Most High. And it
+  3| shall be after three more days I will speak other things unto thee, and will declare to thee things
+  4| difficult and marvellous.
+  5| [. 57-58 (S) misplaced: proper position after x. 57].
+  6| :)8(
+  7| 57 | Then I went forth and walked in the field ", greatly magnifying and praising the Most High on
+  8| and the things which come to passin due season.] And there I abode three days.
+  9| THE SEVENTH VISION.
+ 10| (THE EZRA-LEGEND.)
+ 11| I. xiv. 1-17. Ezra’s COMMISSION ( 3) (R).
+ 12| 2 And it came to pass “after the third day ", while I sat under the oak, lo! there came a voice out
+ 13| 14
+
+===== PAG 634 =====
+  0| IV EZRA 14. 2-17
+  1| 3 upon my feet. Then said he unto me: I did manifestly reveal myself in the bush, and talked with
+  2| 4 Moses when my people were in bondage in Egypt: and I sent him, ¥and led’ my people out of
+  3| Egypt, and brought them to Mount Sinai; and I held him by me for many days.
+  4| 5 [told him many wondrous things,
+  5| =declared to him? the end of the seasons:
+  6| Then I commanded him saying:
+  7| These words shalt thou publish openly, but these keep secret. And now I do say to thee:
+  8| The signs which I have shewed thee,
+  9| The dreams which thou hast seen,
+ 10| and the interpretations which thou hast heard—
+ 11| 9 lay them up in thy heart! For thou shalt be taken up from (among) men, and henceforth thou shalt
+ 12| remain with my Son, and with such as are like thee, until the times be ended.
+ 13| 10 ~=For the world has lost its youth,
+ 14| The times begin to wax old.
+ 15| For the world-age is divided into twelve parts; nine (parts) of it are passed already‘, and the
+ 16| 12 half of the tenth part; and there remain of it two (parts), besides “the half? of the tenth part.
+ 17| Now, therefore, set in order thy house,
+ 18| and reprove thy people;
+ 19| Comfort the lowly among them,
+ 20| and instruct those that are wise.
+ 21| Now do thou renounce the life that is corruptible,
+ 22| 14 let go from thee ‘ the cares of mortality‘;
+ 23| put off now the weak nature;
+ 24| lay aside thy burdensome cares,
+ 25| and hasten to remove from these times!
+ 26| .16 For still worse evils than those which thou hast seen happen ] ]] yet take place. For the
+ 27| weaker the world grows through age, so much the more shall evils increase upon the dwellers on carth.
+ 28| 17 Truth shall withdraw further off,
+ 29| and falsehood be nigh at hand:
+ 30| for already the Eagle is hastening to come whom thou sawest in vision.
+
+===== PAG 635 =====
+  0| IV EZRA 14. 18-31
+  1| HI. xiv. 18-26. Ezra’s PRAYER FOR INSPIRATION TO RESTORE THE SCRIPTURES ( 2).
+  2| commanded me, and will warn the people who (now) exist: but they that shall be born later, who
+  3| shall admonish them?
+  4| and the dwellers therein are without light.
+  5| 2 For thy Law is burnt; and so no man knows the things which have been done by thee, or the
+  6| that I may write all that has happened in the world since the beginning, even the things which were
+  7| written in thy Law, in order that men may be able to find ‘the path', and that they who would live
+  8| at the last, may live.
+  9| 23 And he answered me and said: Go thy way, assemble the people and tell them not to seek thee
+ 10| 24 for forty days. But do thou prepare for thyself many j writing-tabletsi; and take with thee Saraia,
+ 11| Dabria, Selemia, Elkanah, and Osiel, these five, because they are equipped for writings wiftly;
+ 12| 25 and (then) come hither, and I will light the lamp of understanding in thy heart, which shall not be
+ 13| 26 extinguished until what thou art about to write shall be completed. And when thou shalt have
+ 14| finished, some things thou shalt publish, and some thou shalt deliver in secret to the wise.
+ 15| To-morrow, at this hour, thou shalt begin to write.
+ 16| III. xiv. 27-96. Ezra’s Last Worbs ( 3) (S) (R).
+ 17| 27 ‘Then I went forth as he commanded me, and assembled all the people and said:
+ 18| 28 [Hear, O Israel, these words![
+ 19| 29 [Our fathers were at the beginning strangers in Egypt, and they were delivered from thence.
+ 20| 1 And (then) they received the Law of life, which they kept not,!even as! you also after them have
+ 21| 31 transgressed (it). Then was a land given you for an inheritance in the land of Sion, but ye and
+
+===== PAG 636 =====
+  0| IV EZRA 14. 31-43
+  1| your fathers have done unrighteousness, and have not kept the ways which the Most High com-
+  2| 32 manded you. And forasmuch as he is a righteous judge he took from you in due time that which
+  3| 33 he had bestowed. And now ye are here [? and your brethren are...}.
+  4| 34 If ye, then, will rule over your own understanding
+  5| and will discipline your heart,
+  6| Ye shall be preserved alive
+  7| and after death obtain mercy.
+  8| 35. +For after death shall the Judgement come,
+  9| {when we shall once more live again:[
+ 10| And then shall the names of the righteous be made manifest,
+ 11| and the works of the godless declared. |
+ 12| 36 Let no man, then, come unto me now, nor seek me for forty days.
+ 13| IV. xiv. 37-48. THE RESTORATION OF THE HOLY SCRIPTURES (E”).
+ 14| there.
+ 15| 38 And it came to pass on the morrow that, lo! a voice called me, saying:
+ 16| Ezra, open thy mouth
+ 17| and drink what I give thee to drink!
+ 18| 39 ‘Then I opened my mouth, and lo! there was reached unto me a full cup, which was full as it were
+ 19| with water, but the colour of it was like fire.
+ 20| My heart poured forth understanding,
+ 21| wisdom grew in my breast,
+ 22| and my spirit retained its memory:
+ 23| 41 and my mouth opened, and was no more shut.
+ 24| 42 And the Most High gave understanding unto the five men, and they wrote what was dictated "in
+ 25| order 5 ‘in characters which they knew not".
+ 26| 43 " so they sat forty days:
+ 27| They wrote in the day-time
+ 28| 623
+
+===== PAG 637 =====
+  0| IV EZRA 14. 43-50
+  1| but as for me, I spake in the day,
+  2| and at night was not silent.
+  3| 43. So in forty days were written ‘ ninecty-four books'. And it came to pass when the forty days were
+  4| fulfilled, that the Most High spake unto me saying: "The twenty-four books that thou hast
+  5| 46 written publish, that the worthy and unworthy may read (therein): but the seventy last thou shalt
+  6| keep, to deliver them to the wise among thy people.
+  7| 47 For in them is the spring of understanding,
+  8| and the stream of knowledge.
+  9| 48 And I did so’, “zn the seventh year, of the sixth week, after five thousand years of the creation
+ 10| and three months and twelve days.
+ 11| V. xiv. 49-50. CONCLUSION OF THE BOOK (R).
+ 12| 49 And then was Esra caught away, and taken up into the place of such as were like him after
+ 13| 50 having written all these things. And he is called the Scribe of the knowledge of the Most High for
+ 14| ever and cucr 7.
